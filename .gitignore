@@ -1,0 +1,39 @@
+# Kicad
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*.kicad_prl
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+~*.lck
+\#auto_saved_files#
+*.gbr
+*.gbrjob
+*.drl
+
+# Protel Gerber extensions
+*.gbl
+*.gbp
+*.gbs
+*.gbo
+*.rpt
+*.gm1
+*.gtl
+*.gts
+*.gtp
+*.gto
+*.g[0-9]
+
+# Kicad plugins
+backups
+panelizer.log
+ordering_instructions.txtf
+
