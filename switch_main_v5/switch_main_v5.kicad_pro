@@ -1970,6 +1970,10 @@
       "PHY Clock & Control"
     ],
     [
+      "2252118a-c5a3-408c-aeca-1ee5151f8202",
+      "1V8 Buck Converter"
+    ],
+    [
       "7f47144a-098c-4275-8fbc-3399d6b2aa7d",
       "1000BASE-T1 PHY 5"
     ],
@@ -2038,6 +2042,10 @@
       "Switch 1"
     ],
     [
+      "b17ca951-65d8-4c7f-84f6-57bb88a8a712",
+      "1V8_PHY Buck Converter"
+    ],
+    [
       "9b10aadb-d000-4754-b9c4-03b7ed558638",
       "1000BASE-T PHY"
     ],
@@ -2052,6 +2060,26 @@
     [
       "62e5169e-51fc-4c92-b8e5-db930432f08f",
       "1000BASE-T1 CDN2"
+    ],
+    [
+      "5eda8004-b237-426b-aab2-0152d2e24a78",
+      "0V9_1 Buck Converter"
+    ],
+    [
+      "b144e5db-2697-460b-8f78-fd76ee3c608f",
+      "0V9_2 Buck Converter"
+    ],
+    [
+      "9430147e-67d1-4fa5-a888-19b664a1bd8a",
+      "2V5 Buck Converter"
+    ],
+    [
+      "6657ff67-3bc7-4183-a1c6-8c924b0e6f33",
+      "1V2 Buck Converter"
+    ],
+    [
+      "325b08f4-dda3-4039-bd48-aafc20619525",
+      "1V0 Buck Converter"
     ]
   ],
   "text_variables": {}
