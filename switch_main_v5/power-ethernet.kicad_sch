@@ -6,7 +6,6 @@
 	(paper "A4")
 	(title_block
 		(title "Ethernet Power (PHY Side)")
-		(date "2025-06-30")
 		(comment 4 "1V8 and 1V2 SMPS for ethernet switch and PHYs.")
 	)
 	(lib_symbols

@@ -6,7 +6,6 @@
 	(paper "A4")
 	(title_block
 		(title "Power In (PHY Side)")
-		(date "2025-06-30")
 		(comment 4 "Power input and protection for the PHY side of the PCB.")
 	)
 	(lib_symbols

@@ -1,0 +1,523 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "158b2c5c-a48d-45f6-8187-9ddd6d6947d6")
+	(paper "A4")
+	(lib_symbols)
+	(polyline
+		(pts
+			(xy 152.4 104.14) (xy 152.4 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "046ff5fd-e649-4349-ab9f-3251fc5f9169")
+	)
+	(polyline
+		(pts
+			(xy 149.86 114.3) (xy 152.4 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12f0d0d3-4c00-47a6-b330-eddd72e4de6d")
+	)
+	(polyline
+		(pts
+			(xy 147.32 104.14) (xy 147.32 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1479ee8f-86a3-41bf-8656-7682bcf1537e")
+	)
+	(polyline
+		(pts
+			(xy 147.32 83.82) (xy 149.86 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a726278-afe8-4205-8819-9be668cb3956")
+	)
+	(polyline
+		(pts
+			(xy 147.32 60.96) (xy 149.86 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d011062-9d36-4525-bb25-22239a78da74")
+	)
+	(bus
+		(pts
+			(xy 175.26 93.98) (xy 177.8 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dd47d52-0f87-4a91-8a62-ee34bfd70689")
+	)
+	(polyline
+		(pts
+			(xy 147.32 129.54) (xy 149.86 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44962e24-4260-4262-9eb1-22bd03e80297")
+	)
+	(polyline
+		(pts
+			(xy 147.32 81.28) (xy 147.32 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b96dfef-7159-4f3c-b5fc-d5f3b48e6314")
+	)
+	(bus
+		(pts
+			(xy 175.26 71.12) (xy 177.8 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c629b61-ca83-46a4-9e5f-227878d9c30e")
+	)
+	(bus
+		(pts
+			(xy 121.92 71.12) (xy 124.46 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5acfeec9-6790-4f29-9d46-c89d773bd343")
+	)
+	(polyline
+		(pts
+			(xy 152.4 58.42) (xy 152.4 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bf4ecca-a0cb-48f0-a8d3-598f7213fc67")
+	)
+	(polyline
+		(pts
+			(xy 147.32 127) (xy 147.32 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "629c6735-f672-4bff-a56d-48ffe94fe314")
+	)
+	(polyline
+		(pts
+			(xy 149.86 137.16) (xy 152.4 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67d90664-3f28-48c4-85e3-a0902b1428c4")
+	)
+	(polyline
+		(pts
+			(xy 147.32 88.9) (xy 152.4 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7da87ce4-6021-42f9-a200-ebb7da37ff3b")
+	)
+	(polyline
+		(pts
+			(xy 152.4 127) (xy 152.4 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ed76369-5656-434b-8e4f-a5f95f6ddc41")
+	)
+	(bus
+		(pts
+			(xy 121.92 93.98) (xy 124.46 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b3c2673-f6a2-43d3-aee9-6fa8a1c11d73")
+	)
+	(polyline
+		(pts
+			(xy 147.32 106.68) (xy 149.86 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b4a9412-6ed5-4432-b1ab-5f484516343b")
+	)
+	(polyline
+		(pts
+			(xy 149.86 68.58) (xy 152.4 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2050c51-6614-47e7-8ef0-6dd553027f53")
+	)
+	(bus
+		(pts
+			(xy 121.92 116.84) (xy 124.46 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6f3f504-557b-473b-8f41-54335ee86a7d")
+	)
+	(polyline
+		(pts
+			(xy 147.32 134.62) (xy 152.4 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9f8474f-b019-4415-9218-e67c0f2df535")
+	)
+	(polyline
+		(pts
+			(xy 147.32 111.76) (xy 152.4 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab761d1c-50fa-419a-bca5-eae52166a4bb")
+	)
+	(polyline
+		(pts
+			(xy 149.86 91.44) (xy 152.4 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cafc9d3b-a0df-4a4d-8de0-28c728c16d2c")
+	)
+	(polyline
+		(pts
+			(xy 147.32 66.04) (xy 152.4 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce84f61c-3063-4944-8527-06382ff4921d")
+	)
+	(polyline
+		(pts
+			(xy 147.32 58.42) (xy 147.32 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3b53842-e25a-4973-b1e2-631827f8a99a")
+	)
+	(bus
+		(pts
+			(xy 175.26 116.84) (xy 177.8 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1f288c3-855a-4d33-b7da-98017c8323b4")
+	)
+	(polyline
+		(pts
+			(xy 152.4 81.28) (xy 152.4 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fecda456-c8d9-40c1-bd22-01627c07d14c")
+	)
+	(hierarchical_label "MDI2_IN{SPE}"
+		(shape bidirectional)
+		(at 121.92 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0e9f879d-badb-4d15-9de3-8b83a72289b4")
+	)
+	(hierarchical_label "MDI3_IN{SPE}"
+		(shape bidirectional)
+		(at 121.92 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7b6faedf-45d6-4a1c-97fa-f62ef742cd7d")
+	)
+	(hierarchical_label "MDI2_OUT{SPE}"
+		(shape bidirectional)
+		(at 177.8 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a1a6214c-04e5-4fc8-9686-103a36509451")
+	)
+	(hierarchical_label "MDI1_IN{SPE}"
+		(shape bidirectional)
+		(at 121.92 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ac2b3969-556d-4e38-83bc-107288e5f48b")
+	)
+	(hierarchical_label "MDI3_OUT{SPE}"
+		(shape bidirectional)
+		(at 177.8 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b98302a5-95c2-4f63-bb12-05e23a903778")
+	)
+	(hierarchical_label "MDI1_OUT{SPE}"
+		(shape bidirectional)
+		(at 177.8 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ff9f50a7-709d-4839-a574-2f7382e31b8d")
+	)
+	(sheet
+		(at 124.46 114.3)
+		(size 50.8 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 184 84 80 1)
+		)
+		(fill
+			(color 248 206 204 1.0000)
+		)
+		(uuid "26a40f4e-1d98-4b19-a184-b6dadc090f75")
+		(property "Sheetname" "1000BASE-T1 CDN"
+			(at 124.46 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "1000base-t1-cdn.kicad_sch"
+			(at 124.46 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MDI_IN{SPE}" bidirectional
+			(at 124.46 116.84 180)
+			(uuid "630841b6-ba99-4130-a232-9c22eadf1a84")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MDI_OUT{SPE}" bidirectional
+			(at 175.26 116.84 0)
+			(uuid "f8475ad5-45c6-4485-8593-eaee35152482")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "switch_main_v5"
+				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/0f1a9ec2-7564-4816-ac47-902e9fc70962"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 124.46 68.58)
+		(size 50.8 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 184 84 80 1)
+		)
+		(fill
+			(color 248 206 204 1.0000)
+		)
+		(uuid "62e5169e-51fc-4c92-b8e5-db930432f08f")
+		(property "Sheetname" "1000BASE-T1 CDN2"
+			(at 124.46 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "1000base-t1-cdn.kicad_sch"
+			(at 124.46 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MDI_IN{SPE}" bidirectional
+			(at 124.46 71.12 180)
+			(uuid "ee271ad4-b5c6-47b1-a52b-2fb633bbec32")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MDI_OUT{SPE}" bidirectional
+			(at 175.26 71.12 0)
+			(uuid "37a08f4f-e8e8-46b7-a962-8292eab43e04")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "switch_main_v5"
+				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/0f1a9ec2-7564-4816-ac47-902e9fc70962"
+					(page "34")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 124.46 91.44)
+		(size 50.8 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 184 84 80 1)
+		)
+		(fill
+			(color 248 206 204 1.0000)
+		)
+		(uuid "7a77b3cc-782a-4601-8d29-0e186fb0946a")
+		(property "Sheetname" "1000BASE-T1 CDN1"
+			(at 124.46 90.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "1000base-t1-cdn.kicad_sch"
+			(at 124.46 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MDI_IN{SPE}" bidirectional
+			(at 124.46 93.98 180)
+			(uuid "1299d4ac-0254-4193-ae7d-3d31c8915372")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MDI_OUT{SPE}" bidirectional
+			(at 175.26 93.98 0)
+			(uuid "0017a3ff-bb2c-4ab6-8a35-6f465c2f3f85")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "switch_main_v5"
+				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/0f1a9ec2-7564-4816-ac47-902e9fc70962"
+					(page "33")
+				)
+			)
+		)
+	)
+)

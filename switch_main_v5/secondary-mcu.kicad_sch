@@ -6,7 +6,6 @@
 	(paper "A4")
 	(title_block
 		(title "Secondary MCU")
-		(date "2025-06-30")
 		(comment 4 "This MCU performs detection, switching and monitoring, for power over datalines (PoDL).")
 	)
 	(lib_symbols

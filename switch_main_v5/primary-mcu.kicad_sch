@@ -6,7 +6,6 @@
 	(paper "A3")
 	(title_block
 		(title "Primary MCU")
-		(date "2025-06-30")
 		(comment 3 "It also runs algorithms like MSTP.")
 		(comment 4 "This microcontroller is responsible for managing the ethernet switch and PHYs.")
 	)
@@ -12061,6 +12060,17 @@
 			(justify right)
 		)
 		(uuid "f837a528-9d66-45ea-b4fb-9117be4949a9")
+	)
+	(hierarchical_label "SMI_SEL[1..3]"
+		(shape output)
+		(at 132.08 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fb6b4c41-dd23-47f6-ab71-44f8dae50b19")
 	)
 	(netclass_flag ""
 		(length 2.54)

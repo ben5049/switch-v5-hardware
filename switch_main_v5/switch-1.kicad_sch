@@ -6,7 +6,6 @@
 	(paper "A3")
 	(title_block
 		(title "Ethernet Switch")
-		(date "2025-06-30")
 		(comment 4 "5 Port gigabit ethernet switch.")
 	)
 	(lib_symbols
@@ -10887,7 +10886,7 @@
 		(uuid "f773ad3e-1859-4955-9281-6052b73d9a3f")
 	)
 	(hierarchical_label "CLK_IN"
-		(shape output)
+		(shape input)
 		(at 220.98 157.48 180)
 		(effects
 			(font

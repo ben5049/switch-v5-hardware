@@ -6,7 +6,6 @@
 	(paper "A4")
 	(title_block
 		(title "3V3 Regulators (PHY Side)")
-		(date "2025-06-30")
 		(comment 4 "3V3 and 3V3_AON (always on) voltage regulators.")
 	)
 	(lib_symbols

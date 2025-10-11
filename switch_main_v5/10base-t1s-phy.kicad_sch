@@ -6,7 +6,6 @@
 	(paper "A4")
 	(title_block
 		(title "10BASE-T1S PHY")
-		(date "2025-06-30")
 	)
 	(lib_symbols
 		(symbol "Device:C_Small"

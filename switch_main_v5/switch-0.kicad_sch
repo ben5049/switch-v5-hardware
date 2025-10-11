@@ -6,7 +6,6 @@
 	(paper "A3")
 	(title_block
 		(title "Ethernet Switch")
-		(date "2025-06-30")
 		(comment 4 "5 Port gigabit ethernet switch.")
 	)
 	(lib_symbols

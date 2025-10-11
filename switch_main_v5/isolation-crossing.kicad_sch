@@ -6,7 +6,6 @@
 	(paper "A4")
 	(title_block
 		(title "Isolation Crossing")
-		(date "2025-06-30")
 	)
 	(lib_symbols
 		(symbol "COMM-ISO:ISO6520REUR"

@@ -6,7 +6,6 @@
 	(paper "A4")
 	(title_block
 		(title "1000BASE-T1 CDN With PoDL")
-		(date "2025-06-30")
 		(comment 4 "Coupling-decoupling network for 1000BASE-T1 with power over datalines (PoDL).")
 	)
 	(lib_symbols

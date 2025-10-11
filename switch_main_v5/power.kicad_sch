@@ -6,7 +6,6 @@
 	(paper "A4")
 	(title_block
 		(title "Power")
-		(date "2025-06-30")
 		(comment 4 "Block diagram of the power supply scheme for both sides of the isolation barrier.")
 	)
 	(lib_symbols)
@@ -666,9 +665,11 @@
 		(stroke
 			(width 0)
 			(type solid)
+			(color 150 115 166 1)
 		)
 		(fill
-			(type none)
+			(type color)
+			(color 225 213 231 1)
 		)
 		(effects
 			(font
@@ -1737,9 +1738,10 @@
 		(stroke
 			(width 0.1524)
 			(type solid)
+			(color 150 115 166 1)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 225 213 231 1.0000)
 		)
 		(uuid "24f4c79d-cdce-4a41-912b-1523d0b9fc64")
 		(property "Sheetname" "Regulators (Isolated)"
@@ -1799,9 +1801,10 @@
 		(stroke
 			(width 0.1524)
 			(type solid)
+			(color 150 115 166 1)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 225 213 231 1.0000)
 		)
 		(uuid "3215d643-ce31-476b-aa01-9096c7ce3dfb")
 		(property "Sheetname" "3V3 Regulators"
@@ -1871,9 +1874,10 @@
 		(stroke
 			(width 0.1524)
 			(type solid)
+			(color 108 142 191 1)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 218 232 252 1.0000)
 		)
 		(uuid "7660ee4b-63c9-4370-ad91-90cac1411452")
 		(property "Sheetname" "Power In"
@@ -1943,9 +1947,10 @@
 		(stroke
 			(width 0.1524)
 			(type solid)
+			(color 108 142 191 1)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 218 232 252 1.0000)
 		)
 		(uuid "b2e985e0-3ca0-4c8f-ac20-521f3b79109e")
 		(property "Sheetname" "Power In (Isolated)"
@@ -2015,9 +2020,10 @@
 		(stroke
 			(width 0.1524)
 			(type solid)
+			(color 150 115 166 1)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 225 213 231 1.0000)
 		)
 		(uuid "d017dddd-15df-4565-b589-89c8c78bc85c")
 		(property "Sheetname" "Ethernet Power"

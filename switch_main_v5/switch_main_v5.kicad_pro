@@ -683,6 +683,132 @@
       "/CDNs & PoDL/MDI3_OUT{SPE}": [
         "MDI"
       ],
+      "/CDNs & PoDL/MDI4_IN.TRXN": [
+        "MDI"
+      ],
+      "/CDNs & PoDL/MDI4_IN.TRXP": [
+        "MDI"
+      ],
+      "/CDNs & PoDL/MDI4_IN{SPE}": [
+        "MDI"
+      ],
+      "/CDNs & PoDL/MDI4_OUT.TRXN": [
+        "MDI"
+      ],
+      "/CDNs & PoDL/MDI4_OUT.TRXP": [
+        "MDI"
+      ],
+      "/CDNs & PoDL/MDI4_OUT{SPE}": [
+        "MDI"
+      ],
+      "/CDNs & PoDL/MDI5_IN.TRXN": [
+        "MDI"
+      ],
+      "/CDNs & PoDL/MDI5_IN.TRXP": [
+        "MDI"
+      ],
+      "/CDNs & PoDL/MDI5_IN{SPE}": [
+        "MDI"
+      ],
+      "/CDNs & PoDL/MDI5_OUT.TRXN": [
+        "MDI"
+      ],
+      "/CDNs & PoDL/MDI5_OUT.TRXP": [
+        "MDI"
+      ],
+      "/CDNs & PoDL/MDI5_OUT{SPE}": [
+        "MDI"
+      ],
+      "/CDNs & PoDL/MDI6_IN.TRXN": [
+        "MDI"
+      ],
+      "/CDNs & PoDL/MDI6_IN.TRXP": [
+        "MDI"
+      ],
+      "/CDNs & PoDL/MDI6_IN{SPE}": [
+        "MDI"
+      ],
+      "/CDNs & PoDL/MDI6_OUT.TRXN": [
+        "MDI"
+      ],
+      "/CDNs & PoDL/MDI6_OUT.TRXP": [
+        "MDI"
+      ],
+      "/CDNs & PoDL/MDI6_OUT{SPE}": [
+        "MDI"
+      ],
+      "/CDNs/1000BASE-T1 CDN/TRXN": [
+        "MDI"
+      ],
+      "/CDNs/1000BASE-T1 CDN/TRXP": [
+        "MDI"
+      ],
+      "/CDNs/1000BASE-T1 CDN1/TRXN": [
+        "MDI"
+      ],
+      "/CDNs/1000BASE-T1 CDN1/TRXP": [
+        "MDI"
+      ],
+      "/CDNs/1000BASE-T1 CDN2/TRXN": [
+        "MDI"
+      ],
+      "/CDNs/1000BASE-T1 CDN2/TRXP": [
+        "MDI"
+      ],
+      "/CDNs/MDI1_IN.TRXN": [
+        "MDI"
+      ],
+      "/CDNs/MDI1_IN.TRXP": [
+        "MDI"
+      ],
+      "/CDNs/MDI1_IN{SPE}": [
+        "MDI"
+      ],
+      "/CDNs/MDI1_OUT.TRXN": [
+        "MDI"
+      ],
+      "/CDNs/MDI1_OUT.TRXP": [
+        "MDI"
+      ],
+      "/CDNs/MDI1_OUT{SPE}": [
+        "MDI"
+      ],
+      "/CDNs/MDI2_IN.TRXN": [
+        "MDI"
+      ],
+      "/CDNs/MDI2_IN.TRXP": [
+        "MDI"
+      ],
+      "/CDNs/MDI2_IN{SPE}": [
+        "MDI"
+      ],
+      "/CDNs/MDI2_OUT.TRXN": [
+        "MDI"
+      ],
+      "/CDNs/MDI2_OUT.TRXP": [
+        "MDI"
+      ],
+      "/CDNs/MDI2_OUT{SPE}": [
+        "MDI"
+      ],
+      "/CDNs/MDI3_IN.TRXN": [
+        "MDI"
+      ],
+      "/CDNs/MDI3_IN.TRXP": [
+        "MDI"
+      ],
+      "/CDNs/MDI3_IN{SPE}": [
+        "MDI"
+      ],
+      "/CDNs/MDI3_OUT.TRXN": [
+        "MDI"
+      ],
+      "/CDNs/MDI3_OUT.TRXP": [
+        "MDI"
+      ],
+      "/CDNs/MDI3_OUT{SPE}": [
+        "MDI"
+      ],
       "/CLK_IN": [
         "50Ω"
       ],
@@ -710,6 +836,30 @@
       "/Clocking/Y3": [
         "50Ω"
       ],
+      "/Ethernet Connectors/MDI0.TD_A_N": [
+        "MDI"
+      ],
+      "/Ethernet Connectors/MDI0.TD_A_P": [
+        "MDI"
+      ],
+      "/Ethernet Connectors/MDI0.TD_B_N": [
+        "MDI"
+      ],
+      "/Ethernet Connectors/MDI0.TD_B_P": [
+        "MDI"
+      ],
+      "/Ethernet Connectors/MDI0.TD_C_N": [
+        "MDI"
+      ],
+      "/Ethernet Connectors/MDI0.TD_C_P": [
+        "MDI"
+      ],
+      "/Ethernet Connectors/MDI0.TD_D_N": [
+        "MDI"
+      ],
+      "/Ethernet Connectors/MDI0.TD_D_P": [
+        "MDI"
+      ],
       "/Ethernet Connectors/MDI0.TRXN": [
         "MDI"
       ],
@@ -718,6 +868,9 @@
       ],
       "/Ethernet Connectors/MDI0{SPE}": [
         "MDI"
+      ],
+      "/PHYs/1000BASE-T PHY/CLK_IN": [
+        "50Ω"
       ],
       "/PHYs/1000BASE-T PHY/SMI.MDC": [
         "50Ω"
@@ -746,6 +899,9 @@
       "/PHYs/1000BASE-T1 PHY 1/CLKIN": [
         "50Ω"
       ],
+      "/PHYs/1000BASE-T1 PHY 1/CLK_IN": [
+        "50Ω"
+      ],
       "/PHYs/1000BASE-T1 PHY 1/MDC": [
         "50Ω"
       ],
@@ -759,6 +915,9 @@
         "50Ω"
       ],
       "/PHYs/1000BASE-T1 PHY 2/CLKIN": [
+        "50Ω"
+      ],
+      "/PHYs/1000BASE-T1 PHY 2/CLK_IN": [
         "50Ω"
       ],
       "/PHYs/1000BASE-T1 PHY 2/MDC": [
@@ -776,13 +935,52 @@
       "/PHYs/1000BASE-T1 PHY 3/CLKIN": [
         "50Ω"
       ],
+      "/PHYs/1000BASE-T1 PHY 3/CLK_IN": [
+        "50Ω"
+      ],
+      "/PHYs/1000BASE-T1 PHY 3/MDC": [
+        "50Ω"
+      ],
+      "/PHYs/1000BASE-T1 PHY 3/MDIO": [
+        "50Ω"
+      ],
       "/PHYs/1000BASE-T1 PHY 3/XTAL_IN": [
+        "50Ω"
+      ],
+      "/PHYs/1000BASE-T1 PHY 3/{SMI}": [
         "50Ω"
       ],
       "/PHYs/1000BASE-T1 PHY 4/CLKIN": [
         "50Ω"
       ],
+      "/PHYs/1000BASE-T1 PHY 4/CLK_IN": [
+        "50Ω"
+      ],
+      "/PHYs/1000BASE-T1 PHY 4/MDC": [
+        "50Ω"
+      ],
+      "/PHYs/1000BASE-T1 PHY 4/MDIO": [
+        "50Ω"
+      ],
       "/PHYs/1000BASE-T1 PHY 4/XTAL_IN": [
+        "50Ω"
+      ],
+      "/PHYs/1000BASE-T1 PHY 4/{SMI}": [
+        "50Ω"
+      ],
+      "/PHYs/1000BASE-T1 PHY 5/CLK_IN": [
+        "50Ω"
+      ],
+      "/PHYs/1000BASE-T1 PHY 5/MDC": [
+        "50Ω"
+      ],
+      "/PHYs/1000BASE-T1 PHY 5/MDIO": [
+        "50Ω"
+      ],
+      "/PHYs/1000BASE-T1 PHY 5/XTAL_IN": [
+        "50Ω"
+      ],
+      "/PHYs/1000BASE-T1 PHY 5/{SMI}": [
         "50Ω"
       ],
       "/PHYs/CLK_IN": [
@@ -915,6 +1113,30 @@
         "MDI"
       ],
       "/PHYs/MDIO": [
+        "50Ω"
+      ],
+      "/PHYs/PHY Clock & Control/Y0A": [
+        "50Ω"
+      ],
+      "/PHYs/PHY Clock & Control/Y0B": [
+        "50Ω"
+      ],
+      "/PHYs/PHY Clock & Control/Y1A": [
+        "50Ω"
+      ],
+      "/PHYs/PHY Clock & Control/Y1B": [
+        "50Ω"
+      ],
+      "/PHYs/PHY Clock & Control/Y2A": [
+        "50Ω"
+      ],
+      "/PHYs/PHY Clock & Control/Y2B": [
+        "50Ω"
+      ],
+      "/PHYs/PHY Clock & Control/Y3A": [
+        "50Ω"
+      ],
+      "/PHYs/PHY Clock & Control/Y3B": [
         "50Ω"
       ],
       "/PHYs/PHY_CLK_0": [
@@ -1309,6 +1531,9 @@
       ],
       "/Switch/R_{CLK_OUT}": [
         "50Ω"
+      ],
+      "unconnected-(R1119-Pad2)": [
+        "50Ω"
       ]
     },
     "netclass_patterns": [
@@ -1688,7 +1913,7 @@
       "workbook_filename": "podl_current_source.wbk"
     },
     "page_layout_descr_file": "",
-    "plot_directory": "C:/Users/bens1/Downloads/",
+    "plot_directory": "S:/Downloads/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -1742,15 +1967,11 @@
     ],
     [
       "7f641fd6-8e95-45a8-8c09-4601f61f3219",
-      "SMI Level Shifting"
-    ],
-    [
-      "e2ad5865-7113-484c-96c1-cb62e9064ef3",
-      "Clock Splitter 0"
+      "PHY Clock & Control"
     ],
     [
       "7f47144a-098c-4275-8fbc-3399d6b2aa7d",
-      "1000BASE-T1 PHY 0"
+      "1000BASE-T1 PHY 5"
     ],
     [
       "ea4867e4-41c6-4c6a-8631-52f081f3ce30",
@@ -1769,7 +1990,7 @@
       "CDNs & PoDL"
     ],
     [
-      "f7f45de7-dc7a-4023-b612-fff7aed6fedb",
+      "26a40f4e-1d98-4b19-a184-b6dadc090f75",
       "1000BASE-T1 CDN"
     ],
     [
@@ -1817,16 +2038,20 @@
       "Switch 1"
     ],
     [
-      "a8fe0ba8-b194-4579-9390-0b8013d69d90",
-      "Clock Splitter 1"
-    ],
-    [
       "9b10aadb-d000-4754-b9c4-03b7ed558638",
       "1000BASE-T PHY"
     ],
     [
-      "0f267d67-5d87-4307-9d30-133ad00f9633",
-      "SMI MUX"
+      "0f1a9ec2-7564-4816-ac47-902e9fc70962",
+      "CDNs"
+    ],
+    [
+      "7a77b3cc-782a-4601-8d29-0e186fb0946a",
+      "1000BASE-T1 CDN1"
+    ],
+    [
+      "62e5169e-51fc-4c92-b8e5-db930432f08f",
+      "1000BASE-T1 CDN2"
     ]
   ],
   "text_variables": {}

@@ -6,7 +6,6 @@
 	(paper "A4")
 	(title_block
 		(title "10BASE-T1S CDN With MPoE")
-		(date "2025-06-30")
 		(comment 4 "Coupling-decoupling network for 10BASE-T1S with multidrop power over ethernet (MPoE).")
 	)
 	(lib_symbols

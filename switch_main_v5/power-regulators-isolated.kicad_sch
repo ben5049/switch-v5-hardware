@@ -6,7 +6,6 @@
 	(paper "A4")
 	(title_block
 		(title "Regulators (Connector Side)")
-		(date "2025-06-30")
 		(comment 4 "6V5, 3V3 and 2V5 regulators for the connector side of the PCB.")
 	)
 	(lib_symbols
