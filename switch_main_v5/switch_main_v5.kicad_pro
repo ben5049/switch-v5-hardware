@@ -1532,6 +1532,9 @@
       "/Switch/R_{CLK_OUT}": [
         "50Ω"
       ],
+      "unconnected-(R1110-Pad2)": [
+        "50Ω"
+      ],
       "unconnected-(R1119-Pad2)": [
         "50Ω"
       ]

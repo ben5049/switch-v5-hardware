@@ -1663,16 +1663,6 @@
 		)
 		(uuid "ffc83a28-c371-4e4a-ab3c-59f74563bda9")
 	)
-	(label "SW_1V8"
-		(at 147.32 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "000705d2-d2d8-4974-9a30-a090b9ddfcaf")
-	)
 	(label "FB_1V8"
 		(at 147.32 104.14 0)
 		(effects
@@ -1681,7 +1671,17 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "abf50c5d-1b7a-4c14-bc0c-5c360d91bb4a")
+		(uuid "63a57014-be20-45c6-bc7b-89cd1c974607")
+	)
+	(label "SW_1V8"
+		(at 147.32 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1d28a29-5e40-4dfa-8ce1-520780bee37e")
 	)
 	(hierarchical_label "VOUT"
 		(shape output)
@@ -1692,7 +1692,7 @@
 			)
 			(justify left)
 		)
-		(uuid "d6e014bd-4522-4ca1-bb9a-8795c414ac80")
+		(uuid "7b42e01e-0282-4c32-b259-49eaa4fd4e57")
 	)
 	(hierarchical_label "VIN"
 		(shape input)
@@ -1703,21 +1703,38 @@
 			)
 			(justify right)
 		)
-		(uuid "ee6b577e-0802-47a6-bba5-14ac2b355903")
+		(uuid "bb7d5330-d573-4dde-a338-6a64a66e9fc6")
 	)
 	(symbol
-		(lib_id "power:GND1")
-		(at 73.66 106.68 0)
-		(mirror y)
+		(lib_id "Device:C_Small")
+		(at 210.82 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "199713fe-c3dc-49c4-90be-30ec758b31c5")
-		(property "Reference" "#PWR03401"
-			(at 73.66 113.03 0)
+		(uuid "01c89866-7f8d-4d0a-8f34-40b880eae059")
+		(property "Reference" "C1206"
+			(at 213.36 97.7962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7"
+			(at 213.36 100.3362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 210.82 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1725,16 +1742,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND1"
-			(at 73.66 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 106.68 0)
+		(property "Datasheet" "~"
+			(at 210.82 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1742,17 +1751,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 73.66 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 73.66 106.68 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 210.82 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1761,16 +1761,89 @@
 			)
 		)
 		(pin "1"
-			(uuid "28072c69-8644-4ec2-b2cb-af8578f774c0")
+			(uuid "ce626737-0dfe-470a-97ef-30b035af43b1")
+		)
+		(pin "2"
+			(uuid "d494b731-4177-48e3-950b-57a759760bee")
 		)
 		(instances
 			(project "switch_main_v5"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/2252118a-c5a3-408c-aeca-1ee5151f8202"
-					(reference "#PWR03401")
+					(reference "C1206")
 					(unit 1)
 				)
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/b17ca951-65d8-4c7f-84f6-57bb88a8a712"
-					(reference "#PWR01324")
+					(reference "C3006")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 223.52 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fcadb81-a27c-460c-b703-fe564c98d91b")
+		(property "Reference" "#PWR01205"
+			(at 223.52 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 223.52 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 223.52 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3759a374-ff6b-4c74-bec0-4fe35be7a079")
+		)
+		(instances
+			(project "switch_main_v5"
+				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/2252118a-c5a3-408c-aeca-1ee5151f8202"
+					(reference "#PWR01205")
+					(unit 1)
+				)
+				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/b17ca951-65d8-4c7f-84f6-57bb88a8a712"
+					(reference "#PWR03005")
 					(unit 1)
 				)
 			)
@@ -1784,8 +1857,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "262791a0-c34e-4492-a233-e513f0ced724")
-		(property "Reference" "C3401"
+		(uuid "321b3ef1-798c-481a-9039-1ff16c80520c")
+		(property "Reference" "C1201"
 			(at 76.2 97.7962 0)
 			(effects
 				(font
@@ -1839,11 +1912,946 @@
 		(instances
 			(project "switch_main_v5"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/2252118a-c5a3-408c-aeca-1ee5151f8202"
-					(reference "C3401")
+					(reference "C1201")
 					(unit 1)
 				)
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/b17ca951-65d8-4c7f-84f6-57bb88a8a712"
-					(reference "C1323")
+					(reference "C3001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 185.42 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "365d1952-9242-4850-b30a-bd19e84f96e0")
+		(property "Reference" "C1204"
+			(at 187.96 97.7962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22p"
+			(at 187.96 100.3362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 185.42 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 185.42 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8ffc032-6756-4bdc-a628-fa5229dba8dc")
+		)
+		(pin "2"
+			(uuid "c99133dc-bc64-456c-9bad-7f30c7fc3645")
+		)
+		(instances
+			(project "switch_main_v5"
+				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/2252118a-c5a3-408c-aeca-1ee5151f8202"
+					(reference "C1204")
+					(unit 1)
+				)
+				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/b17ca951-65d8-4c7f-84f6-57bb88a8a712"
+					(reference "C3004")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 147.32 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43505401-0ca8-4a31-846d-f1e1b8bf073f")
+		(property "Reference" "#PWR01203"
+			(at 147.32 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 147.32 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 147.32 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89a2277b-9b94-49b0-9b05-a00f836ca244")
+		)
+		(instances
+			(project "switch_main_v5"
+				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/2252118a-c5a3-408c-aeca-1ee5151f8202"
+					(reference "#PWR01203")
+					(unit 1)
+				)
+				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/b17ca951-65d8-4c7f-84f6-57bb88a8a712"
+					(reference "#PWR03003")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PWR-SMPS:TPS62290TDRVRQ1")
+		(at 129.54 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e7fa133-a3dc-426c-849a-3e4b17b7b300")
+		(property "Reference" "U1201"
+			(at 129.54 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS62290TDRVRQ1"
+			(at 129.54 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_footprints:SON65P200X200X80-7N"
+			(at 156.21 186.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/tps62290-q1"
+			(at 156.21 286.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Automotive 2.3V to 6V, 2.25MHz Fixed Frequency 1A Buck Converter in 2x2mm SON/TSOT23 Package"
+			(at 129.54 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.8"
+			(at 156.21 486.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TPS62290TDRVRQ1"
+			(at 156.21 586.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS62290TDRVRQ1?qs=NiBvnJE4bX0YWtuMnJowVQ%3D%3D"
+			(at 156.21 686.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 156.21 786.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TPS62290TDRVRQ1"
+			(at 156.21 886.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dacb0047-ef3b-4e48-a800-c69561898799")
+		)
+		(pin "4"
+			(uuid "e86b5abc-16fc-4985-891e-8e60f2006902")
+		)
+		(pin "3"
+			(uuid "dab45a3c-48f7-41f2-9179-ed194b7ffcfa")
+		)
+		(pin "5"
+			(uuid "21d08dcf-218a-4534-8adc-c664b3177f1c")
+		)
+		(pin "6"
+			(uuid "e8df3611-2eab-4f7e-b673-2929106cbdb7")
+		)
+		(pin "7"
+			(uuid "9700064a-72d9-4129-98ad-35f18876f04b")
+		)
+		(pin "2"
+			(uuid "aafccd2c-e65c-4956-9cbb-444891c1281c")
+		)
+		(instances
+			(project "switch_main_v5"
+				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/2252118a-c5a3-408c-aeca-1ee5151f8202"
+					(reference "U1201")
+					(unit 1)
+				)
+				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/b17ca951-65d8-4c7f-84f6-57bb88a8a712"
+					(reference "U3001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 86.36 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5919009c-a8e2-4ef2-82cb-44fee0c41b19")
+		(property "Reference" "C1202"
+			(at 88.9 97.7962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7"
+			(at 88.9 100.3362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 86.36 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 86.36 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81c86198-cb52-4d16-b298-c2096d3d2784")
+		)
+		(pin "2"
+			(uuid "4183e6e6-d99b-4f84-b49c-ff7faa8a4192")
+		)
+		(instances
+			(project "switch_main_v5"
+				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/2252118a-c5a3-408c-aeca-1ee5151f8202"
+					(reference "C1202")
+					(unit 1)
+				)
+				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/b17ca951-65d8-4c7f-84f6-57bb88a8a712"
+					(reference "C3002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 99.06 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d1ffc15-2d77-4767-aa83-4342e7082ce8")
+		(property "Reference" "C1203"
+			(at 101.6 97.7962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7"
+			(at 101.6 100.3362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 99.06 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 99.06 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83731593-7acd-440f-9345-188d884ecebd")
+		)
+		(pin "2"
+			(uuid "29e206e5-65bb-4cf5-a522-12a137f09395")
+		)
+		(instances
+			(project "switch_main_v5"
+				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/2252118a-c5a3-408c-aeca-1ee5151f8202"
+					(reference "C1203")
+					(unit 1)
+				)
+				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/b17ca951-65d8-4c7f-84f6-57bb88a8a712"
+					(reference "C3003")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 172.72 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8235bac8-0364-47d3-a466-1a4516895c85")
+		(property "Reference" "R1201"
+			(at 175.26 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "360k"
+			(at 175.26 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 172.72 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 172.72 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0d423e84-ce95-4449-af97-f182ee7298b5")
+		)
+		(pin "1"
+			(uuid "e03f238f-af23-42e8-9877-95ab695447ae")
+		)
+		(instances
+			(project "switch_main_v5"
+				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/2252118a-c5a3-408c-aeca-1ee5151f8202"
+					(reference "R1201")
+					(unit 1)
+				)
+				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/b17ca951-65d8-4c7f-84f6-57bb88a8a712"
+					(reference "R3001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 198.12 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "884013fa-1e7f-44df-a180-075dd641ccf4")
+		(property "Reference" "C1205"
+			(at 200.66 97.7962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7"
+			(at 200.66 100.3362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 198.12 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 198.12 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77abd09a-fa7d-4a29-9e98-054aab686ac3")
+		)
+		(pin "2"
+			(uuid "279f4564-8337-4d8f-9b94-bec145d9955d")
+		)
+		(instances
+			(project "switch_main_v5"
+				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/2252118a-c5a3-408c-aeca-1ee5151f8202"
+					(reference "C1205")
+					(unit 1)
+				)
+				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/b17ca951-65d8-4c7f-84f6-57bb88a8a712"
+					(reference "C3005")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 111.76 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a077dd8f-7fb9-48c1-b8ef-cb32d37e2613")
+		(property "Reference" "#PWR01202"
+			(at 111.76 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 111.76 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 111.76 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "875072c7-daa7-43ae-91eb-ebdfebdd8a7e")
+		)
+		(instances
+			(project "switch_main_v5"
+				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/2252118a-c5a3-408c-aeca-1ee5151f8202"
+					(reference "#PWR01202")
+					(unit 1)
+				)
+				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/b17ca951-65d8-4c7f-84f6-57bb88a8a712"
+					(reference "#PWR03002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 223.52 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b53d4891-4258-426a-971f-2b9f2afee407")
+		(property "Reference" "C1207"
+			(at 226.06 97.7962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7"
+			(at 226.06 100.3362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 223.52 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 223.52 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0ff2be5-1a5b-437f-859e-dc5bc9bf4628")
+		)
+		(pin "2"
+			(uuid "e03a6743-bf61-4b98-ada9-ce23ea209934")
+		)
+		(instances
+			(project "switch_main_v5"
+				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/2252118a-c5a3-408c-aeca-1ee5151f8202"
+					(reference "C1207")
+					(unit 1)
+				)
+				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/b17ca951-65d8-4c7f-84f6-57bb88a8a712"
+					(reference "C3007")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 218.44 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "b5fb5295-325b-477a-94aa-e2b7698e590b")
+		(property "Reference" "TP1201"
+			(at 233.68 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1.5mm"
+			(at 226.06 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 223.52 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 218.44 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e58d8b37-7c1c-4862-8411-2948e1246eaf")
+		)
+		(instances
+			(project "switch_main_v5"
+				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/2252118a-c5a3-408c-aeca-1ee5151f8202"
+					(reference "TP1201")
+					(unit 1)
+				)
+				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/b17ca951-65d8-4c7f-84f6-57bb88a8a712"
+					(reference "TP3001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 172.72 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1b98e55-02a3-49b2-9290-7122f08e6435")
+		(property "Reference" "R1202"
+			(at 175.26 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "180k"
+			(at 175.26 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 172.72 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 172.72 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dff8e712-3f73-432c-85a4-d345205c8291")
+		)
+		(pin "1"
+			(uuid "5cafd6db-4a0f-4494-b3eb-c556ecc8fb76")
+		)
+		(instances
+			(project "switch_main_v5"
+				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/2252118a-c5a3-408c-aeca-1ee5151f8202"
+					(reference "R1202")
+					(unit 1)
+				)
+				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/b17ca951-65d8-4c7f-84f6-57bb88a8a712"
+					(reference "R3002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 73.66 106.68 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8e03a4d-7d90-4da4-b154-a6c893fd8be4")
+		(property "Reference" "#PWR01201"
+			(at 73.66 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 73.66 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 73.66 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28072c69-8644-4ec2-b2cb-af8578f774c0")
+		)
+		(instances
+			(project "switch_main_v5"
+				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/2252118a-c5a3-408c-aeca-1ee5151f8202"
+					(reference "#PWR01201")
+					(unit 1)
+				)
+				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/b17ca951-65d8-4c7f-84f6-57bb88a8a712"
+					(reference "#PWR03001")
 					(unit 1)
 				)
 			)
@@ -1858,8 +2866,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2bb8f317-ac21-4739-ab9a-87ac90158aa4")
-		(property "Reference" "L3401"
+		(uuid "dd857732-26f0-4bbf-b394-e45b3f7e6377")
+		(property "Reference" "L1201"
 			(at 162.56 85.09 0)
 			(effects
 				(font
@@ -2051,159 +3059,11 @@
 		(instances
 			(project "switch_main_v5"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/2252118a-c5a3-408c-aeca-1ee5151f8202"
-					(reference "L3401")
+					(reference "L1201")
 					(unit 1)
 				)
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/b17ca951-65d8-4c7f-84f6-57bb88a8a712"
-					(reference "L1302")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 210.82 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "33da5e6a-8ec7-4b82-a15b-8b7d5fe1a4fe")
-		(property "Reference" "C3406"
-			(at 213.36 97.7962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4u7"
-			(at 213.36 100.3362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 210.82 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 210.82 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 210.82 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ce626737-0dfe-470a-97ef-30b035af43b1")
-		)
-		(pin "2"
-			(uuid "d494b731-4177-48e3-950b-57a759760bee")
-		)
-		(instances
-			(project "switch_main_v5"
-				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/2252118a-c5a3-408c-aeca-1ee5151f8202"
-					(reference "C3406")
-					(unit 1)
-				)
-				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/b17ca951-65d8-4c7f-84f6-57bb88a8a712"
-					(reference "C1328")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 172.72 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56063986-af17-4d2f-9be8-fc960fe71228")
-		(property "Reference" "R3401"
-			(at 175.26 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "360k"
-			(at 175.26 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 172.72 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 172.72 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0d423e84-ce95-4449-af97-f182ee7298b5")
-		)
-		(pin "1"
-			(uuid "e03f238f-af23-42e8-9877-95ab695447ae")
-		)
-		(instances
-			(project "switch_main_v5"
-				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/2252118a-c5a3-408c-aeca-1ee5151f8202"
-					(reference "R3401")
-					(unit 1)
-				)
-				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/b17ca951-65d8-4c7f-84f6-57bb88a8a712"
-					(reference "R1309")
+					(reference "L3001")
 					(unit 1)
 				)
 			)
@@ -2218,8 +3078,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6c5f547d-9a71-4adb-a94f-c44955f0e064")
-		(property "Reference" "#PWR03404"
+		(uuid "ec9f8271-906b-4450-af94-ad1a98d83c71")
+		(property "Reference" "#PWR01204"
 			(at 172.72 123.19 0)
 			(effects
 				(font
@@ -2269,871 +3129,11 @@
 		(instances
 			(project "switch_main_v5"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/2252118a-c5a3-408c-aeca-1ee5151f8202"
-					(reference "#PWR03404")
+					(reference "#PWR01204")
 					(unit 1)
 				)
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/b17ca951-65d8-4c7f-84f6-57bb88a8a712"
-					(reference "#PWR01327")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 198.12 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a79074e-c134-4310-8c63-d7f9dd9ac12b")
-		(property "Reference" "C3405"
-			(at 200.66 97.7962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4u7"
-			(at 200.66 100.3362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 198.12 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 198.12 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 198.12 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "77abd09a-fa7d-4a29-9e98-054aab686ac3")
-		)
-		(pin "2"
-			(uuid "279f4564-8337-4d8f-9b94-bec145d9955d")
-		)
-		(instances
-			(project "switch_main_v5"
-				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/2252118a-c5a3-408c-aeca-1ee5151f8202"
-					(reference "C3405")
-					(unit 1)
-				)
-				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/b17ca951-65d8-4c7f-84f6-57bb88a8a712"
-					(reference "C1327")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 86.36 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7f4fc037-6360-4943-ab33-795e7c4d5552")
-		(property "Reference" "C3402"
-			(at 88.9 97.7962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4u7"
-			(at 88.9 100.3362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 86.36 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 86.36 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 86.36 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "81c86198-cb52-4d16-b298-c2096d3d2784")
-		)
-		(pin "2"
-			(uuid "4183e6e6-d99b-4f84-b49c-ff7faa8a4192")
-		)
-		(instances
-			(project "switch_main_v5"
-				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/2252118a-c5a3-408c-aeca-1ee5151f8202"
-					(reference "C3402")
-					(unit 1)
-				)
-				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/b17ca951-65d8-4c7f-84f6-57bb88a8a712"
-					(reference "C1324")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 111.76 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "81bc1fc7-d551-4392-a4e4-8e01864808cf")
-		(property "Reference" "#PWR03402"
-			(at 111.76 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND1"
-			(at 111.76 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 111.76 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "875072c7-daa7-43ae-91eb-ebdfebdd8a7e")
-		)
-		(instances
-			(project "switch_main_v5"
-				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/2252118a-c5a3-408c-aeca-1ee5151f8202"
-					(reference "#PWR03402")
-					(unit 1)
-				)
-				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/b17ca951-65d8-4c7f-84f6-57bb88a8a712"
-					(reference "#PWR01325")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 185.42 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "84591d19-b189-4d9a-a00b-7ef11f0da430")
-		(property "Reference" "C3404"
-			(at 187.96 97.7962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22p"
-			(at 187.96 100.3362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 185.42 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 185.42 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 185.42 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c8ffc032-6756-4bdc-a628-fa5229dba8dc")
-		)
-		(pin "2"
-			(uuid "c99133dc-bc64-456c-9bad-7f30c7fc3645")
-		)
-		(instances
-			(project "switch_main_v5"
-				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/2252118a-c5a3-408c-aeca-1ee5151f8202"
-					(reference "C3404")
-					(unit 1)
-				)
-				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/b17ca951-65d8-4c7f-84f6-57bb88a8a712"
-					(reference "C1326")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 218.44 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "89fb63b1-f6ba-4d03-9096-801c9ebd0e4e")
-		(property "Reference" "TP3401"
-			(at 233.68 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1.5mm"
-			(at 226.06 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 223.52 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 223.52 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 218.44 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e58d8b37-7c1c-4862-8411-2948e1246eaf")
-		)
-		(instances
-			(project "switch_main_v5"
-				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/2252118a-c5a3-408c-aeca-1ee5151f8202"
-					(reference "TP3401")
-					(unit 1)
-				)
-				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/b17ca951-65d8-4c7f-84f6-57bb88a8a712"
-					(reference "TP1303")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 147.32 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "90117611-fe0e-4ba7-bdb5-5de2c6d7f26c")
-		(property "Reference" "#PWR03403"
-			(at 147.32 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND1"
-			(at 147.32 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 147.32 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "89a2277b-9b94-49b0-9b05-a00f836ca244")
-		)
-		(instances
-			(project "switch_main_v5"
-				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/2252118a-c5a3-408c-aeca-1ee5151f8202"
-					(reference "#PWR03403")
-					(unit 1)
-				)
-				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/b17ca951-65d8-4c7f-84f6-57bb88a8a712"
-					(reference "#PWR01326")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PWR-SMPS:TPS62290TDRVRQ1")
-		(at 129.54 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96cd018f-dbda-48e6-a41e-cede1748bb8f")
-		(property "Reference" "U3401"
-			(at 129.54 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS62290TDRVRQ1"
-			(at 129.54 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "project_footprints:SON65P200X200X80-7N"
-			(at 156.21 186.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/tps62290-q1"
-			(at 156.21 286.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Automotive 2.3V to 6V, 2.25MHz Fixed Frequency 1A Buck Converter in 2x2mm SON/TSOT23 Package"
-			(at 129.54 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.8"
-			(at 156.21 486.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-TPS62290TDRVRQ1"
-			(at 156.21 586.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS62290TDRVRQ1?qs=NiBvnJE4bX0YWtuMnJowVQ%3D%3D"
-			(at 156.21 686.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 156.21 786.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TPS62290TDRVRQ1"
-			(at 156.21 886.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dacb0047-ef3b-4e48-a800-c69561898799")
-		)
-		(pin "4"
-			(uuid "e86b5abc-16fc-4985-891e-8e60f2006902")
-		)
-		(pin "3"
-			(uuid "dab45a3c-48f7-41f2-9179-ed194b7ffcfa")
-		)
-		(pin "5"
-			(uuid "21d08dcf-218a-4534-8adc-c664b3177f1c")
-		)
-		(pin "6"
-			(uuid "e8df3611-2eab-4f7e-b673-2929106cbdb7")
-		)
-		(pin "7"
-			(uuid "9700064a-72d9-4129-98ad-35f18876f04b")
-		)
-		(pin "2"
-			(uuid "aafccd2c-e65c-4956-9cbb-444891c1281c")
-		)
-		(instances
-			(project "switch_main_v5"
-				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/2252118a-c5a3-408c-aeca-1ee5151f8202"
-					(reference "U3401")
-					(unit 1)
-				)
-				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/b17ca951-65d8-4c7f-84f6-57bb88a8a712"
-					(reference "U1303")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 172.72 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a2fe0e63-9324-4dbf-8159-b79b27ad69db")
-		(property "Reference" "R3402"
-			(at 175.26 110.4899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "180k"
-			(at 175.26 113.0299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 172.72 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 172.72 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "dff8e712-3f73-432c-85a4-d345205c8291")
-		)
-		(pin "1"
-			(uuid "5cafd6db-4a0f-4494-b3eb-c556ecc8fb76")
-		)
-		(instances
-			(project "switch_main_v5"
-				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/2252118a-c5a3-408c-aeca-1ee5151f8202"
-					(reference "R3402")
-					(unit 1)
-				)
-				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/b17ca951-65d8-4c7f-84f6-57bb88a8a712"
-					(reference "R1310")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 223.52 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b47c0a05-7316-442d-a8f2-41a0e871e797")
-		(property "Reference" "C3407"
-			(at 226.06 97.7962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4u7"
-			(at 226.06 100.3362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 223.52 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 223.52 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 223.52 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b0ff2be5-1a5b-437f-859e-dc5bc9bf4628")
-		)
-		(pin "2"
-			(uuid "e03a6743-bf61-4b98-ada9-ce23ea209934")
-		)
-		(instances
-			(project "switch_main_v5"
-				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/2252118a-c5a3-408c-aeca-1ee5151f8202"
-					(reference "C3407")
-					(unit 1)
-				)
-				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/b17ca951-65d8-4c7f-84f6-57bb88a8a712"
-					(reference "C1329")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 99.06 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cc083502-6217-496b-8950-710103792afc")
-		(property "Reference" "C3403"
-			(at 101.6 97.7962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4u7"
-			(at 101.6 100.3362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 99.06 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 99.06 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "83731593-7acd-440f-9345-188d884ecebd")
-		)
-		(pin "2"
-			(uuid "29e206e5-65bb-4cf5-a522-12a137f09395")
-		)
-		(instances
-			(project "switch_main_v5"
-				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/2252118a-c5a3-408c-aeca-1ee5151f8202"
-					(reference "C3403")
-					(unit 1)
-				)
-				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/b17ca951-65d8-4c7f-84f6-57bb88a8a712"
-					(reference "C1325")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 223.52 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f652ca83-bd72-4f86-bcd3-a7219e201a68")
-		(property "Reference" "#PWR03405"
-			(at 223.52 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND1"
-			(at 223.52 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 223.52 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3759a374-ff6b-4c74-bec0-4fe35be7a079")
-		)
-		(instances
-			(project "switch_main_v5"
-				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/2252118a-c5a3-408c-aeca-1ee5151f8202"
-					(reference "#PWR03405")
-					(unit 1)
-				)
-				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c/b17ca951-65d8-4c7f-84f6-57bb88a8a712"
-					(reference "#PWR01328")
+					(reference "#PWR03004")
 					(unit 1)
 				)
 			)

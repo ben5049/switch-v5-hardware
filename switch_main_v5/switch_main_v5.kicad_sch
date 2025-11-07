@@ -1138,16 +1138,6 @@
 		)
 		(uuid "8d2edbc4-c9a5-4cbc-8fec-c5b80f10c651")
 	)
-	(text "1000BASE-T"
-		(exclude_from_sim no)
-		(at 228.6 152.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "994f02ff-cd33-4dfd-baee-69a9104c40c4")
-	)
 	(text "1000BASE-T1"
 		(exclude_from_sim no)
 		(at 228.6 130.81 0)
@@ -3587,7 +3577,7 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 96.52 165.1 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -3726,7 +3716,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75aec437-9824-4483-ac07-c432347cd07b")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR0107"
 			(at 116.84 175.26 0)
 			(effects
 				(font
@@ -3776,7 +3766,7 @@
 		(instances
 			(project "switch_main_v4"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6"
-					(reference "#PWR0106")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -3852,13 +3842,13 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 96.52 182.88 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fda8472-93fe-444d-ab3b-827613d33fac")
-		(property "Reference" "H103"
+		(property "Reference" "H102"
 			(at 99.06 180.3399 0)
 			(effects
 				(font
@@ -3909,7 +3899,7 @@
 		(instances
 			(project "switch_main_v4"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6"
-					(reference "H103")
+					(reference "H102")
 					(unit 1)
 				)
 			)
@@ -3919,7 +3909,7 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 116.84 182.88 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -4126,7 +4116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb1bfb6c-dd93-486b-a86d-d238d19a96ea")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR0106"
 			(at 96.52 193.04 0)
 			(effects
 				(font
@@ -4176,7 +4166,7 @@
 		(instances
 			(project "switch_main_v4"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6"
-					(reference "#PWR0107")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -4327,13 +4317,13 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 116.84 165.1 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f78daabb-ecf9-4f1c-9858-71787fa41a84")
-		(property "Reference" "H102"
+		(property "Reference" "H103"
 			(at 119.38 162.5599 0)
 			(effects
 				(font
@@ -4384,7 +4374,7 @@
 		(instances
 			(project "switch_main_v4"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6"
-					(reference "H102")
+					(reference "H103")
 					(unit 1)
 				)
 			)
