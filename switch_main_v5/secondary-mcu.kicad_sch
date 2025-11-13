@@ -2227,6 +2227,10 @@
 		(uuid "8f0aacf7-cd4d-4e3d-9537-0def24ae80a8")
 	)
 	(no_connect
+		(at 142.24 111.76)
+		(uuid "955c5503-5446-404b-9fb9-446bb5b66c46")
+	)
+	(no_connect
 		(at 142.24 114.3)
 		(uuid "ad281e9b-5432-44f6-868f-8dfe6469a9f1")
 	)

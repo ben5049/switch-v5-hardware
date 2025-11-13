@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(polyline
 		(pts
-			(xy 152.4 104.14) (xy 152.4 114.3)
+			(xy 154.94 109.22) (xy 154.94 119.38)
 		)
 		(stroke
 			(width 0)
@@ -17,7 +17,7 @@
 	)
 	(polyline
 		(pts
-			(xy 149.86 114.3) (xy 152.4 111.76)
+			(xy 152.4 119.38) (xy 154.94 116.84)
 		)
 		(stroke
 			(width 0)
@@ -27,7 +27,7 @@
 	)
 	(polyline
 		(pts
-			(xy 147.32 104.14) (xy 147.32 114.3)
+			(xy 149.86 109.22) (xy 149.86 119.38)
 		)
 		(stroke
 			(width 0)
@@ -37,7 +37,7 @@
 	)
 	(polyline
 		(pts
-			(xy 147.32 83.82) (xy 149.86 81.28)
+			(xy 149.86 86.36) (xy 152.4 83.82)
 		)
 		(stroke
 			(width 0)
@@ -47,7 +47,7 @@
 	)
 	(polyline
 		(pts
-			(xy 147.32 60.96) (xy 149.86 58.42)
+			(xy 149.86 60.96) (xy 152.4 58.42)
 		)
 		(stroke
 			(width 0)
@@ -57,7 +57,7 @@
 	)
 	(bus
 		(pts
-			(xy 175.26 93.98) (xy 177.8 93.98)
+			(xy 177.8 101.6) (xy 180.34 101.6)
 		)
 		(stroke
 			(width 0)
@@ -67,7 +67,7 @@
 	)
 	(polyline
 		(pts
-			(xy 147.32 129.54) (xy 149.86 127)
+			(xy 149.86 137.16) (xy 152.4 134.62)
 		)
 		(stroke
 			(width 0)
@@ -77,7 +77,7 @@
 	)
 	(polyline
 		(pts
-			(xy 147.32 81.28) (xy 147.32 91.44)
+			(xy 149.86 83.82) (xy 149.86 93.98)
 		)
 		(stroke
 			(width 0)
@@ -87,7 +87,7 @@
 	)
 	(bus
 		(pts
-			(xy 175.26 71.12) (xy 177.8 71.12)
+			(xy 177.8 76.2) (xy 180.34 76.2)
 		)
 		(stroke
 			(width 0)
@@ -97,7 +97,7 @@
 	)
 	(bus
 		(pts
-			(xy 121.92 71.12) (xy 124.46 71.12)
+			(xy 124.46 76.2) (xy 127 76.2)
 		)
 		(stroke
 			(width 0)
@@ -107,7 +107,7 @@
 	)
 	(polyline
 		(pts
-			(xy 152.4 58.42) (xy 152.4 68.58)
+			(xy 154.94 58.42) (xy 154.94 68.58)
 		)
 		(stroke
 			(width 0)
@@ -117,7 +117,7 @@
 	)
 	(polyline
 		(pts
-			(xy 147.32 127) (xy 147.32 137.16)
+			(xy 149.86 134.62) (xy 149.86 144.78)
 		)
 		(stroke
 			(width 0)
@@ -127,7 +127,7 @@
 	)
 	(polyline
 		(pts
-			(xy 149.86 137.16) (xy 152.4 134.62)
+			(xy 152.4 144.78) (xy 154.94 142.24)
 		)
 		(stroke
 			(width 0)
@@ -137,7 +137,7 @@
 	)
 	(polyline
 		(pts
-			(xy 147.32 88.9) (xy 152.4 83.82)
+			(xy 149.86 91.44) (xy 154.94 86.36)
 		)
 		(stroke
 			(width 0)
@@ -147,7 +147,7 @@
 	)
 	(polyline
 		(pts
-			(xy 152.4 127) (xy 152.4 137.16)
+			(xy 154.94 134.62) (xy 154.94 144.78)
 		)
 		(stroke
 			(width 0)
@@ -157,7 +157,7 @@
 	)
 	(bus
 		(pts
-			(xy 121.92 93.98) (xy 124.46 93.98)
+			(xy 124.46 101.6) (xy 127 101.6)
 		)
 		(stroke
 			(width 0)
@@ -167,7 +167,7 @@
 	)
 	(polyline
 		(pts
-			(xy 147.32 106.68) (xy 149.86 104.14)
+			(xy 149.86 111.76) (xy 152.4 109.22)
 		)
 		(stroke
 			(width 0)
@@ -177,7 +177,7 @@
 	)
 	(polyline
 		(pts
-			(xy 149.86 68.58) (xy 152.4 66.04)
+			(xy 152.4 68.58) (xy 154.94 66.04)
 		)
 		(stroke
 			(width 0)
@@ -187,7 +187,7 @@
 	)
 	(bus
 		(pts
-			(xy 121.92 116.84) (xy 124.46 116.84)
+			(xy 124.46 127) (xy 127 127)
 		)
 		(stroke
 			(width 0)
@@ -197,7 +197,7 @@
 	)
 	(polyline
 		(pts
-			(xy 147.32 134.62) (xy 152.4 129.54)
+			(xy 149.86 142.24) (xy 154.94 137.16)
 		)
 		(stroke
 			(width 0)
@@ -207,7 +207,7 @@
 	)
 	(polyline
 		(pts
-			(xy 147.32 111.76) (xy 152.4 106.68)
+			(xy 149.86 116.84) (xy 154.94 111.76)
 		)
 		(stroke
 			(width 0)
@@ -217,7 +217,7 @@
 	)
 	(polyline
 		(pts
-			(xy 149.86 91.44) (xy 152.4 88.9)
+			(xy 152.4 93.98) (xy 154.94 91.44)
 		)
 		(stroke
 			(width 0)
@@ -227,7 +227,7 @@
 	)
 	(polyline
 		(pts
-			(xy 147.32 66.04) (xy 152.4 60.96)
+			(xy 149.86 66.04) (xy 154.94 60.96)
 		)
 		(stroke
 			(width 0)
@@ -237,7 +237,7 @@
 	)
 	(polyline
 		(pts
-			(xy 147.32 58.42) (xy 147.32 68.58)
+			(xy 149.86 58.42) (xy 149.86 68.58)
 		)
 		(stroke
 			(width 0)
@@ -247,7 +247,7 @@
 	)
 	(bus
 		(pts
-			(xy 175.26 116.84) (xy 177.8 116.84)
+			(xy 177.8 127) (xy 180.34 127)
 		)
 		(stroke
 			(width 0)
@@ -257,7 +257,7 @@
 	)
 	(polyline
 		(pts
-			(xy 152.4 81.28) (xy 152.4 91.44)
+			(xy 154.94 83.82) (xy 154.94 93.98)
 		)
 		(stroke
 			(width 0)
@@ -267,7 +267,7 @@
 	)
 	(hierarchical_label "MDI2_IN{SPE}"
 		(shape bidirectional)
-		(at 121.92 93.98 180)
+		(at 124.46 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -278,7 +278,7 @@
 	)
 	(hierarchical_label "MDI3_IN{SPE}"
 		(shape bidirectional)
-		(at 121.92 71.12 180)
+		(at 124.46 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -289,7 +289,7 @@
 	)
 	(hierarchical_label "MDI2_OUT{SPE}"
 		(shape bidirectional)
-		(at 177.8 93.98 0)
+		(at 180.34 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -300,7 +300,7 @@
 	)
 	(hierarchical_label "MDI1_IN{SPE}"
 		(shape bidirectional)
-		(at 121.92 116.84 180)
+		(at 124.46 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -311,7 +311,7 @@
 	)
 	(hierarchical_label "MDI3_OUT{SPE}"
 		(shape bidirectional)
-		(at 177.8 71.12 0)
+		(at 180.34 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -322,7 +322,7 @@
 	)
 	(hierarchical_label "MDI1_OUT{SPE}"
 		(shape bidirectional)
-		(at 177.8 116.84 0)
+		(at 180.34 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -332,13 +332,12 @@
 		(uuid "ff9f50a7-709d-4839-a574-2f7382e31b8d")
 	)
 	(sheet
-		(at 124.46 114.3)
-		(size 50.8 12.7)
+		(at 127 119.38)
+		(size 50.8 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -349,7 +348,7 @@
 		)
 		(uuid "26a40f4e-1d98-4b19-a184-b6dadc090f75")
 		(property "Sheetname" "1000BASE-T1 CDN"
-			(at 124.46 113.5884 0)
+			(at 127.254 118.618 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -357,8 +356,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "1000base-t1-cdn.kicad_sch"
-			(at 124.46 127.5846 0)
+		(property "Sheetfile" "1000base-t1-cdn-shield.kicad_sch"
+			(at 127.254 135.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -367,7 +366,7 @@
 			)
 		)
 		(pin "MDI_IN{SPE}" bidirectional
-			(at 124.46 116.84 180)
+			(at 127 127 180)
 			(uuid "630841b6-ba99-4130-a232-9c22eadf1a84")
 			(effects
 				(font
@@ -377,7 +376,7 @@
 			)
 		)
 		(pin "MDI_OUT{SPE}" bidirectional
-			(at 175.26 116.84 0)
+			(at 177.8 127 0)
 			(uuid "f8475ad5-45c6-4485-8593-eaee35152482")
 			(effects
 				(font
@@ -395,8 +394,8 @@
 		)
 	)
 	(sheet
-		(at 124.46 68.58)
-		(size 50.8 12.7)
+		(at 127 68.58)
+		(size 50.8 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -412,7 +411,7 @@
 		)
 		(uuid "62e5169e-51fc-4c92-b8e5-db930432f08f")
 		(property "Sheetname" "1000BASE-T1 CDN2"
-			(at 124.46 67.8684 0)
+			(at 127 67.8684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -421,7 +420,7 @@
 			)
 		)
 		(property "Sheetfile" "1000base-t1-cdn.kicad_sch"
-			(at 124.46 81.8646 0)
+			(at 127 84.4046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -430,7 +429,7 @@
 			)
 		)
 		(pin "MDI_IN{SPE}" bidirectional
-			(at 124.46 71.12 180)
+			(at 127 76.2 180)
 			(uuid "ee271ad4-b5c6-47b1-a52b-2fb633bbec32")
 			(effects
 				(font
@@ -440,7 +439,7 @@
 			)
 		)
 		(pin "MDI_OUT{SPE}" bidirectional
-			(at 175.26 71.12 0)
+			(at 177.8 76.2 0)
 			(uuid "37a08f4f-e8e8-46b7-a962-8292eab43e04")
 			(effects
 				(font
@@ -458,8 +457,8 @@
 		)
 	)
 	(sheet
-		(at 124.46 91.44)
-		(size 50.8 12.7)
+		(at 127 93.98)
+		(size 50.8 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -475,7 +474,7 @@
 		)
 		(uuid "7a77b3cc-782a-4601-8d29-0e186fb0946a")
 		(property "Sheetname" "1000BASE-T1 CDN1"
-			(at 124.46 90.7284 0)
+			(at 127 93.2684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -484,7 +483,7 @@
 			)
 		)
 		(property "Sheetfile" "1000base-t1-cdn.kicad_sch"
-			(at 124.46 104.7246 0)
+			(at 127 109.8046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -493,7 +492,7 @@
 			)
 		)
 		(pin "MDI_IN{SPE}" bidirectional
-			(at 124.46 93.98 180)
+			(at 127 101.6 180)
 			(uuid "1299d4ac-0254-4193-ae7d-3d31c8915372")
 			(effects
 				(font
@@ -503,7 +502,7 @@
 			)
 		)
 		(pin "MDI_OUT{SPE}" bidirectional
-			(at 175.26 93.98 0)
+			(at 177.8 101.6 0)
 			(uuid "0017a3ff-bb2c-4ab6-8a35-6f465c2f3f85")
 			(effects
 				(font

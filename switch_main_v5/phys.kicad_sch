@@ -302,16 +302,6 @@
 		)
 		(uuid "08fbeabc-e0f2-47d6-a8a8-1eed52a68036")
 	)
-	(wire
-		(pts
-			(xy 33.02 83.82) (xy 45.72 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a205759-a91e-42eb-b901-901e1393f4e8")
-	)
 	(bus
 		(pts
 			(xy 134.62 22.86) (xy 144.78 22.86)
@@ -1665,17 +1655,6 @@
 		)
 		(uuid "7cc071e2-88a4-43ae-8a56-b099b43d223f")
 	)
-	(hierarchical_label "CLK_OUT"
-		(shape output)
-		(at 33.02 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7eed82e2-0ccf-410d-b2fa-91fc489f1c03")
-	)
 	(hierarchical_label "xMII0{RGMII}"
 		(shape bidirectional)
 		(at 96.52 175.26 180)
@@ -2542,16 +2521,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(pin "CLK_OUT6" output
-			(at 45.72 83.82 180)
-			(uuid "bd9fe0f3-628b-4401-9ad8-d8967065451c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(instances

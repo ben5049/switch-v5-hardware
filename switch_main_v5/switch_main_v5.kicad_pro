@@ -60,30 +60,6 @@
       ],
       "drc_exclusions": [
         [
-          "shorting_items|159449950|89975000|fb713793-ca77-490a-b0c6-5ba42ca465a7|d0e68a6a-e8b1-4e8a-a06c-71aa242c8873",
-          ""
-        ],
-        [
-          "shorting_items|159449950|92025000|5a029495-54e3-42f7-a500-dd86dc03785c|2d8a5a7c-23a6-4de0-a425-27d8abdd31c8",
-          ""
-        ],
-        [
-          "shorting_items|160949950|92025000|9fcebf74-684b-4b06-b684-ae88e33d99f2|640e73c6-23fb-488b-a819-042a4ee3bc21",
-          ""
-        ],
-        [
-          "solder_mask_bridge|159449950|89975000|fb713793-ca77-490a-b0c6-5ba42ca465a7|d0e68a6a-e8b1-4e8a-a06c-71aa242c8873",
-          ""
-        ],
-        [
-          "solder_mask_bridge|159449950|92025000|5a029495-54e3-42f7-a500-dd86dc03785c|2d8a5a7c-23a6-4de0-a425-27d8abdd31c8",
-          ""
-        ],
-        [
-          "solder_mask_bridge|160949950|92025000|9fcebf74-684b-4b06-b684-ae88e33d99f2|640e73c6-23fb-488b-a819-042a4ee3bc21",
-          ""
-        ],
-        [
           "text_height|118300000|101360000|4cedbaa4-780d-4540-bfe6-2fb69f8f968b|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -1517,6 +1493,12 @@
       "/Switch 0/xMII0{RGMII}": [
         "xMII"
       ],
+      "/Switch 1/OSC_IN": [
+        "50Ω"
+      ],
+      "/Switch 1/OSC_OUT": [
+        "50Ω"
+      ],
       "/Switch 1/R_{CLK_OUT}": [
         "50Ω"
       ],
@@ -1530,6 +1512,9 @@
         "50Ω"
       ],
       "/Switch/R_{CLK_OUT}": [
+        "50Ω"
+      ],
+      "unconnected-(R1106-Pad2)": [
         "50Ω"
       ],
       "unconnected-(R1110-Pad2)": [
@@ -1913,10 +1898,10 @@
         "version": 0
       },
       "model_mode": 4,
-      "workbook_filename": "podl_current_source.wbk"
+      "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "S:/Downloads/",
+    "plot_directory": "C:/Users/bens1/Downloads/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",

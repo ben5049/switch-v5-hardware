@@ -8,335 +8,6 @@
 		(title "Ethernet Connectors")
 	)
 	(lib_symbols
-		(symbol "DMN21D2UFB-7B:DMN21D2UFB-7B"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 11.43 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "DMN21D2UFB-7B"
-				(at 11.43 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "switch_footprints:DMN21D2UFB7B"
-				(at 11.43 -98.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/DMN21D2UFB-7B.pdf"
-				(at 11.43 -198.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "MOSFET MOSFET BVDSS: 8V-24V X1-DFN1006-3 T&R 10"
-				(at 0 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "0.53"
-				(at 11.43 -398.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "621-DMN21D2UFB-7B"
-				(at 11.43 -498.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" ""
-				(at 11.43 -598.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Diodes Incorporated"
-				(at 11.43 -698.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "DMN21D2UFB-7B"
-				(at 11.43 -798.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "DMN21D2UFB-7B_0_1"
-				(polyline
-					(pts
-						(xy 5.334 1.905) (xy 5.334 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.334 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 2.286) (xy 5.842 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 0.508) (xy 5.842 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 -1.27) (xy 5.842 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 -1.778) (xy 8.382 -1.778) (xy 8.382 1.778) (xy 5.842 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.096 0) (xy 7.112 0.381) (xy 7.112 -0.381) (xy 6.096 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 6.731 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 7.62 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 7.62 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 7.62 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 7.62 0) (xy 5.842 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.874 0.508) (xy 8.001 0.381) (xy 8.763 0.381) (xy 8.89 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.382 0.381) (xy 8.001 -0.254) (xy 8.763 -0.254) (xy 8.382 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "DMN21D2UFB-7B_1_1"
-				(pin input line
-					(at 0 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -841,7 +512,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -17.78 -27.94 0)
 					(length 5.08)
 					(name "ANODE"
@@ -859,7 +530,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -17.78 -30.48 0)
 					(length 5.08)
 					(name "CATHODE"
@@ -877,7 +548,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -17.78 -38.1 0)
 					(length 5.08)
 					(name "ANODE"
@@ -895,7 +566,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -17.78 -40.64 0)
 					(length 5.08)
 					(name "CATHODE"
@@ -913,7 +584,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -17.78 -48.26 0)
 					(length 5.08)
 					(name "CT"
@@ -931,7 +602,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -17.78 -50.8 0)
 					(length 5.08)
 					(name "CT"
@@ -1636,28 +1307,33 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PESD4USB3BTTS-QX:PESD4USB3BTTS-QX"
+		(symbol "MOSFET:DMN21D2UFB-7B"
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 5.08 0)
+			(property "Reference" "Q"
+				(at 11.43 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Value" "PESD4USB3BTTS-QX"
-				(at 0 2.54 0)
+			(property "Value" "DMN21D2UFB-7B"
+				(at 11.43 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Footprint" "switch_footprints:PESD4USB3BTTSQX"
-				(at 29.21 -94.92 0)
+			(property "Footprint" "project_footprints:DMN21D2UFB7B"
+				(at 11.43 -98.73 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1666,8 +1342,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD4USB3BTTS-Q.pdf"
-				(at 29.21 -194.92 0)
+			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/DMN21D2UFB-7B.pdf"
+				(at 11.43 -198.73 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1676,8 +1352,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "ESD protection for high-speed interfaces,10 terminals; 0.5 mm pitch; 2.5 mm x 1 mm x 0.75 mm body,DFN2510D-10 (SOT1165D)"
-				(at 0 -38.1 0)
+			(property "Description" "MOSFET MOSFET BVDSS: 8V-24V X1-DFN1006-3 T&R 10"
+				(at 0 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1685,18 +1361,8 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "0.8"
-				(at 29.21 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "771-PESD4USB3BTTS-QX"
-				(at 29.21 -494.92 0)
+			(property "Height" "0.53"
+				(at 11.43 -398.73 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1705,8 +1371,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PESD4USB3BTTS-QX?qs=3Rah4i%252BhyCFJEPB%252BB9x8Uw%3D%3D"
-				(at 29.21 -594.92 0)
+			(property "Mouser Part Number" "621-DMN21D2UFB-7B"
+				(at 11.43 -498.73 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1715,8 +1381,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Nexperia"
-				(at 29.21 -694.92 0)
+			(property "Mouser Price/Stock" ""
+				(at 11.43 -598.73 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1725,8 +1391,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "PESD4USB3BTTS-QX"
-				(at 29.21 -794.92 0)
+			(property "Manufacturer_Name" "Diodes Incorporated"
+				(at 11.43 -698.73 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1735,22 +1401,188 @@
 					(hide yes)
 				)
 			)
-			(symbol "PESD4USB3BTTS-QX_1_1"
-				(rectangle
-					(start -7.62 0)
-					(end 7.62 -12.7)
+			(property "Manufacturer_Part_Number" "DMN21D2UFB-7B"
+				(at 11.43 -798.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "DMN21D2UFB-7B_0_1"
+				(polyline
+					(pts
+						(xy 5.334 1.905) (xy 5.334 -1.905)
+					)
 					(stroke
-						(width 0)
-						(type solid)
+						(width 0.254)
+						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
-				(pin passive line
-					(at -12.7 -2.54 0)
-					(length 5.08)
-					(name "CH1"
+				(polyline
+					(pts
+						(xy 5.334 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 2.286) (xy 5.842 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 0.508) (xy 5.842 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 -1.27) (xy 5.842 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 -1.778) (xy 8.382 -1.778) (xy 8.382 1.778) (xy 5.842 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.096 0) (xy 7.112 0.381) (xy 7.112 -0.381) (xy 6.096 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 6.731 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 7.62 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 7.62 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 7.62 0) (xy 5.842 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.874 0.508) (xy 8.001 0.381) (xy 8.763 0.381) (xy 8.89 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.382 0.381) (xy 8.001 -0.254) (xy 8.763 -0.254) (xy 8.382 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "DMN21D2UFB-7B_1_1"
+				(pin input line
+					(at 0 0 0)
+					(length 2.54)
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1766,139 +1598,9 @@
 					)
 				)
 				(pin passive line
-					(at -12.7 -2.54 0)
-					(length 5.08)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -5.08 0)
-					(length 5.08)
-					(name "CH2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -5.08 0)
-					(length 5.08)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -7.62 0)
-					(length 5.08)
-					(name "CH3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -7.62 0)
-					(length 5.08)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -10.16 0)
-					(length 5.08)
-					(name "CH4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -10.16 0)
-					(length 5.08)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -7.62 180)
-					(length 5.08)
-					(name "GND_1"
+					(at 7.62 5.08 270)
+					(length 2.54)
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1914,16 +1616,16 @@
 					)
 				)
 				(pin passive line
-					(at 12.7 -10.16 180)
-					(length 5.08)
-					(name "GND_2"
+					(at 7.62 -5.08 90)
+					(length 2.54)
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2280,7 +1982,305 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
+		(symbol "TVS:PESD4USB3BTTS-QX"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PESD4USB3BTTS-QX"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "project_footprints:PESD4USB3BTTSQX"
+				(at 29.21 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD4USB3BTTS-Q.pdf"
+				(at 29.21 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "ESD protection for high-speed interfaces,10 terminals; 0.5 mm pitch; 2.5 mm x 1 mm x 0.75 mm body,DFN2510D-10 (SOT1165D)"
+				(at 0 -38.1 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.8"
+				(at 29.21 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "771-PESD4USB3BTTS-QX"
+				(at 29.21 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PESD4USB3BTTS-QX?qs=3Rah4i%252BhyCFJEPB%252BB9x8Uw%3D%3D"
+				(at 29.21 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Nexperia"
+				(at 29.21 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "PESD4USB3BTTS-QX"
+				(at 29.21 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "PESD4USB3BTTS-QX_1_1"
+				(rectangle
+					(start -7.62 0)
+					(end 7.62 -12.7)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "CH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -5.08 0)
+					(length 5.08)
+					(name "CH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -5.08 0)
+					(length 5.08)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -7.62 0)
+					(length 5.08)
+					(name "CH3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -7.62 0)
+					(length 5.08)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -10.16 0)
+					(length 5.08)
+					(name "CH4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -10.16 0)
+					(length 5.08)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -7.62 180)
+					(length 5.08)
+					(name "GND_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -10.16 180)
+					(length 5.08)
+					(name "GND_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -2293,7 +2293,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2301,8 +2301,8 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2327,7 +2327,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2345,10 +2345,34 @@
 					(hide yes)
 				)
 			)
-			(symbol "GND_0_1"
+			(symbol "+3V3_0_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2359,9 +2383,9 @@
 					)
 				)
 			)
-			(symbol "GND_1_1"
+			(symbol "+3V3_1_1"
 				(pin power_in line
-					(at 0 0 270)
+					(at 0 0 90)
 					(length 0)
 					(name "~"
 						(effects
@@ -2463,131 +2487,6 @@
 			(symbol "GND1_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:VDD"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VDD"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VDD\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VDD_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VDD_1_1"
-				(pin power_in line
-					(at 0 0 90)
 					(length 0)
 					(name "~"
 						(effects
@@ -4977,16 +4876,6 @@
 		)
 		(uuid "0d316ab1-6528-4b32-bbc1-c3c5aababc8f")
 	)
-	(label "MDI.TD_C_P"
-		(at 68.58 139.7 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "10d3618b-a89a-4ac7-bc85-a56f75e7c0b8")
-	)
 	(label "MDI3.TRXP"
 		(at 185.42 81.28 0)
 		(effects
@@ -4996,6 +4885,16 @@
 			(justify left bottom)
 		)
 		(uuid "159d0fae-5ced-4e00-b7a7-581a8f6f60f2")
+	)
+	(label "MDI0.TD_B_P"
+		(at 68.58 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "20de3bb1-8640-4133-8258-241001860a03")
 	)
 	(label "MDI1.TRXP"
 		(at 185.42 142.24 0)
@@ -5017,16 +4916,6 @@
 		)
 		(uuid "2583c791-350c-49ff-9ccb-5d0d3a006840")
 	)
-	(label "MDI.TD_A_N"
-		(at 68.58 119.38 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2f41e15b-fa7d-41bd-8c96-107cdbc975af")
-	)
 	(label "MDI0.TD_D_P"
 		(at 93.98 132.08 0)
 		(effects
@@ -5036,6 +4925,16 @@
 			(justify left bottom)
 		)
 		(uuid "3866b82a-b166-4118-9928-f7834863a435")
+	)
+	(label "MDI0.TD_B_N"
+		(at 68.58 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3be00e08-1f40-466a-9d4b-308c5f55c496")
 	)
 	(label "MDI2.TRXP"
 		(at 185.42 111.76 0)
@@ -5067,16 +4966,6 @@
 		)
 		(uuid "613818e7-9e59-464c-8cd8-cba3aef61de7")
 	)
-	(label "MDI.TD_C_N"
-		(at 68.58 142.24 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6d6d4945-810f-4a07-8287-145d96bbdf65")
-	)
 	(label "MDI1.TRXN"
 		(at 185.42 144.78 0)
 		(effects
@@ -5087,7 +4976,17 @@
 		)
 		(uuid "7582daf4-6b14-4fe0-91cb-1a4f1552a6b9")
 	)
-	(label "MDI.TD_D_N"
+	(label "MDI0.TD_A_N"
+		(at 68.58 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "76238bb8-7dff-4a11-af20-c0559a9409e9")
+	)
+	(label "MDI0.TD_D_N"
 		(at 68.58 147.32 180)
 		(effects
 			(font
@@ -5095,7 +4994,17 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "7ddf7055-1a14-4e96-aafc-c06be410e7fc")
+		(uuid "7cfc5210-0570-48c2-b79f-5f44adabfcc7")
+	)
+	(label "MDI0.TD_D_P"
+		(at 68.58 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7f311a61-22ad-45f5-b164-cf95c0e62dd2")
 	)
 	(label "MDI3.TRXN"
 		(at 185.42 83.82 0)
@@ -5107,26 +5016,6 @@
 		)
 		(uuid "81651cf4-cdd4-4514-ac56-4dfa8d5736ee")
 	)
-	(label "MDI.TD_A_P"
-		(at 68.58 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8175ef32-9884-4600-8fcf-098781bd046f")
-	)
-	(label "MDI.TD_B_N"
-		(at 68.58 124.46 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "87557a07-8823-4cbf-b2bd-14d7269d09ba")
-	)
 	(label "MDI0.TD_A_N"
 		(at 93.98 119.38 0)
 		(effects
@@ -5137,15 +5026,35 @@
 		)
 		(uuid "8eb35113-1509-4e37-ba04-622c46f77548")
 	)
-	(label "MDI.TD_B_P"
-		(at 68.58 121.92 180)
+	(label "MDI0.TD_C_P"
+		(at 68.58 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "a5ac663a-e344-4af4-90f0-25c278e37f5e")
+		(uuid "98625405-6baf-4e91-8dde-62c143360940")
+	)
+	(label "MDI0.TD_A_P"
+		(at 68.58 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a8020845-8d0c-4355-b04e-e113c6d949cb")
+	)
+	(label "MDI0.TD_C_N"
+		(at 68.58 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aa011b6d-cdb5-4579-b41c-b95e3e1f0f5b")
 	)
 	(label "MDI4.TRXP"
 		(at 185.42 55.88 0)
@@ -5246,16 +5155,6 @@
 			(justify left bottom)
 		)
 		(uuid "c226eb17-8bdf-4c9a-8515-4c1b08edb1cc")
-	)
-	(label "MDI.TD_D_P"
-		(at 68.58 144.78 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c6f44163-49ee-4cb2-a461-193dfe93d24c")
 	)
 	(label "MDI0.TD_C_P"
 		(at 93.98 127 0)
@@ -5862,7 +5761,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMN21D2UFB-7B:DMN21D2UFB-7B")
+		(lib_id "MOSFET:DMN21D2UFB-7B")
 		(at 71.12 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5888,7 +5787,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "switch_footprints:DMN21D2UFB7B"
+		(property "Footprint" "project_footprints:DMN21D2UFB7B"
 			(at 82.55 273.99 0)
 			(effects
 				(font
@@ -5909,7 +5808,7 @@
 			)
 		)
 		(property "Description" "MOSFET MOSFET BVDSS: 8V-24V X1-DFN1006-3 T&R 10"
-			(at 71.12 175.26 0)
+			(at 71.12 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5986,6 +5885,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND1")
+		(at 78.74 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e8abde9-1337-45f1-81ef-f1fff91a9cee")
+		(property "Reference" "#PWR02416"
+			(at 78.74 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 78.74 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 78.74 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f800e222-98d7-44a5-930f-60b2bd58bc1c")
+		)
+		(instances
+			(project "switch_main_v5"
+				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/bd877493-2a45-4725-b66e-4544d59375bb"
+					(reference "#PWR02416")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PWR-SYM:SHIELD")
 		(at 238.76 66.04 0)
 		(unit 1)
@@ -6052,17 +6017,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 78.74 182.88 0)
+		(lib_id "power:GND1")
+		(at 25.4 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1df67bcc-40ca-4fac-9843-038ec45f177c")
-		(property "Reference" "#PWR02404"
-			(at 78.74 189.23 0)
+		(uuid "20a5b8f5-ed20-4e52-a08f-89a06fa6f6a9")
+		(property "Reference" "#PWR02415"
+			(at 25.4 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6070,8 +6035,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 78.74 187.96 0)
+		(property "Value" "GND1"
+			(at 25.4 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6079,7 +6044,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 182.88 0)
+			(at 25.4 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6088,7 +6053,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 182.88 0)
+			(at 25.4 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6096,8 +6061,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 182.88 0)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 25.4 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6106,12 +6071,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a1113acc-1dd0-4ecd-987f-f18044e68525")
+			(uuid "f4bef18a-d21c-4e22-9287-e4b0b12d0483")
 		)
 		(instances
 			(project "switch_main_v5"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/bd877493-2a45-4725-b66e-4544d59375bb"
-					(reference "#PWR02404")
+					(reference "#PWR02415")
 					(unit 1)
 				)
 			)
@@ -6244,6 +6209,73 @@
 			(project "switch_main_v5"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/bd877493-2a45-4725-b66e-4544d59375bb"
 					(reference "#PWR02410")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 78.74 139.7 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3dd52eea-18b5-4e53-836f-ab3d324a1b32")
+		(property "Reference" "#PWR02401"
+			(at 78.74 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 78.74 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 78.74 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6bf9b0f-4049-4b7d-82ce-f6f55cb9dfbc")
+		)
+		(instances
+			(project "switch_main_v5"
+				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/bd877493-2a45-4725-b66e-4544d59375bb"
+					(reference "#PWR02401")
 					(unit 1)
 				)
 			)
@@ -6863,7 +6895,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PESD4USB3BTTS-QX:PESD4USB3BTTS-QX")
+		(lib_id "TVS:PESD4USB3BTTS-QX")
 		(at 40.64 137.16 0)
 		(mirror y)
 		(unit 1)
@@ -6889,7 +6921,7 @@
 				)
 			)
 		)
-		(property "Footprint" "switch_footprints:PESD4USB3BTTSQX"
+		(property "Footprint" "project_footprints:PESD4USB3BTTSQX"
 			(at 11.43 232.08 0)
 			(effects
 				(font
@@ -7008,7 +7040,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DMN21D2UFB-7B:DMN21D2UFB-7B")
+		(lib_id "MOSFET:DMN21D2UFB-7B")
 		(at 45.72 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7034,7 +7066,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "switch_footprints:DMN21D2UFB7B"
+		(property "Footprint" "project_footprints:DMN21D2UFB7B"
 			(at 57.15 273.99 0)
 			(effects
 				(font
@@ -7055,7 +7087,7 @@
 			)
 		)
 		(property "Description" "MOSFET MOSFET BVDSS: 8V-24V X1-DFN1006-3 T&R 10"
-			(at 45.72 175.26 0)
+			(at 45.72 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7274,73 +7306,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 53.34 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c18fc928-3453-4a70-8bff-8df8aa006e26")
-		(property "Reference" "#PWR02402"
-			(at 53.34 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 53.34 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "86f8f9ad-5765-4154-8d45-3ea13a2cb862")
-		)
-		(instances
-			(project "switch_main_v5"
-				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/bd877493-2a45-4725-b66e-4544d59375bb"
-					(reference "#PWR02402")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PESD4USB3BTTS-QX:PESD4USB3BTTS-QX")
+		(lib_id "TVS:PESD4USB3BTTS-QX")
 		(at 40.64 114.3 0)
 		(mirror y)
 		(unit 1)
@@ -7366,7 +7332,7 @@
 				)
 			)
 		)
-		(property "Footprint" "switch_footprints:PESD4USB3BTTSQX"
+		(property "Footprint" "project_footprints:PESD4USB3BTTSQX"
 			(at 11.43 209.22 0)
 			(effects
 				(font
@@ -7479,72 +7445,6 @@
 			(project "switch_main_v5"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/bd877493-2a45-4725-b66e-4544d59375bb"
 					(reference "U2401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 78.74 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d9491fce-8548-40f2-a55f-20f2082e38fb")
-		(property "Reference" "#PWR02403"
-			(at 78.74 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD"
-			(at 78.74 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 78.74 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b1111e39-7b5b-4b0c-a45a-d9753074fa4e")
-		)
-		(instances
-			(project "switch_main_v5"
-				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/bd877493-2a45-4725-b66e-4544d59375bb"
-					(reference "#PWR02403")
 					(unit 1)
 				)
 			)
@@ -7683,17 +7583,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 25.4 149.86 0)
+		(lib_id "power:GND1")
+		(at 53.34 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e87c34ae-ecbd-469c-a098-9653de3e3c90")
-		(property "Reference" "#PWR02401"
-			(at 25.4 156.21 0)
+		(uuid "f1685689-a8d5-429d-8c60-6f09f27272ec")
+		(property "Reference" "#PWR02414"
+			(at 53.34 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7701,8 +7601,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 25.4 154.94 0)
+		(property "Value" "GND1"
+			(at 53.34 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7710,7 +7610,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 149.86 0)
+			(at 53.34 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7719,7 +7619,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 149.86 0)
+			(at 53.34 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7727,8 +7627,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 25.4 149.86 0)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 53.34 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7737,12 +7637,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a87034ff-0bcf-42db-8e24-166979388aff")
+			(uuid "e6700026-4bc6-4f1a-a119-555ac797a3c0")
 		)
 		(instances
 			(project "switch_main_v5"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/bd877493-2a45-4725-b66e-4544d59375bb"
-					(reference "#PWR02401")
+					(reference "#PWR02414")
 					(unit 1)
 				)
 			)

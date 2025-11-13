@@ -1710,7 +1710,7 @@
 	)
 	(bus
 		(pts
-			(xy 27.94 121.92) (xy 27.94 109.22)
+			(xy 27.94 124.46) (xy 27.94 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2020,7 +2020,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 104.14) (xy 22.86 127)
+			(xy 22.86 104.14) (xy 22.86 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2750,7 +2750,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 127) (xy 33.02 127)
+			(xy 22.86 129.54) (xy 33.02 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2870,23 +2870,13 @@
 	)
 	(bus
 		(pts
-			(xy 33.02 121.92) (xy 27.94 121.92)
+			(xy 33.02 124.46) (xy 27.94 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d45d3f0c-4e81-459a-8293-f362a632b7d5")
-	)
-	(wire
-		(pts
-			(xy 63.5 121.92) (xy 101.6 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d49a42c8-f9ab-46f4-ae3e-b6a9b796d58c")
 	)
 	(polyline
 		(pts
@@ -4627,8 +4617,8 @@
 		)
 	)
 	(sheet
-		(at 33.02 119.38)
-		(size 30.48 33.02)
+		(at 33.02 121.92)
+		(size 30.48 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4644,7 +4634,7 @@
 		)
 		(uuid "31c4512b-1e39-4437-8559-238fb7009a56")
 		(property "Sheetname" "Switch 1"
-			(at 33.02 118.6684 0)
+			(at 33.02 121.2084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4701,16 +4691,6 @@
 				(justify right)
 			)
 		)
-		(pin "PTP_CLK" output
-			(at 33.02 127 180)
-			(uuid "07aea3b3-83bb-4310-9e4d-e7fe951c94cc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "{SPI}" bidirectional
 			(at 63.5 132.08 0)
 			(uuid "e1d20aa1-4fda-4845-abfe-2885500721fb")
@@ -4742,7 +4722,7 @@
 			)
 		)
 		(pin "xMII4{RGMII}" bidirectional
-			(at 33.02 121.92 180)
+			(at 33.02 124.46 180)
 			(uuid "3ea0ebdb-6367-4ce3-9ebd-50c02c8b21ee")
 			(effects
 				(font
@@ -4761,14 +4741,14 @@
 				(justify right)
 			)
 		)
-		(pin "CLK_IN" input
-			(at 63.5 121.92 0)
-			(uuid "d09ebf8b-f411-4184-93c9-434f251a919b")
+		(pin "PTP_CLK" input
+			(at 33.02 129.54 180)
+			(uuid "c132b735-42eb-4001-b993-fa956ad2d9b5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances
@@ -5080,16 +5060,6 @@
 		(pin "~{RST}" input
 			(at 101.6 83.82 180)
 			(uuid "97c99525-89af-4abe-86bc-b6b39ad5548d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CLK_OUT" output
-			(at 101.6 121.92 180)
-			(uuid "801f2e57-c668-4e3c-b0fd-2a3563870b1f")
 			(effects
 				(font
 					(size 1.27 1.27)

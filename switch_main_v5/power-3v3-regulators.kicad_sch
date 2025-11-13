@@ -381,7 +381,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PWR-IND:2510_74438323022"
+		(symbol "PWR-IND:353220_74479335329222"
 			(pin_names
 				(hide yes)
 			)
@@ -389,40 +389,42 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "L"
-				(at 0 5.08 0)
+				(at 0 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "74438323022"
-				(at 0 -2.54 0)
+			(property "Value" "74479335329222"
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "project_footprints:L_Wurth_WE-MAPI-2510"
-				(at 0 7.62 0)
+			(property "Footprint" "project_footprints:L_Wurth_WE-PMFI-353220"
+				(at 12.7 20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/74438323022.pdf?ki"
-				(at 52.07 17.78 0)
+			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/74479335329222.pdf?ki"
+				(at 12.7 17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Description" "Shielded Power Inductor"
+			(property "Description" "Power Molded Flatwire Inductor  NEW"
 				(at 0 0 0)
 				(effects
 					(font
@@ -432,124 +434,147 @@
 				)
 			)
 			(property "Manufacturer" "Wurth Elektronik"
-				(at 52.07 15.24 0)
+				(at 12.7 15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
 			(property "Manufacturer URL" "https://www.we-online.com"
-				(at 52.07 12.7 0)
+				(at 12.7 12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Published Date" "20250320"
-				(at 52.07 10.16 0)
+			(property "Published Date" "20250701"
+				(at 12.7 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Match Code" "WE-MAPI"
-				(at 52.07 7.62 0)
+			(property "Match Code" "WE-PMFI"
+				(at 12.7 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Part Number" "74438323022"
-				(at 52.07 5.08 0)
+			(property "Part Number" "74479335329222"
+				(at 12.7 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Size" "2510"
-				(at 52.07 2.54 0)
+			(property "Size" "353220"
+				(at 12.7 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
 			(property "Mounting Technology" "SMT"
-				(at 52.07 0 0)
+				(at 12.7 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Type/Size" "353220"
+				(at 12.7 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
 					(hide yes)
 				)
 			)
 			(property "L (µH)" "2.2"
-				(at 52.07 -2.54 0)
+				(at 12.7 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "IRP,40K (A)" "2.2"
-				(at 52.07 -5.08 0)
+			(property "IRP,40K (A)" "5.8"
+				(at 12.7 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "ISAT,30% (A)" "3.55"
-				(at 52.07 -7.62 0)
+			(property "ISAT,30% (A)" "7.8"
+				(at 12.7 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "RDC typ. (mΩ)" "147.0"
-				(at 52.07 -10.16 0)
+			(property "RDC typ. (mΩ)" "31.6"
+				(at 12.7 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "fres (MHz)" "60.0"
-				(at 52.07 -12.7 0)
+			(property "fres (MHz)" "31"
+				(at 12.7 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "VOP (V)" "80"
-				(at 52.07 -15.24 0)
+			(property "VOP (V)" "48"
+				(at 12.7 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
 			(property "Critical Parameter" "2u2"
-				(at 0 -5.08 0)
+				(at 0 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -565,7 +590,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "*WE-MAPI*2510*"
+			(property "ki_fp_filters" "*WE-PMFI*353220*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -574,7 +599,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "2510_74438323022_0_1"
+			(symbol "353220_74479335329222_0_1"
 				(polyline
 					(pts
 						(xy -2.54 1.016) (xy -0.508 1.016)
@@ -636,7 +661,7 @@
 					)
 				)
 			)
-			(symbol "2510_74438323022_1_1"
+			(symbol "353220_74479335329222_1_1"
 				(polyline
 					(pts
 						(xy 2.54 1.016) (xy 0.508 1.016)
@@ -1156,7 +1181,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PWR-SMPS:LMQ66420MC3RXBRQ1"
+		(symbol "PWR-SMPS:LMQ66430MC3RXBRQ1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1168,7 +1193,7 @@
 					)
 				)
 			)
-			(property "Value" "LMQ66420MC3RXBRQ1"
+			(property "Value" "LMQ66430MC3RXBRQ1"
 				(at 0 2.54 0)
 				(effects
 					(font
@@ -1186,7 +1211,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmq66420-q1.pdf"
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmq66430-q1.pdf"
 				(at 36.83 -194.92 0)
 				(effects
 					(font
@@ -1196,7 +1221,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Switching Voltage Regulators Automotive, 36-V, 2-A low-EMI synchronous step-down converter with 1.5-uA IQ 14-VQFN-FCRLF -40 to 150"
+			(property "Description" "Switching Voltage Regulators Automotive, 36-V, 3-A low-EMI synchronous step-down converter with 1.5-uA IQ 14-VQFN-FCRLF -40 to 150"
 				(at 0 -66.04 0)
 				(effects
 					(font
@@ -1205,7 +1230,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LMQ66420MC3RXBRQ1_1_1"
+			(symbol "LMQ66430MC3RXBRQ1_1_1"
 				(rectangle
 					(start -15.24 0)
 					(end 15.24 -40.64)
@@ -2068,27 +2093,6 @@
 		)
 		(uuid "b3fbdce2-73d8-489e-844c-2ed8d2fb33e9")
 	)
-	(text_box "Change to 3A"
-		(exclude_from_sim no)
-		(at 149.86 33.02 0)
-		(size 10.16 5.08)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "093acb3c-152c-48de-bdab-23304001d37c")
-	)
 	(text_box "PR1 > 1V => VOUT = VIN1\nPR1 < 1V => VOUT = VIN2"
 		(exclude_from_sim no)
 		(at 142.24 152.4 0)
@@ -2149,7 +2153,7 @@
 		)
 		(uuid "35061c3d-9309-4b3e-b7da-7b61879cbab2")
 	)
-	(text_box "2A Max"
+	(text_box "3A Max"
 		(exclude_from_sim no)
 		(at 154.94 40.64 0)
 		(size 10.16 5.08)
@@ -3896,6 +3900,224 @@
 		)
 	)
 	(symbol
+		(lib_id "PWR-IND:353220_74479335329222")
+		(at 139.7 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "126481dd-8217-4226-838f-d8885e43344d")
+		(property "Reference" "L401"
+			(at 139.7 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74479335329222"
+			(at 139.7 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_footprints:L_Wurth_WE-PMFI-353220"
+			(at 152.4 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/74479335329222.pdf?ki"
+			(at 152.4 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power Molded Flatwire Inductor  NEW"
+			(at 139.7 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 152.4 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer URL" "https://www.we-online.com"
+			(at 152.4 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Published Date" "20250701"
+			(at 152.4 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Match Code" "WE-PMFI"
+			(at 152.4 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "74479335329222"
+			(at 152.4 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Size" "353220"
+			(at 152.4 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Technology" "SMT"
+			(at 152.4 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Type/Size" "353220"
+			(at 152.4 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "L (µH)" "2.2"
+			(at 152.4 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "IRP,40K (A)" "5.8"
+			(at 152.4 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "ISAT,30% (A)" "7.8"
+			(at 152.4 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "RDC typ. (mΩ)" "31.6"
+			(at 152.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "fres (MHz)" "31"
+			(at 152.4 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "VOP (V)" "48"
+			(at 152.4 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Critical Parameter" "2u2"
+			(at 139.7 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "895d5c44-be6d-4861-bf70-ad9162a667ec")
+		)
+		(pin "1"
+			(uuid "13333c9f-f3f9-4ab9-987b-ecb122d715df")
+		)
+		(instances
+			(project ""
+				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/3215d643-ce31-476b-aa01-9096c7ce3dfb"
+					(reference "L401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PWR-SYM:+3V3_AON")
 		(at 182.88 121.92 0)
 		(unit 1)
@@ -4603,127 +4825,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PWR-SMPS:LMQ66420MC3RXBRQ1")
-		(at 104.14 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c67a6f2-3f7f-475c-b91b-32a98eecb1c7")
-		(property "Reference" "U401"
-			(at 104.14 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LMQ66420MC3RXBRQ1"
-			(at 104.14 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "project_footprints:LMQ664x0"
-			(at 140.97 135.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmq66420-q1.pdf"
-			(at 140.97 235.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switching Voltage Regulators Automotive, 36-V, 2-A low-EMI synchronous step-down converter with 1.5-uA IQ 14-VQFN-FCRLF -40 to 150"
-			(at 104.14 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "14"
-			(uuid "b191c180-3be2-4cfb-bb3f-4fddc45f08ed")
-		)
-		(pin "11"
-			(uuid "d34eb2b4-ca8a-4a4e-8525-3fdb88e3d878")
-		)
-		(pin "5"
-			(uuid "0f9e78e7-0c3b-4a6c-96be-0cb8ead1d25e")
-		)
-		(pin "1"
-			(uuid "d55cf91c-3f73-4e73-9302-664f7e6dd8cb")
-		)
-		(pin "13"
-			(uuid "71854c0e-3b34-4e57-a7be-9a5ffb6b383f")
-		)
-		(pin "7"
-			(uuid "f73f36a6-7fdc-4510-b3ad-4a564e105b63")
-		)
-		(pin "12"
-			(uuid "5faef2c5-8055-4066-bb7b-8a6931784845")
-		)
-		(pin "2"
-			(uuid "85ce5773-3c7e-48e4-8d4c-bc5135ace30c")
-		)
-		(pin "16"
-			(uuid "68f93190-9505-4001-96b8-1b3e8caa1542")
-		)
-		(pin "9"
-			(uuid "9e1f2225-6747-4fe0-b7cf-841b626bde90")
-		)
-		(pin "4"
-			(uuid "4c2c4ad6-25f2-438d-9f9f-d4f14e251664")
-		)
-		(pin "10"
-			(uuid "96d7aacb-ff90-4b4a-930a-0ba67eee0f5d")
-		)
-		(pin "18"
-			(uuid "a4e440f4-b3e2-4289-9d20-b18daf423d3c")
-		)
-		(pin "15"
-			(uuid "5b6ded22-9748-4ea5-ae66-f15c59e0b30c")
-		)
-		(pin "3"
-			(uuid "ebd9f372-d092-4fa7-a4cc-f43d44b32f6c")
-		)
-		(pin "8"
-			(uuid "870c5f9e-91d7-4f2a-b8de-eab4a29fab99")
-		)
-		(pin "19"
-			(uuid "ed0f33e9-2df0-4546-8e7c-ab33e85e8118")
-		)
-		(pin "6"
-			(uuid "31bd67fe-0ebf-4730-8b41-557ae3c09886")
-		)
-		(pin "17"
-			(uuid "e906c503-b4c9-4937-abd5-c1f459c5d67d")
-		)
-		(instances
-			(project ""
-				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/3215d643-ce31-476b-aa01-9096c7ce3dfb"
-					(reference "U401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 198.12 55.88 0)
 		(unit 1)
@@ -5338,199 +5439,6 @@
 			(project "switch_main_v4"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/3215d643-ce31-476b-aa01-9096c7ce3dfb"
 					(reference "U402")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PWR-IND:2510_74438323022")
-		(at 139.7 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a8860f9b-689d-4a82-a933-2177d415e781")
-		(property "Reference" "L401"
-			(at 139.7 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74438323022"
-			(at 139.7 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "project_footprints:L_Wurth_WE-MAPI-2510"
-			(at 139.7 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/74438323022.pdf?ki"
-			(at 191.77 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Shielded Power Inductor"
-			(at 139.7 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 191.77 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer URL" "https://www.we-online.com"
-			(at 191.77 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Published Date" "20250320"
-			(at 191.77 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Match Code" "WE-MAPI"
-			(at 191.77 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "74438323022"
-			(at 191.77 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Size" "2510"
-			(at 191.77 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting Technology" "SMT"
-			(at 191.77 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "L (µH)" "2.2"
-			(at 191.77 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "IRP,40K (A)" "2.2"
-			(at 191.77 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ISAT,30% (A)" "3.55"
-			(at 191.77 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RDC typ. (mΩ)" "147.0"
-			(at 191.77 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "fres (MHz)" "60.0"
-			(at 191.77 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VOP (V)" "80"
-			(at 191.77 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Critical Parameter" "2u2"
-			(at 139.7 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cd9c3e1f-a786-4949-83fc-513ae2b926f7")
-		)
-		(pin "2"
-			(uuid "86d411de-4094-4eb0-9845-450910c7c9b2")
-		)
-		(instances
-			(project ""
-				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/3215d643-ce31-476b-aa01-9096c7ce3dfb"
-					(reference "L401")
 					(unit 1)
 				)
 			)
@@ -6619,6 +6527,127 @@
 			(project "switch_main_v4"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/3215d643-ce31-476b-aa01-9096c7ce3dfb"
 					(reference "#PWR0410")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PWR-SMPS:LMQ66430MC3RXBRQ1")
+		(at 104.14 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc54b05f-9427-46fc-8c2b-b9fc4ffae322")
+		(property "Reference" "U401"
+			(at 104.14 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LMQ66430MC3RXBRQ1"
+			(at 104.14 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "project_footprints:LMQ664x0"
+			(at 140.97 135.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmq66430-q1.pdf"
+			(at 140.97 235.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switching Voltage Regulators Automotive, 36-V, 3-A low-EMI synchronous step-down converter with 1.5-uA IQ 14-VQFN-FCRLF -40 to 150"
+			(at 104.14 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e76c3fe3-7955-408d-b303-816e8d0ca619")
+		)
+		(pin "13"
+			(uuid "125f2fcb-a4f9-45cd-9d51-a2634c292d07")
+		)
+		(pin "1"
+			(uuid "e78a4db7-5cca-4fd1-9050-371b3f6f7847")
+		)
+		(pin "3"
+			(uuid "409b87fa-096d-41f4-90a5-8184be38b5dc")
+		)
+		(pin "4"
+			(uuid "7aac7ce4-3bf7-43fc-ae2f-b41c916f556e")
+		)
+		(pin "16"
+			(uuid "3d467975-7d4c-4c81-a063-b407a6b16915")
+		)
+		(pin "18"
+			(uuid "c81d282b-4d01-4b38-b7a6-e76898fc1aa4")
+		)
+		(pin "14"
+			(uuid "2016bdd0-83bb-4873-9512-a210789ffac7")
+		)
+		(pin "7"
+			(uuid "22b450ea-1350-4013-8835-45bb42d8cbbe")
+		)
+		(pin "9"
+			(uuid "5eaf48dd-5c2e-4e04-b226-9cdad24c5a60")
+		)
+		(pin "10"
+			(uuid "49625159-f390-453c-97d9-7f0ed35a3815")
+		)
+		(pin "12"
+			(uuid "e4bff056-6759-4181-981b-34dacf07139a")
+		)
+		(pin "5"
+			(uuid "f6a11743-7d4a-46d5-9614-e199c21d9fba")
+		)
+		(pin "15"
+			(uuid "5dac0260-629b-4a82-a47c-f6fb7c4dcc8e")
+		)
+		(pin "8"
+			(uuid "a32a4038-abfb-415d-a27c-090593c5ef7c")
+		)
+		(pin "19"
+			(uuid "f061158c-1758-4c8f-b25e-b328927a5335")
+		)
+		(pin "6"
+			(uuid "d14abd75-85d0-453a-887f-4c846fd91152")
+		)
+		(pin "17"
+			(uuid "b24e2fca-09b1-4349-82c8-875866ec51c5")
+		)
+		(pin "11"
+			(uuid "4c226231-aa20-4246-8fa6-82bc33cd7979")
+		)
+		(instances
+			(project ""
+				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/3215d643-ce31-476b-aa01-9096c7ce3dfb"
+					(reference "U401")
 					(unit 1)
 				)
 			)

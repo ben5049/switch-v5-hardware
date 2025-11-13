@@ -1631,17 +1631,6 @@
 		)
 		(uuid "a8f5c16d-efbf-4511-8556-ce3f0a44de9e")
 	)
-	(hierarchical_label "INH"
-		(shape input)
-		(at 96.52 104.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "042598cd-1bc9-4303-beed-0382b7e6b6af")
-	)
 	(hierarchical_label "VOUT"
 		(shape output)
 		(at 215.9 91.44 0)

@@ -2060,7 +2060,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 0 3.81 0)
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2068,7 +2068,7 @@
 				)
 			)
 			(property "Value" "SZESD7241N2T5G"
-				(at 0 1.27 0)
+				(at 0 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2076,7 +2076,7 @@
 				)
 			)
 			(property "Footprint" "project_footprints:SZESD7462N2T5G"
-				(at -16.51 -10.16 0)
+				(at -16.51 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2086,7 +2086,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD7241-D.PDF"
-				(at -29.21 -12.7 0)
+				(at -29.21 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2096,7 +2096,7 @@
 				)
 			)
 			(property "Description" "SZESD7241MXWT5G Wettable Flank Package; SZ Prefix for Automotive and Other Applications Requiring Unique Site and Control Change Requirements; AECQ101 Qualified and PPAP CapableSZ Prefix for Automotive and Other Applications Requiring Unique Site and Control Change Requirements; AECQ101 Qualified and PPAP Capable; Ultra-Low Capacitance: < 1.0pF Max; Low Leakage: < 0.5uA; IEC61000-4-2 (ESD): Level 4 +/-28kV Contact; IEC61000-4-4 (EFT): 40A - 5/50ns; IEC61000-4-5 (Lightning): 1A - 8/20us; These Devices are Pb"
-				(at 0 -6.35 0)
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2105,7 +2105,7 @@
 				)
 			)
 			(property "Height" "0.4"
-				(at -1.27 -15.24 0)
+				(at -1.27 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2115,7 +2115,7 @@
 				)
 			)
 			(property "Mouser Part Number" "863-SZESD7241N2T5G"
-				(at -11.43 -17.78 0)
+				(at -11.43 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2125,7 +2125,7 @@
 				)
 			)
 			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/SZESD7241N2T5G?qs=z6PAvqrnkvSq0oMCl81g4Q%3D%3D"
-				(at -49.53 -20.32 0)
+				(at -49.53 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2135,7 +2135,7 @@
 				)
 			)
 			(property "Manufacturer_Name" "onsemi"
-				(at -3.81 -22.86 0)
+				(at -3.81 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2145,7 +2145,7 @@
 				)
 			)
 			(property "Manufacturer_Part_Number" "SZESD7241N2T5G"
-				(at -8.89 -25.4 0)
+				(at -8.89 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2157,7 +2157,7 @@
 			(symbol "SZESD7241N2T5G_0_1"
 				(polyline
 					(pts
-						(xy -2.54 -1.27) (xy -2.54 -3.81) (xy 2.54 -1.27) (xy 2.54 -3.81) (xy -2.54 -1.27)
+						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -2169,7 +2169,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.508 -1.27) (xy 0 -1.27) (xy 0 -3.81) (xy -0.508 -3.81)
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -2181,7 +2181,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -2.54) (xy -1.27 -2.54)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
 						(width 0)
@@ -2194,7 +2194,7 @@
 			)
 			(symbol "SZESD7241N2T5G_1_1"
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "A1"
 						(effects
@@ -2212,7 +2212,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at 5.08 0 180)
 					(length 3.81)
 					(name "A2"
 						(effects
@@ -3531,16 +3531,15 @@
 	)
 	(symbol
 		(lib_id "TVS:SZESD7241N2T5G")
-		(at 55.88 81.28 90)
+		(at 58.42 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "397a5256-e07c-4d25-ad75-23598a7e6b97")
 		(property "Reference" "D601"
-			(at 60.96 80.0099 90)
+			(at 60.96 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3549,7 +3548,7 @@
 			)
 		)
 		(property "Value" "SZESD7241N2T5G"
-			(at 60.96 82.5499 90)
+			(at 60.96 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3558,7 +3557,7 @@
 			)
 		)
 		(property "Footprint" "project_footprints:SZESD7462N2T5G"
-			(at 66.04 97.79 0)
+			(at 68.58 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3568,7 +3567,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD7241-D.PDF"
-			(at 68.58 110.49 0)
+			(at 71.12 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3578,7 +3577,7 @@
 			)
 		)
 		(property "Description" "SZESD7241MXWT5G Wettable Flank Package; SZ Prefix for Automotive and Other Applications Requiring Unique Site and Control Change Requirements; AECQ101 Qualified and PPAP CapableSZ Prefix for Automotive and Other Applications Requiring Unique Site and Control Change Requirements; AECQ101 Qualified and PPAP Capable; Ultra-Low Capacitance: < 1.0pF Max; Low Leakage: < 0.5uA; IEC61000-4-2 (ESD): Level 4 +/-28kV Contact; IEC61000-4-4 (EFT): 40A - 5/50ns; IEC61000-4-5 (Lightning): 1A - 8/20us; These Devices are Pb"
-			(at 62.23 81.28 0)
+			(at 64.77 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3587,7 +3586,7 @@
 			)
 		)
 		(property "Height" "0.4"
-			(at 71.12 82.55 0)
+			(at 73.66 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3597,7 +3596,7 @@
 			)
 		)
 		(property "Mouser Part Number" "863-SZESD7241N2T5G"
-			(at 73.66 92.71 0)
+			(at 76.2 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3607,7 +3606,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/SZESD7241N2T5G?qs=z6PAvqrnkvSq0oMCl81g4Q%3D%3D"
-			(at 76.2 130.81 0)
+			(at 78.74 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3617,7 +3616,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "onsemi"
-			(at 78.74 85.09 0)
+			(at 81.28 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3627,7 +3626,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SZESD7241N2T5G"
-			(at 81.28 90.17 0)
+			(at 83.82 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)

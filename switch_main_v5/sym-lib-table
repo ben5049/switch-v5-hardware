@@ -27,4 +27,5 @@
   (lib (name "TVS")(type "KiCad")(uri "${KIPRJMOD}/../component-library/project_symbols/TVS.kicad_sym")(options "")(descr ""))
   (lib (name "MOSFET")(type "KiCad")(uri "${KIPRJMOD}/../component-library/project_symbols/MOSFET.kicad_sym")(options "")(descr ""))
   (lib (name "DIODE")(type "KiCad")(uri "${KIPRJMOD}/../component-library/project_symbols/DIODE.kicad_sym")(options "")(descr ""))
+  (lib (name "NET-TIE")(type "KiCad")(uri "${KIPRJMOD}/../component-library/project_symbols//NET-TIE.kicad_sym")(options "")(descr ""))
 )
