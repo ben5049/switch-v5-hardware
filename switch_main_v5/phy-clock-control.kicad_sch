@@ -2827,7 +2827,7 @@
 		(uuid "fd1a4322-4735-4a91-9d96-0f1af556ef7d")
 	)
 	(no_connect
-		(at 139.7 132.08)
+		(at 139.7 137.16)
 		(uuid "2fb74700-9c77-4736-a918-d7e1c1e6c2a0")
 	)
 	(no_connect
@@ -2835,7 +2835,7 @@
 		(uuid "8548bac0-d65e-4587-9399-351940fce7ed")
 	)
 	(no_connect
-		(at 139.7 129.54)
+		(at 139.7 160.02)
 		(uuid "a7a56e31-0cfe-465f-ae85-217186001ca8")
 	)
 	(no_connect
@@ -5028,7 +5028,7 @@
 	)
 	(hierarchical_label "CLK_OUT3"
 		(shape output)
-		(at 139.7 160.02 0)
+		(at 139.7 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5061,7 +5061,7 @@
 	)
 	(hierarchical_label "CLK_OUT5"
 		(shape output)
-		(at 139.7 137.16 0)
+		(at 139.7 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5699,7 +5699,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 127 160.02 90)
+		(at 127 129.54 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5708,7 +5708,7 @@
 		(dnp no)
 		(uuid "1847fcf4-7699-49b8-9899-5357f3ca1603")
 		(property "Reference" "R1107"
-			(at 118.11 158.75 90)
+			(at 118.11 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5717,7 +5717,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 130.81 158.75 90)
+			(at 130.81 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5726,7 +5726,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 127 160.02 0)
+			(at 127 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5735,7 +5735,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 160.02 0)
+			(at 127 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5744,7 +5744,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 127 160.02 0)
+			(at 127 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5769,7 +5769,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 127 132.08 90)
+		(at 127 137.16 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5778,7 +5778,7 @@
 		(dnp yes)
 		(uuid "2251c2f6-9d38-46f2-9b80-630203476b79")
 		(property "Reference" "R1110"
-			(at 118.11 130.81 90)
+			(at 118.11 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5787,7 +5787,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 130.81 130.81 90)
+			(at 130.81 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5796,7 +5796,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 127 132.08 0)
+			(at 127 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5805,7 +5805,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 132.08 0)
+			(at 127 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5814,7 +5814,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 127 132.08 0)
+			(at 127 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7084,7 +7084,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 127 129.54 90)
+		(at 127 160.02 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7093,7 +7093,7 @@
 		(dnp yes)
 		(uuid "7347a0ab-92aa-460c-b21b-585fa6892e39")
 		(property "Reference" "R1106"
-			(at 118.11 128.27 90)
+			(at 118.11 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7102,7 +7102,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 130.81 128.27 90)
+			(at 130.81 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7111,7 +7111,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 127 129.54 0)
+			(at 127 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7120,7 +7120,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 129.54 0)
+			(at 127 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7129,7 +7129,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 127 129.54 0)
+			(at 127 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9554,7 +9554,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 127 137.16 90)
+		(at 127 134.62 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9563,7 +9563,7 @@
 		(dnp no)
 		(uuid "f6d4e792-5b3f-4b09-a3ad-de373d2f8208")
 		(property "Reference" "R1109"
-			(at 118.11 135.89 90)
+			(at 118.11 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9572,7 +9572,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 130.81 135.89 90)
+			(at 130.81 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9581,7 +9581,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 127 137.16 0)
+			(at 127 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9590,7 +9590,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 137.16 0)
+			(at 127 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9599,7 +9599,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 127 137.16 0)
+			(at 127 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9783,7 +9783,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 127 134.62 90)
+		(at 127 132.08 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9792,7 +9792,7 @@
 		(dnp no)
 		(uuid "fa422f4c-4e20-495e-a1c7-66cf243f802f")
 		(property "Reference" "R1108"
-			(at 118.11 133.35 90)
+			(at 118.11 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9801,7 +9801,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 130.81 133.35 90)
+			(at 130.81 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9810,7 +9810,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 127 134.62 0)
+			(at 127 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9819,7 +9819,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 134.62 0)
+			(at 127 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9828,7 +9828,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 127 134.62 0)
+			(at 127 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
