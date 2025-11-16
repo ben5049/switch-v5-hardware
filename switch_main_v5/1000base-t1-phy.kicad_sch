@@ -2821,6 +2821,12 @@
 		(uuid "b4e1b269-b29d-43e5-a255-456429e46430")
 	)
 	(junction
+		(at 226.06 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbab6119-79e8-4b24-a57a-652811c42b37")
+	)
+	(junction
 		(at 182.88 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4382,6 +4388,16 @@
 		)
 		(uuid "e7af9287-7d12-450d-b1cf-818084d7b2f3")
 	)
+	(wire
+		(pts
+			(xy 223.52 78.74) (xy 226.06 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e864dd1a-d352-4cd7-938d-c4cb89b23b6b")
+	)
 	(bus
 		(pts
 			(xy 30.48 68.58) (xy 30.48 71.12)
@@ -4521,16 +4537,6 @@
 			(type default)
 		)
 		(uuid "fe77fd0e-8e64-471f-b2b7-1c70cd28a2b3")
-	)
-	(label "0V9"
-		(at 226.06 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "08318022-47ea-4dd7-b883-6f22d369f069")
 	)
 	(label "MDI.TRXP"
 		(at 124.46 68.58 0)
@@ -4849,6 +4855,17 @@
 			(justify left)
 		)
 		(uuid "ba3df958-cbdf-4830-9fd9-6f9b7fbef934")
+	)
+	(hierarchical_label "0V9"
+		(shape input)
+		(at 223.52 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d25e679e-9cad-48fb-999b-4adecfc33101")
 	)
 	(netclass_flag ""
 		(length 2.54)
