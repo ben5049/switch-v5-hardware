@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.15
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -711,6 +711,24 @@
         "MDI"
       ],
       "/CDNs & PoDL/MDI6_OUT{SPE}": [
+        "MDI"
+      ],
+      "/CDNs/1000BASE-T1 CDN 1/TRXN": [
+        "MDI"
+      ],
+      "/CDNs/1000BASE-T1 CDN 1/TRXP": [
+        "MDI"
+      ],
+      "/CDNs/1000BASE-T1 CDN 2/TRXN": [
+        "MDI"
+      ],
+      "/CDNs/1000BASE-T1 CDN 2/TRXP": [
+        "MDI"
+      ],
+      "/CDNs/1000BASE-T1 CDN 3/TRXN": [
+        "MDI"
+      ],
+      "/CDNs/1000BASE-T1 CDN 3/TRXP": [
         "MDI"
       ],
       "/CDNs/1000BASE-T1 CDN/TRXN": [
@@ -1983,7 +2001,7 @@
     ],
     [
       "26a40f4e-1d98-4b19-a184-b6dadc090f75",
-      "1000BASE-T1 CDN"
+      "1000BASE-T1 CDN 1"
     ],
     [
       "d29f4632-ce34-4e81-b7e6-562ae3ed0144",
@@ -2043,11 +2061,11 @@
     ],
     [
       "7a77b3cc-782a-4601-8d29-0e186fb0946a",
-      "1000BASE-T1 CDN1"
+      "1000BASE-T1 CDN 2"
     ],
     [
       "62e5169e-51fc-4c92-b8e5-db930432f08f",
-      "1000BASE-T1 CDN2"
+      "1000BASE-T1 CDN 3"
     ],
     [
       "5eda8004-b237-426b-aab2-0152d2e24a78",

@@ -435,7 +435,7 @@
 		)
 		(uuid "71ac4348-5ccf-4be1-8b05-e01799976d3f")
 	)
-	(text "Switch"
+	(text "Switches"
 		(exclude_from_sim no)
 		(at 243.84 48.26 0)
 		(effects
@@ -578,7 +578,7 @@
 		)
 		(uuid "b77a8213-dd74-4e58-a2b8-3ad5e5f93f83")
 	)
-	(text "Switch"
+	(text "Switches"
 		(exclude_from_sim no)
 		(at 243.84 68.58 0)
 		(effects

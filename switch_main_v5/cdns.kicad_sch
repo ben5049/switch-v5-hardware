@@ -347,7 +347,7 @@
 			(color 248 206 204 1.0000)
 		)
 		(uuid "26a40f4e-1d98-4b19-a184-b6dadc090f75")
-		(property "Sheetname" "1000BASE-T1 CDN"
+		(property "Sheetname" "1000BASE-T1 CDN 1"
 			(at 127.254 118.618 0)
 			(effects
 				(font
@@ -410,7 +410,7 @@
 			(color 248 206 204 1.0000)
 		)
 		(uuid "62e5169e-51fc-4c92-b8e5-db930432f08f")
-		(property "Sheetname" "1000BASE-T1 CDN2"
+		(property "Sheetname" "1000BASE-T1 CDN 3"
 			(at 127 67.8684 0)
 			(effects
 				(font
@@ -473,7 +473,7 @@
 			(color 248 206 204 1.0000)
 		)
 		(uuid "7a77b3cc-782a-4601-8d29-0e186fb0946a")
-		(property "Sheetname" "1000BASE-T1 CDN1"
+		(property "Sheetname" "1000BASE-T1 CDN 2"
 			(at 127 93.2684 0)
 			(effects
 				(font
