@@ -1878,16 +1878,6 @@
 		)
 		(uuid "50d2cd6e-b419-42dd-aa60-483111db9ced")
 	)
-	(polyline
-		(pts
-			(xy 180.34 139.7) (xy 198.12 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51e39f9a-7c75-4923-99e1-913e5fa6e992")
-	)
 	(wire
 		(pts
 			(xy 35.56 167.64) (xy 30.48 167.64)
