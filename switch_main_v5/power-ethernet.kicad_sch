@@ -1578,6 +1578,27 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "TPS7A2025PDQNR"
+		(exclude_from_sim no)
+		(at 93.98 35.56 0)
+		(size 25.4 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "801a8c12-e4ef-48e3-8bf8-2ccd3d8d6409")
+	)
 	(junction
 		(at 175.26 132.08)
 		(diameter 0)
@@ -3517,68 +3538,6 @@
 			(project "switch_main_v5"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c"
 					(page "38")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 93.98 38.1)
-		(size 25.4 5.08)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "9430147e-67d1-4fa5-a888-19b664a1bd8a")
-		(property "Sheetname" "2V5 Buck Converter"
-			(at 93.98 37.3884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "2v5_buck_converter.kicad_sch"
-			(at 93.98 43.7646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "VIN" input
-			(at 93.98 40.64 180)
-			(uuid "ff872138-a41c-42bc-aa35-eecde19e0804")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VOUT" output
-			(at 119.38 40.64 0)
-			(uuid "9783475e-7a86-45ed-b456-b177bfc79641")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "switch_main_v5"
-				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/b1ff42f5-7cae-489e-9f8e-588cc93f3151/d017dddd-15df-4565-b589-89c8c78bc85c"
-					(page "37")
 				)
 			)
 		)

@@ -8342,9 +8342,9 @@
 		(at 106.68 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa7a135f-77d1-4144-8db7-62623039a7f1")
 		(property "Reference" "R3108"
@@ -8356,7 +8356,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Rhi"
+		(property "Value" "2k49"
 			(at 109.22 41.9099 0)
 			(effects
 				(font
