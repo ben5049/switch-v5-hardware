@@ -4721,16 +4721,6 @@
 				(justify left)
 			)
 		)
-		(pin "CS" input
-			(at 63.5 134.62 0)
-			(uuid "0fab2173-b722-437b-9301-53da14f44d11")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "PTP_CLK" input
 			(at 33.02 129.54 180)
 			(uuid "c132b735-42eb-4001-b993-fa956ad2d9b5")
@@ -4739,6 +4729,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "SS" input
+			(at 63.5 134.62 0)
+			(uuid "3d1e5e24-99db-4951-8285-8ff2db2e199b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -4894,9 +4894,9 @@
 				(justify right)
 			)
 		)
-		(pin "CS" input
+		(pin "SS" input
 			(at 63.5 38.1 0)
-			(uuid "3a223430-3108-4ccd-8aa1-c98eba466bf1")
+			(uuid "ad3c4c24-2500-4526-9421-3cc6e296dab3")
 			(effects
 				(font
 					(size 1.27 1.27)

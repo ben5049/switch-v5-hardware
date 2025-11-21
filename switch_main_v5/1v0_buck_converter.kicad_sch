@@ -1051,6 +1051,26 @@
 		)
 		(uuid "f229725b-fc03-49f5-b32c-4fa5f914bfb4")
 	)
+	(text_box "MODE >=1.0V means FPWM mode (necessary for PHY ripple specs)"
+		(exclude_from_sim no)
+		(at 83.82 114.3 0)
+		(size 25.4 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "27cdad8b-e4d6-465d-aaa9-053a0875d20b")
+	)
 	(text_box "Use high quality, low ESR (<50mΩ) capacitors such as GRM155R61A475ME02"
 		(exclude_from_sim no)
 		(at 180.34 78.74 0)
@@ -1070,12 +1090,6 @@
 			(justify left top)
 		)
 		(uuid "b9f21bfd-2f4d-4c5d-aa0d-60850ca24703")
-	)
-	(junction
-		(at 116.84 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "01b92895-fb86-4eab-a5e8-9af319f29eee")
 	)
 	(junction
 		(at 228.6 91.44)
@@ -1203,16 +1217,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 106.68) (xy 116.84 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13d588c5-f529-4eb0-95c1-d47857e42067")
-	)
-	(wire
-		(pts
 			(xy 116.84 91.44) (xy 119.38 91.44)
 		)
 		(stroke
@@ -1280,16 +1284,6 @@
 			(type default)
 		)
 		(uuid "4001cfc3-5b8f-4d67-85ba-9b96cae74ec3")
-	)
-	(wire
-		(pts
-			(xy 116.84 106.68) (xy 116.84 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43f29f0c-fa21-40ef-a61f-b93f124e9fe5")
 	)
 	(wire
 		(pts
@@ -1583,6 +1577,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 106.68) (xy 119.38 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4fc2f8d-082c-4e76-b7c1-b7d10981a8d8")
+	)
+	(wire
+		(pts
 			(xy 190.5 91.44) (xy 190.5 93.98)
 		)
 		(stroke
@@ -1630,6 +1634,16 @@
 			(justify left bottom)
 		)
 		(uuid "b48c968f-a9e3-4efc-bcce-5828f1a94c87")
+	)
+	(label "VOUT"
+		(at 111.76 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d05c8908-86d9-4fba-929a-ebf8eee1cab3")
 	)
 	(hierarchical_label "VIN"
 		(shape input)

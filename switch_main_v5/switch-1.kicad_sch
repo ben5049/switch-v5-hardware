@@ -4499,12 +4499,6 @@
 		(uuid "04617b94-b2cc-4b91-a031-9517d67e491e")
 	)
 	(junction
-		(at 223.52 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "054ba760-6264-43d6-b42a-a926d8b05000")
-	)
-	(junction
 		(at 48.26 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6119,16 +6113,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 109.22) (xy 248.92 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08c99a5c-905a-41f9-8834-47e0ab6facfc")
-	)
-	(wire
-		(pts
 			(xy 116.84 101.6) (xy 119.38 101.6)
 		)
 		(stroke
@@ -6689,7 +6673,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 109.22) (xy 223.52 109.22)
+			(xy 220.98 109.22) (xy 248.92 109.22)
 		)
 		(stroke
 			(width 0)
@@ -6866,16 +6850,6 @@
 			(type default)
 		)
 		(uuid "3723e782-5839-4c6c-a70c-17a7fea31f79")
-	)
-	(wire
-		(pts
-			(xy 223.52 106.68) (xy 223.52 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39c65d4e-74ee-4531-b809-41dc8bb6c7b1")
 	)
 	(wire
 		(pts
@@ -7386,16 +7360,6 @@
 			(type default)
 		)
 		(uuid "5784d612-bec8-42ad-969b-d9729d8e1052")
-	)
-	(wire
-		(pts
-			(xy 220.98 106.68) (xy 223.52 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57b0d569-17e6-4c8d-bb6d-4c66eabb3fb4")
 	)
 	(wire
 		(pts
@@ -10667,16 +10631,6 @@
 		)
 		(uuid "32b345de-15a7-43ac-ae80-68adeea77d2b")
 	)
-	(label "CS"
-		(at 228.6 121.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3822803c-2a50-40ec-9750-5bed9b13bb4a")
-	)
 	(label "xMII3.RX_D1"
 		(at 337.82 205.74 0)
 		(effects
@@ -11235,7 +11189,7 @@
 		)
 		(uuid "a7750cee-0993-49f7-9bb0-82893f699c2f")
 	)
-	(hierarchical_label "CS"
+	(hierarchical_label "SS"
 		(shape input)
 		(at 220.98 121.92 180)
 		(effects
@@ -13160,9 +13114,9 @@
 		(at 248.92 104.14 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6e6a716e-0382-4bdf-88b1-080498fb6748")
 		(property "Reference" "R2903"
@@ -15026,73 +14980,6 @@
 			(project "switch_main_v5"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/31c4512b-1e39-4437-8559-238fb7009a56"
 					(reference "C2932")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 220.98 106.68 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "b098c079-e8b4-43c1-856a-715462e55606")
-		(property "Reference" "TP2902"
-			(at 205.74 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1.5mm"
-			(at 213.36 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 215.9 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 215.9 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 220.98 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4f69f9b6-76bd-45c3-850e-d27c9d6abe30")
-		)
-		(instances
-			(project "switch_main_v5"
-				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/31c4512b-1e39-4437-8559-238fb7009a56"
-					(reference "TP2902")
 					(unit 1)
 				)
 			)
