@@ -4745,7 +4745,7 @@
 		(uuid "133d352b-6307-41ea-9512-b8b41eca98de")
 	)
 	(label "SMI4.MDIO"
-		(at 165.1 76.2 0)
+		(at 165.1 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4805,7 +4805,7 @@
 		(uuid "40bacaa0-c001-490b-bcf5-31a47c1e8aea")
 	)
 	(label "SMI3.MDIO"
-		(at 165.1 73.66 0)
+		(at 165.1 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4875,7 +4875,7 @@
 		(uuid "704dc04f-0c0e-4d44-b934-05aefeb31755")
 	)
 	(label "SMI1.MDIO"
-		(at 165.1 68.58 0)
+		(at 165.1 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5005,7 +5005,7 @@
 		(uuid "e0a38fdf-2e72-485e-84f7-9eb3d59b2214")
 	)
 	(label "SMI5.MDIO"
-		(at 165.1 78.74 0)
+		(at 165.1 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5015,7 +5015,7 @@
 		(uuid "fafafc1e-933a-4ac1-ae85-d50c6012b3df")
 	)
 	(label "SMI2.MDIO"
-		(at 165.1 71.12 0)
+		(at 165.1 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
