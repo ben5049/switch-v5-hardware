@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.15
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,84 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|121955000|99176769|1443776b-4f57-485d-a65e-03c0c0ed0fd3|799009d3-bf12-4614-a2ae-fa546236c07e",
+          ""
+        ],
+        [
+          "courtyards_overlap|131355000|76313809|1e2ecd1f-462c-46bf-affc-4eaafacbbd0e|5241ee88-4100-412c-8340-4bbb4a08702f",
+          ""
+        ],
+        [
+          "courtyards_overlap|143225041|77505000|e90ed385-0c64-43c6-b274-f94e8f63184f|ea1bb3e0-65fa-4341-9ef3-6d484a184305",
+          ""
+        ],
+        [
+          "courtyards_overlap|146225041|77505000|4a559a8d-aea4-4472-97c0-4e0f6cf91b91|e90ed385-0c64-43c6-b274-f94e8f63184f",
+          ""
+        ],
+        [
+          "courtyards_overlap|149225041|77505000|33007fac-e448-44e0-a129-ed8abfb17795|e90ed385-0c64-43c6-b274-f94e8f63184f",
+          ""
+        ],
+        [
+          "courtyards_overlap|151495000|77728919|6245c921-e76e-4fb8-907d-f77e1a2bbbfd|e90ed385-0c64-43c6-b274-f94e8f63184f",
+          ""
+        ],
+        [
+          "courtyards_overlap|158605000|92555000|4bec8bbf-eed5-493e-ae66-45c9c657f0f4|e9a2a3dc-9c20-48b8-aec5-a9dee26cd101",
+          ""
+        ],
+        [
+          "courtyards_overlap|161986303|120586303|bf201392-a5ce-4e7d-a70d-3a77d3edb27e|d2e7d7ba-fb94-4fdc-a821-26f37984fe5f",
+          ""
+        ],
+        [
+          "courtyards_overlap|163155000|119158284|00b6b275-e654-4deb-940e-fbfe3a1746a2|bf201392-a5ce-4e7d-a70d-3a77d3edb27e",
+          ""
+        ],
+        [
+          "courtyards_overlap|163245000|119154243|ba2f71b1-5285-4871-94a3-53b05a179839|bf201392-a5ce-4e7d-a70d-3a77d3edb27e",
+          ""
+        ],
+        [
+          "courtyards_overlap|169495000|120453877|81986da4-c82a-4c33-8419-948c8b0b9582|895bc1bc-cb23-4f39-90f6-bc231af99645",
+          ""
+        ],
+        [
+          "courtyards_overlap|94295000|119490993|0e147bd6-c467-48ab-8515-2d698cec1d83|8f16aee5-edb4-44d4-90e8-241e0de4726c",
+          ""
+        ],
+        [
+          "courtyards_overlap|97705000|114700932|0e147bd6-c467-48ab-8515-2d698cec1d83|e5628d54-08a1-4f55-99ab-1420a49293ac",
+          ""
+        ],
+        [
+          "shorting_items|159449950|89975000|cf7977fb-e5e3-4ac6-b354-56c34dcaa5b6|4ad6772c-81c4-4333-b975-9a0f6a51437a",
+          ""
+        ],
+        [
+          "shorting_items|159449950|92025000|f1c97817-d0ca-4a25-a420-d1eeb9bf1147|7cf9b1e1-4c24-43f2-a9b8-7a06b41916fa",
+          ""
+        ],
+        [
+          "shorting_items|160949950|92025000|5a141486-8876-424a-8b6b-aa1d9e3cdece|198f4e94-0543-4fa5-bacf-5a5fe4947cef",
+          ""
+        ],
+        [
+          "solder_mask_bridge|159449950|89975000|cf7977fb-e5e3-4ac6-b354-56c34dcaa5b6|4ad6772c-81c4-4333-b975-9a0f6a51437a",
+          ""
+        ],
+        [
+          "solder_mask_bridge|159449950|92025000|f1c97817-d0ca-4a25-a420-d1eeb9bf1147|7cf9b1e1-4c24-43f2-a9b8-7a06b41916fa",
+          ""
+        ],
+        [
+          "solder_mask_bridge|160949950|92025000|5a141486-8876-424a-8b6b-aa1d9e3cdece|198f4e94-0543-4fa5-bacf-5a5fe4947cef",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -1552,7 +1629,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "C:\\Users\\bens1\\Downloads\\switch_main_v5.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -1565,7 +1642,7 @@
     },
     "bom_presets": [],
     "bom_settings": {
-      "exclude_dnp": false,
+      "exclude_dnp": true,
       "fields_ordered": [
         {
           "group_by": false,
@@ -1860,6 +1937,12 @@
           "label": "Sim.Pin",
           "name": "Sim.Pin",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Type/Size",
+          "name": "Type/Size",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -1867,7 +1950,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "${EXCLUDE_FROM_BOARD}"
     },
     "connection_grid_size": 50.0,
     "drawing": {
