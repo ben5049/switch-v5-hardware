@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.15
         }
       },
       "diff_pair_dimensions": [
@@ -512,7 +512,7 @@
         "via_drill": 0.2
       },
       {
-        "clearance": 0.25,
+        "clearance": 0.5,
         "name": "CLEARANCE",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 3,
@@ -1544,7 +1544,7 @@
       "plot": "C:/Users/bens1/Downloads/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../../../../../Downloads/switch_main_v5.step",
       "svg": "",
       "vrml": ""
     },
