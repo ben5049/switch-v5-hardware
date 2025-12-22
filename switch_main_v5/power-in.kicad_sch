@@ -2432,10 +2432,10 @@
 		)
 		(uuid "c180a8a6-aba8-4c10-aa12-579bcf9c42ce")
 	)
-	(text_box "R_{ILIM} = 47kΩ ∴ I_{LIM} = 285mA"
+	(text_box "R_{ILIM} = 22kΩ\n∴ I_{LIM} = 12 / 22 = 545mA"
 		(exclude_from_sim no)
 		(at 238.76 111.76 0)
-		(size 17.78 5.08)
+		(size 30.48 5.08)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -3707,7 +3707,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "22k"
 			(at 218.44 107.9501 0)
 			(effects
 				(font
