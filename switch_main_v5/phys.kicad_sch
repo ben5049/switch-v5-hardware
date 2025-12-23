@@ -2384,7 +2384,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "672bb189-37f3-49b4-9daf-09f7a39eb5e4")
-		(property "Reference" "#PWR01003"
+		(property "Reference" "#PWR01703"
 			(at 152.4 151.13 0)
 			(effects
 				(font
@@ -2434,7 +2434,7 @@
 		(instances
 			(project "switch_main_v5"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/71322af8-b569-498c-a6bf-684e9909732c"
-					(reference "#PWR01003")
+					(reference "#PWR01703")
 					(unit 1)
 				)
 			)
@@ -2450,7 +2450,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75601fc4-b54c-4deb-9ad8-9052c7b22974")
-		(property "Reference" "#PWR01001"
+		(property "Reference" "#PWR01701"
 			(at 152.4 49.53 0)
 			(effects
 				(font
@@ -2500,7 +2500,7 @@
 		(instances
 			(project "switch_main_v5"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/71322af8-b569-498c-a6bf-684e9909732c"
-					(reference "#PWR01001")
+					(reference "#PWR01701")
 					(unit 1)
 				)
 			)
@@ -2516,7 +2516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9cddaf88-08c1-44ed-a2b4-b5557a145d7b")
-		(property "Reference" "#PWR01002"
+		(property "Reference" "#PWR01702"
 			(at 152.4 100.33 0)
 			(effects
 				(font
@@ -2566,7 +2566,7 @@
 		(instances
 			(project "switch_main_v5"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/71322af8-b569-498c-a6bf-684e9909732c"
-					(reference "#PWR01002")
+					(reference "#PWR01702")
 					(unit 1)
 				)
 			)
@@ -2700,7 +2700,7 @@
 		(instances
 			(project "switch_main_v5"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/71322af8-b569-498c-a6bf-684e9909732c"
-					(page "27")
+					(page "22")
 				)
 			)
 		)
@@ -2833,7 +2833,7 @@
 		(instances
 			(project "switch_main_v5"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/71322af8-b569-498c-a6bf-684e9909732c"
-					(page "15")
+					(page "21")
 				)
 			)
 		)
@@ -2976,7 +2976,7 @@
 		(instances
 			(project "switch_main_v5"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/71322af8-b569-498c-a6bf-684e9909732c"
-					(page "16")
+					(page "25")
 				)
 			)
 		)
@@ -3108,7 +3108,7 @@
 		(instances
 			(project "switch_main_v5"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/71322af8-b569-498c-a6bf-684e9909732c"
-					(page "13")
+					(page "24")
 				)
 			)
 		)
@@ -3341,7 +3341,7 @@
 		(instances
 			(project "switch_main_v5"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/71322af8-b569-498c-a6bf-684e9909732c"
-					(page "11")
+					(page "18")
 				)
 			)
 		)
@@ -3474,7 +3474,7 @@
 		(instances
 			(project "switch_main_v5"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/71322af8-b569-498c-a6bf-684e9909732c"
-					(page "31")
+					(page "19")
 				)
 			)
 		)
@@ -3607,7 +3607,7 @@
 		(instances
 			(project "switch_main_v5"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/71322af8-b569-498c-a6bf-684e9909732c"
-					(page "28")
+					(page "23")
 				)
 			)
 		)
@@ -3740,7 +3740,7 @@
 		(instances
 			(project "switch_main_v5"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/71322af8-b569-498c-a6bf-684e9909732c"
-					(page "14")
+					(page "20")
 				)
 			)
 		)

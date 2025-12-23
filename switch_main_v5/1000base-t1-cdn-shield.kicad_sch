@@ -3087,56 +3087,6 @@
 		)
 		(uuid "fff03d62-8a71-4d0d-aedf-c97719243295")
 	)
-	(label "MDI_IN.TRXN"
-		(at 71.12 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "14e16cbb-222c-44f7-8540-b8e995c5d11a")
-	)
-	(label "CTS1"
-		(at 167.64 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "34f553ad-fe1a-465e-80eb-1bc41173a194")
-	)
-	(label "MDI_OUT.TRXP"
-		(at 213.36 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "399e9d51-390a-4725-b33c-777929356592")
-	)
-	(label "TRXN"
-		(at 116.84 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3c3dd94f-a93b-4cca-9574-ac3c18db833b")
-	)
-	(label "CTS2"
-		(at 167.64 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5a61e228-d066-4b6a-bbe8-b7495a762b18")
-	)
 	(label "CTP"
 		(at 137.16 104.14 0)
 		(effects
@@ -3145,17 +3095,17 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "652e96ca-d665-4856-9a1a-2e07157c9029")
+		(uuid "0a852807-e671-40f9-a25f-df17a29ef553")
 	)
-	(label "MDI_IN.TRXP"
-		(at 71.12 99.06 0)
+	(label "MDI_IN.TRXN"
+		(at 71.12 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "6815de5b-7797-4360-8edd-28e47e5c3d13")
+		(uuid "10205744-2750-462a-808f-7483469d1cbf")
 	)
 	(label "MDI_OUT.TRXN"
 		(at 213.36 114.3 0)
@@ -3165,17 +3115,47 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "75c4e963-74b6-412f-881e-9f91dbc457c1")
+		(uuid "44d8bc97-6487-48e4-aa3d-bc38f0b7046a")
 	)
-	(label "TRXP"
-		(at 116.84 99.06 0)
+	(label "MDI_OUT.TRXP"
+		(at 213.36 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "caaa9175-c901-4d75-817a-28071c4b614c")
+		(uuid "5d7dd574-df38-413d-a439-767f6afa8649")
+	)
+	(label "CTS1"
+		(at 167.64 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e8ce393-be72-451f-a9e5-bd54461375b7")
+	)
+	(label "MDI_IN.TRXP"
+		(at 71.12 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "80b00e92-a6e4-4eb5-9c7f-e631edf8ee5f")
+	)
+	(label "CTS2"
+		(at 167.64 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "80f0149e-12d9-43db-b163-57cfefea2bb3")
 	)
 	(label "TERM"
 		(at 175.26 124.46 180)
@@ -3185,7 +3165,27 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "de9e4089-c0c9-432b-9f44-9fa0ce776e99")
+		(uuid "9f9cc94d-a401-45c2-8f85-ece9245917aa")
+	)
+	(label "TRXN"
+		(at 116.84 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b5168e2e-fbab-498d-a6d8-49291fb27570")
+	)
+	(label "TRXP"
+		(at 116.84 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d32eb647-980d-4113-9863-56155e366d95")
 	)
 	(hierarchical_label "MDI_IN{SPE}"
 		(shape bidirectional)
@@ -3196,7 +3196,7 @@
 			)
 			(justify right)
 		)
-		(uuid "0bd6114c-fdec-4e8b-94c4-bca94e4bf0b3")
+		(uuid "367fec17-8585-4901-a010-b567060f5a45")
 	)
 	(hierarchical_label "MDI_OUT{SPE}"
 		(shape bidirectional)
@@ -3207,7 +3207,7 @@
 			)
 			(justify left)
 		)
-		(uuid "658f4385-10ba-49eb-a0b6-875165e01a27")
+		(uuid "61c74566-9e37-43dd-b2d8-d4996a2546d3")
 	)
 	(rule_area
 		(polyline
@@ -3227,7 +3227,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 58.42 96.52 0)
+		(at 127 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3235,9 +3235,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "0f2c77fe-d205-4e74-b21a-1e4f540c3c3b")
+		(uuid "6d83840c-15f9-4cf3-bd1e-e1c58528e34b")
 		(property "Netclass" "MDI"
-			(at 59.1185 93.98 0)
+			(at 127.6985 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3246,7 +3246,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at -233.68 0 0)
+			(at -165.1 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3266,7 +3266,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "277260b0-3b4a-4cc7-90b3-e5b81a7ccf65")
+		(uuid "d5407392-3d20-4b46-872d-1063693c2704")
 		(property "Netclass" "MDI"
 			(at 236.9185 88.9 0)
 			(effects
@@ -3289,7 +3289,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 127 96.52 0)
+		(at 58.42 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3297,9 +3297,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "58860b50-5763-4426-882f-d9269a9180aa")
+		(uuid "e80b0a88-8c36-48c0-a7c0-833093dfb3bf")
 		(property "Netclass" "MDI"
-			(at 127.6985 93.98 0)
+			(at 59.1185 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3308,386 +3308,11 @@
 			)
 		)
 		(property "Component Class" ""
-			(at -165.1 0 0)
+			(at -233.68 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 175.26 106.68 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0486283c-ca94-4879-862d-e0673bf0b0df")
-		(property "Reference" "C1802"
-			(at 177.8 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 177.8 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 175.26 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 175.26 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "100V"
-			(at 177.8 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "574bf6cd-359f-4e09-8bb0-8f7912b7e3cd")
-		)
-		(pin "2"
-			(uuid "294fa9af-6940-465a-9261-9e836c72fe57")
-		)
-		(instances
-			(project "switch_main_v5"
-				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/0f1a9ec2-7564-4816-ac47-902e9fc70962/26a40f4e-1d98-4b19-a184-b6dadc090f75"
-					(reference "C1802")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 91.44 132.08 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1aef75aa-27e9-41a7-becf-e060c25c19f9")
-		(property "Reference" "#PWR01802"
-			(at 91.44 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND1"
-			(at 91.44 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 91.44 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "485f779d-c57c-440e-b9a1-ccea829050fc")
-		)
-		(instances
-			(project "switch_main_v5"
-				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/0f1a9ec2-7564-4816-ac47-902e9fc70962/26a40f4e-1d98-4b19-a184-b6dadc090f75"
-					(reference "#PWR01802")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 66.04 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3ecb12dc-f635-4773-93eb-ae3050d9ea3b")
-		(property "Reference" "#PWR01801"
-			(at 66.04 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND1"
-			(at 66.04 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 66.04 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a8ec1b6b-c121-4287-a321-75f8ca15a285")
-		)
-		(instances
-			(project "switch_main_v5"
-				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/0f1a9ec2-7564-4816-ac47-902e9fc70962/26a40f4e-1d98-4b19-a184-b6dadc090f75"
-					(reference "#PWR01801")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "COMM-TRANSFORMER:74930100")
-		(at 152.4 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3f1c15f3-48d8-4154-be91-92bf5c324c54")
-		(property "Reference" "T1801"
-			(at 152.4 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74930100"
-			(at 152.4 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "project_footprints:74930100"
-			(at 179.07 188.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://docs.rs-online.com/25b7/A700000007544655.pdf"
-			(at 179.07 288.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "WE-STST Super Tiny Signal Transformer  10G Base-T, 1000 Base-T1"
-			(at 152.4 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "8f48eb9f-c42a-42a5-9da0-cd11449b3199")
-		)
-		(pin "5"
-			(uuid "e5573a8e-4f80-483e-989f-4c4aa6fe47fa")
-		)
-		(pin "2"
-			(uuid "f6630ced-7e8a-40c9-9c8f-110f243807fd")
-		)
-		(pin "3"
-			(uuid "6007b4ae-a6d6-426f-999e-4f6a766e50bc")
-		)
-		(pin "1"
-			(uuid "263d312d-e725-4691-ab1e-0cf64dbc22f8")
-		)
-		(pin "6"
-			(uuid "0f2b7506-83a4-421a-aa7f-74b9f15b3ed0")
-		)
-		(pin "7"
-			(uuid "c3fff565-36a7-4b4d-824e-6042ece9aa7a")
-		)
-		(instances
-			(project "switch_main_v5"
-				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/0f1a9ec2-7564-4816-ac47-902e9fc70962/26a40f4e-1d98-4b19-a184-b6dadc090f75"
-					(reference "T1801")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 175.26 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6614d059-4d1a-45b3-b1a8-321dd17e7c06")
-		(property "Reference" "C1803"
-			(at 177.8 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1n"
-			(at 177.8 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 175.26 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 175.26 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "1kV"
-			(at 177.8 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "d86aaf28-a925-419d-8b75-7c8c55d67b38")
-		)
-		(pin "2"
-			(uuid "9c355ad8-61d1-4d9f-85ba-522a248cfd7e")
-		)
-		(instances
-			(project "switch_main_v5"
-				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/0f1a9ec2-7564-4816-ac47-902e9fc70962/26a40f4e-1d98-4b19-a184-b6dadc090f75"
-					(reference "C1803")
-					(unit 1)
 				)
 			)
 		)
@@ -3701,8 +3326,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7a4d66a0-895c-461f-98c1-329293246b2e")
-		(property "Reference" "FL1801"
+		(uuid "1b90d628-5910-442c-be95-59c26affecf6")
+		(property "Reference" "FL3301"
 			(at 101.6 92.71 0)
 			(effects
 				(font
@@ -3812,41 +3437,60 @@
 		(instances
 			(project "switch_main_v5"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/0f1a9ec2-7564-4816-ac47-902e9fc70962/26a40f4e-1d98-4b19-a184-b6dadc090f75"
-					(reference "FL1801")
+					(reference "FL3301")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 134.62 116.84 0)
+		(lib_id "COMM-TRANSFORMER:74930100")
+		(at 152.4 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7bdf2ee8-9cfb-4533-b18c-d4eb0b0e74f6")
-		(property "Reference" "C1801"
-			(at 137.16 115.5762 0)
+		(fields_autoplaced yes)
+		(uuid "24e7a5fb-cef8-4392-b147-2574820b15d2")
+		(property "Reference" "T3301"
+			(at 152.4 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 137.16 118.1162 0)
+		(property "Value" "74930100"
+			(at 152.4 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 134.62 116.84 0)
+		(property "Footprint" "project_footprints:74930100"
+			(at 179.07 188.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.rs-online.com/25b7/A700000007544655.pdf"
+			(at 179.07 288.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "WE-STST Super Tiny Signal Transformer  10G Base-T, 1000 Base-T1"
+			(at 152.4 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3854,8 +3498,49 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 134.62 116.84 0)
+		(pin "4"
+			(uuid "8f48eb9f-c42a-42a5-9da0-cd11449b3199")
+		)
+		(pin "5"
+			(uuid "e5573a8e-4f80-483e-989f-4c4aa6fe47fa")
+		)
+		(pin "2"
+			(uuid "f6630ced-7e8a-40c9-9c8f-110f243807fd")
+		)
+		(pin "3"
+			(uuid "6007b4ae-a6d6-426f-999e-4f6a766e50bc")
+		)
+		(pin "1"
+			(uuid "263d312d-e725-4691-ab1e-0cf64dbc22f8")
+		)
+		(pin "6"
+			(uuid "0f2b7506-83a4-421a-aa7f-74b9f15b3ed0")
+		)
+		(pin "7"
+			(uuid "c3fff565-36a7-4b4d-824e-6042ece9aa7a")
+		)
+		(instances
+			(project "switch_main_v5"
+				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/0f1a9ec2-7564-4816-ac47-902e9fc70962/26a40f4e-1d98-4b19-a184-b6dadc090f75"
+					(reference "T3301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 91.44 132.08 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "330ae533-15d2-40b0-ba39-67653fc6bf7e")
+		(property "Reference" "#PWR03303"
+			(at 91.44 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3863,8 +3548,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 134.62 116.84 0)
+		(property "Value" "GND1"
+			(at 91.44 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 91.44 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3873,15 +3584,348 @@
 			)
 		)
 		(pin "1"
-			(uuid "3cb1f4ca-2b84-4d0a-b9d7-8d6e7405a878")
-		)
-		(pin "2"
-			(uuid "24095b1b-42b3-47a2-9df8-6a15fc6da892")
+			(uuid "485f779d-c57c-440e-b9a1-ccea829050fc")
 		)
 		(instances
 			(project "switch_main_v5"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/0f1a9ec2-7564-4816-ac47-902e9fc70962/26a40f4e-1d98-4b19-a184-b6dadc090f75"
-					(reference "C1801")
+					(reference "#PWR03303")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 175.26 106.68 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4632ca70-61f5-4b0b-a252-7612eb16e8ea")
+		(property "Reference" "C3301"
+			(at 177.8 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 177.8 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 175.26 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 175.26 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "100V"
+			(at 177.8 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "574bf6cd-359f-4e09-8bb0-8f7912b7e3cd")
+		)
+		(pin "2"
+			(uuid "294fa9af-6940-465a-9261-9e836c72fe57")
+		)
+		(instances
+			(project "switch_main_v5"
+				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/0f1a9ec2-7564-4816-ac47-902e9fc70962/26a40f4e-1d98-4b19-a184-b6dadc090f75"
+					(reference "C3301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 66.04 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6da131aa-de2a-4fc6-b8a3-2770722f57ec")
+		(property "Reference" "#PWR03302"
+			(at 66.04 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 66.04 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 66.04 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8ec1b6b-c121-4287-a321-75f8ca15a285")
+		)
+		(instances
+			(project "switch_main_v5"
+				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/0f1a9ec2-7564-4816-ac47-902e9fc70962/26a40f4e-1d98-4b19-a184-b6dadc090f75"
+					(reference "#PWR03302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 175.26 119.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "793a64e6-76ca-4bc8-ae14-4d86975c033d")
+		(property "Reference" "R3301"
+			(at 177.8 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100R"
+			(at 177.8 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 175.26 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 175.26 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a456266c-9a4d-4c23-8dec-8da892e4ad70")
+		)
+		(pin "1"
+			(uuid "68e336a3-0a63-4e64-9f90-f8317c4a6570")
+		)
+		(instances
+			(project "switch_main_v5"
+				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/0f1a9ec2-7564-4816-ac47-902e9fc70962/26a40f4e-1d98-4b19-a184-b6dadc090f75"
+					(reference "R3301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TVS:SZESD7241N2T5G")
+		(at 198.12 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82b02e19-b0ef-438c-a0ee-331d8f88ff87")
+		(property "Reference" "D3303"
+			(at 200.66 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SZESD7241N2T5G"
+			(at 200.66 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "project_footprints:SZESD7462N2T5G"
+			(at 208.28 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD7241-D.PDF"
+			(at 210.82 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SZESD7241MXWT5G Wettable Flank Package; SZ Prefix for Automotive and Other Applications Requiring Unique Site and Control Change Requirements; AECQ101 Qualified and PPAP CapableSZ Prefix for Automotive and Other Applications Requiring Unique Site and Control Change Requirements; AECQ101 Qualified and PPAP Capable; Ultra-Low Capacitance: < 1.0pF Max; Low Leakage: < 0.5uA; IEC61000-4-2 (ESD): Level 4 +/-28kV Contact; IEC61000-4-4 (EFT): 40A - 5/50ns; IEC61000-4-5 (Lightning): 1A - 8/20us; These Devices are Pb"
+			(at 204.47 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.4"
+			(at 213.36 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-SZESD7241N2T5G"
+			(at 215.9 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/SZESD7241N2T5G?qs=z6PAvqrnkvSq0oMCl81g4Q%3D%3D"
+			(at 218.44 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 220.98 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SZESD7241N2T5G"
+			(at 223.52 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7ba693a0-e17c-4ba5-bd86-6b8ddad63a70")
+		)
+		(pin "1"
+			(uuid "6183c99f-45e1-41ed-ab0c-8411f3b2b71f")
+		)
+		(instances
+			(project "switch_main_v5"
+				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/0f1a9ec2-7564-4816-ac47-902e9fc70962/26a40f4e-1d98-4b19-a184-b6dadc090f75"
+					(reference "D3303")
 					(unit 1)
 				)
 			)
@@ -3896,8 +3940,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "871d5cac-d6f9-4114-8446-746251cd2216")
-		(property "Reference" "D1801"
+		(uuid "82c4964a-5719-49ed-82e6-abb5ab06c2a7")
+		(property "Reference" "D3302"
 			(at 78.74 111.76 0)
 			(effects
 				(font
@@ -4013,42 +4057,107 @@
 		(instances
 			(project "switch_main_v5"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/0f1a9ec2-7564-4816-ac47-902e9fc70962/26a40f4e-1d98-4b19-a184-b6dadc090f75"
-					(reference "D1801")
+					(reference "D3302")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 175.26 119.38 180)
+		(lib_id "power:GND1")
+		(at 134.62 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8ba272be-2df1-4168-99ba-722f2d8ac843")
-		(property "Reference" "R1801"
-			(at 177.8 118.1099 0)
+		(uuid "962cd403-1465-435f-b356-792c60c75f10")
+		(property "Reference" "#PWR03301"
+			(at 134.62 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Value" "100R"
-			(at 177.8 120.6499 0)
+		(property "Value" "GND1"
+			(at 134.62 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 175.26 119.38 0)
+		(property "Footprint" ""
+			(at 134.62 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 134.62 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d835ff4d-e75a-45c2-8f6f-e0fb330a2eea")
+		)
+		(instances
+			(project "switch_main_v5"
+				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/0f1a9ec2-7564-4816-ac47-902e9fc70962/26a40f4e-1d98-4b19-a184-b6dadc090f75"
+					(reference "#PWR03301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 175.26 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af4c0910-b85a-4440-a4a8-c6ea0b9b1d31")
+		(property "Reference" "C3303"
+			(at 177.8 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1n"
+			(at 177.8 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 175.26 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4057,7 +4166,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 119.38 0)
+			(at 175.26 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4065,8 +4174,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 175.26 119.38 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 175.26 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4074,16 +4183,91 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "a456266c-9a4d-4c23-8dec-8da892e4ad70")
+		(property "Voltage" "1kV"
+			(at 177.8 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
 		)
 		(pin "1"
-			(uuid "68e336a3-0a63-4e64-9f90-f8317c4a6570")
+			(uuid "d86aaf28-a925-419d-8b75-7c8c55d67b38")
+		)
+		(pin "2"
+			(uuid "9c355ad8-61d1-4d9f-85ba-522a248cfd7e")
 		)
 		(instances
 			(project "switch_main_v5"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/0f1a9ec2-7564-4816-ac47-902e9fc70962/26a40f4e-1d98-4b19-a184-b6dadc090f75"
-					(reference "R1801")
+					(reference "C3303")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PWR-SYM:SHIELD0")
+		(at 193.04 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c335f977-e63b-42af-b57d-17c30dd1ad7e")
+		(property "Reference" "#PWR03305"
+			(at 193.04 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SHIELD0"
+			(at 192.913 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"SHIELD0\" , global ground"
+			(at 193.04 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d417d208-1c2a-4f6a-8bf5-2ac120cc2bb2")
+		)
+		(instances
+			(project "switch_main_v5"
+				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/0f1a9ec2-7564-4816-ac47-902e9fc70962/26a40f4e-1d98-4b19-a184-b6dadc090f75"
+					(reference "#PWR03305")
 					(unit 1)
 				)
 			)
@@ -4097,8 +4281,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "99b97be5-0de8-4627-b06c-57975f0bcf5d")
-		(property "Reference" "D1802"
+		(uuid "dac4dffe-2a3a-4baf-b5b5-05e940a0b568")
+		(property "Reference" "D3301"
 			(at 195.58 102.87 90)
 			(effects
 				(font
@@ -4204,24 +4388,41 @@
 		(instances
 			(project "switch_main_v5"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/0f1a9ec2-7564-4816-ac47-902e9fc70962/26a40f4e-1d98-4b19-a184-b6dadc090f75"
-					(reference "D1802")
+					(reference "D3301")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "PWR-SYM:SHIELD0")
-		(at 193.04 134.62 0)
+		(lib_id "Device:C_Small")
+		(at 134.62 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c335f977-e63b-42af-b57d-17c30dd1ad7e")
-		(property "Reference" "#PWR01805"
-			(at 193.04 139.7 0)
+		(uuid "e989f897-1ec4-4903-8470-4a43317cf55b")
+		(property "Reference" "C3302"
+			(at 137.16 115.5762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 137.16 118.1162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 134.62 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4229,16 +4430,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "SHIELD0"
-			(at 192.913 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 135.89 0)
+		(property "Datasheet" "~"
+			(at 134.62 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4246,17 +4439,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 193.04 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"SHIELD0\" , global ground"
-			(at 193.04 134.62 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 134.62 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4265,78 +4449,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "d417d208-1c2a-4f6a-8bf5-2ac120cc2bb2")
+			(uuid "3cb1f4ca-2b84-4d0a-b9d7-8d6e7405a878")
+		)
+		(pin "2"
+			(uuid "24095b1b-42b3-47a2-9df8-6a15fc6da892")
 		)
 		(instances
 			(project "switch_main_v5"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/0f1a9ec2-7564-4816-ac47-902e9fc70962/26a40f4e-1d98-4b19-a184-b6dadc090f75"
-					(reference "#PWR01805")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 134.62 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e05bc8a7-2705-4bb1-b4f1-7eeeec2e3903")
-		(property "Reference" "#PWR01803"
-			(at 134.62 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND1"
-			(at 134.62 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 134.62 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d835ff4d-e75a-45c2-8f6f-e0fb330a2eea")
-		)
-		(instances
-			(project "switch_main_v5"
-				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/0f1a9ec2-7564-4816-ac47-902e9fc70962/26a40f4e-1d98-4b19-a184-b6dadc090f75"
-					(reference "#PWR01803")
+					(reference "C3302")
 					(unit 1)
 				)
 			)
@@ -4352,7 +4473,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6ca9345-ad24-4770-b58c-1fb87cc175f3")
-		(property "Reference" "#PWR01804"
+		(property "Reference" "#PWR03304"
 			(at 175.26 137.16 0)
 			(effects
 				(font
@@ -4402,128 +4523,7 @@
 		(instances
 			(project "switch_main_v5"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/0f1a9ec2-7564-4816-ac47-902e9fc70962/26a40f4e-1d98-4b19-a184-b6dadc090f75"
-					(reference "#PWR01804")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TVS:SZESD7241N2T5G")
-		(at 198.12 124.46 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f974c091-5552-4d8f-8002-198b6bdbd8d2")
-		(property "Reference" "D1803"
-			(at 200.66 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SZESD7241N2T5G"
-			(at 200.66 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "project_footprints:SZESD7462N2T5G"
-			(at 208.28 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD7241-D.PDF"
-			(at 210.82 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SZESD7241MXWT5G Wettable Flank Package; SZ Prefix for Automotive and Other Applications Requiring Unique Site and Control Change Requirements; AECQ101 Qualified and PPAP CapableSZ Prefix for Automotive and Other Applications Requiring Unique Site and Control Change Requirements; AECQ101 Qualified and PPAP Capable; Ultra-Low Capacitance: < 1.0pF Max; Low Leakage: < 0.5uA; IEC61000-4-2 (ESD): Level 4 +/-28kV Contact; IEC61000-4-4 (EFT): 40A - 5/50ns; IEC61000-4-5 (Lightning): 1A - 8/20us; These Devices are Pb"
-			(at 204.47 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.4"
-			(at 213.36 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "863-SZESD7241N2T5G"
-			(at 215.9 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/SZESD7241N2T5G?qs=z6PAvqrnkvSq0oMCl81g4Q%3D%3D"
-			(at 218.44 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "onsemi"
-			(at 220.98 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SZESD7241N2T5G"
-			(at 223.52 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7ba693a0-e17c-4ba5-bd86-6b8ddad63a70")
-		)
-		(pin "1"
-			(uuid "6183c99f-45e1-41ed-ab0c-8411f3b2b71f")
-		)
-		(instances
-			(project "switch_main_v5"
-				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/0f1a9ec2-7564-4816-ac47-902e9fc70962/26a40f4e-1d98-4b19-a184-b6dadc090f75"
-					(reference "D1803")
+					(reference "#PWR03304")
 					(unit 1)
 				)
 			)
