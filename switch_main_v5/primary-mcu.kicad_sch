@@ -16746,7 +16746,7 @@
 				)
 			)
 		)
-		(property "Value" "6p8"
+		(property "Value" "22p"
 			(at 88.9064 252.73 90)
 			(effects
 				(font
@@ -18225,7 +18225,7 @@
 				)
 			)
 		)
-		(property "Value" "6p8"
+		(property "Value" "22p"
 			(at 88.9064 262.89 90)
 			(effects
 				(font
