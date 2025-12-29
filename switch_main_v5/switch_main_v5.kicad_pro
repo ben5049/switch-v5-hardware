@@ -1540,6 +1540,12 @@
       "/Primary MCU/RMII{RMII}": [
         "xMII"
       ],
+      "/Switch 0/CLK_IN": [
+        "50Ω"
+      ],
+      "/Switch 0/CLK_IN_1V2": [
+        "50Ω"
+      ],
       "/Switch 0/OSC_IN": [
         "50Ω"
       ],
