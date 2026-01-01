@@ -3957,7 +3957,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "To 1000BASE-T1 PHY"
+	(text_box "To 1000BASE-T1 PHY 4"
 		(exclude_from_sim no)
 		(at 375.92 106.68 0)
 		(size 20.32 7.62)
@@ -3976,7 +3976,7 @@
 		)
 		(uuid "0b7ff1b8-8321-49a0-9c8d-126657a13112")
 	)
-	(text_box "To 1000BASE-T1 PHY"
+	(text_box "To 1000BASE-T1 PHY 5"
 		(exclude_from_sim no)
 		(at 375.92 149.86 0)
 		(size 20.32 7.62)
@@ -4115,7 +4115,7 @@
 		)
 		(uuid "a2b3d491-1276-4abf-9afb-d52bd6d3ae2d")
 	)
-	(text_box "To 10BASE-T1S PHY"
+	(text_box "To 10BASE-T1S PHY 6"
 		(exclude_from_sim no)
 		(at 375.92 200.66 0)
 		(size 20.32 7.62)
@@ -4194,7 +4194,7 @@
 		)
 		(uuid "cba3d45e-1650-41fb-9a04-2c17ef2f63ae")
 	)
-	(text_box "To 1000BASE-T1 PHY"
+	(text_box "To switch 1"
 		(exclude_from_sim no)
 		(at 375.92 63.5 0)
 		(size 20.32 7.62)

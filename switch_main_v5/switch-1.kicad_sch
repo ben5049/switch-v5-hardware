@@ -4165,7 +4165,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "To 1000BASE-T1 PHY"
+	(text_box "To 1000BASE-T1 PHY 1"
 		(exclude_from_sim no)
 		(at 375.92 106.68 0)
 		(size 20.32 7.62)
@@ -4382,7 +4382,7 @@
 		)
 		(uuid "a2b3d491-1276-4abf-9afb-d52bd6d3ae2d")
 	)
-	(text_box "To other SJA1105"
+	(text_box "To switch 0"
 		(exclude_from_sim no)
 		(at 193.04 63.5 0)
 		(size 20.32 7.62)
@@ -4461,7 +4461,7 @@
 		)
 		(uuid "cba3d45e-1650-41fb-9a04-2c17ef2f63ae")
 	)
-	(text_box "To 1000BASE-T PHY"
+	(text_box "To 1000BASE-T PHY 0"
 		(exclude_from_sim no)
 		(at 375.92 63.5 0)
 		(size 20.32 7.62)
