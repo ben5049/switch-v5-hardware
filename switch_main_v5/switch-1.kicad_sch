@@ -4184,7 +4184,7 @@
 		)
 		(uuid "0b7ff1b8-8321-49a0-9c8d-126657a13112")
 	)
-	(text_box "To 1000BASE-T1 PHY"
+	(text_box "To 1000BASE-T1 PHY 2"
 		(exclude_from_sim no)
 		(at 375.92 149.86 0)
 		(size 20.32 7.62)
@@ -4243,7 +4243,7 @@
 		)
 		(uuid "29d928d9-a721-4550-97d5-3c7d81d17f0c")
 	)
-	(text_box "To 1000BASE-T1 PHY"
+	(text_box "To 1000BASE-T1 PHY 3"
 		(exclude_from_sim no)
 		(at 375.92 193.04 0)
 		(size 20.32 7.62)

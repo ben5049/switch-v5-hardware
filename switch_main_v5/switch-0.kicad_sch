@@ -4235,7 +4235,7 @@
 	)
 	(text_box "To primary MCU"
 		(exclude_from_sim no)
-		(at 193.04 71.12 0)
+		(at 185.42 60.96 0)
 		(size 20.32 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
