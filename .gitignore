@@ -35,7 +35,7 @@ fp-info-cache
 # Kicad plugins
 backups
 panelizer.log
-ordering_instructions.txtf
+ordering_instructions.txt
 
 production/*
 outputs/*
