@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "a5e57332-4284-4d3c-ab3c-13bc0ddb29b6")
 	(paper "A4")
 	(title_block
@@ -20,8 +20,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -31,6 +35,8 @@
 			)
 			(property "Value" "C_Small"
 				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -40,47 +46,57 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Unpolarized capacitor, small symbol"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "capacitor cap"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "C_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "C_Small_0_1"
@@ -113,7 +129,7 @@
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -131,7 +147,7 @@
 				(pin passive line
 					(at 0 -2.54 90)
 					(length 2.032)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -160,8 +176,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.016 1.016)
@@ -170,6 +190,8 @@
 			)
 			(property "Value" "R_Small"
 				(at 1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -178,47 +200,57 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Resistor, small symbol"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "R resistor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "R_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "R_Small_0_1"
@@ -238,7 +270,7 @@
 				(pin passive line
 					(at 0 2.54 270)
 					(length 0.762)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -256,7 +288,7 @@
 				(pin passive line
 					(at 0 -2.54 90)
 					(length 0.762)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -285,8 +317,12 @@
 			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "H"
 				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -295,6 +331,8 @@
 			)
 			(property "Value" "MountingHole_Pad"
 				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -303,47 +341,57 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Mounting Hole with connection"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "mounting hole"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "MountingHole*Pad*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "MountingHole_Pad_0_1"
@@ -382,7 +430,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "PWR-SYM:SHIELD"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -393,17 +441,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "SHIELD"
 				(at 0 -3.302 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -412,38 +466,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"SHIELD\" , global ground"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global ground"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "SHIELD_0_1"
@@ -536,7 +598,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -555,7 +617,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:GND1"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -566,17 +628,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "GND1"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -585,38 +653,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "GND1_0_1"
@@ -637,7 +713,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -656,7 +732,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:GND2"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -667,17 +743,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "GND2"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -686,38 +768,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "GND2_0_1"
@@ -738,7 +828,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -757,33 +847,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(bus_alias "CAN"
-		(members "TX" "RX")
-	)
-	(bus_alias "I2C"
-		(members "SCL" "SDA")
-	)
-	(bus_alias "PODL_CTRL"
-		(members "EN" "IMON" "DET_EN" "DET_V+" "DET_V-")
-	)
-	(bus_alias "RGMII"
-		(members "TX_CLK" "TX_D[0..3]" "TX_CTL" "RX_CLK" "RX_D[0..3]" "RX_CTL")
-	)
-	(bus_alias "RMII"
-		(members "TX_EN" "TX_D[0..1]" "RX_CRS_DV" "RX_D[0..1]" "RX_ER")
-	)
-	(bus_alias "SMI"
-		(members "MDC" "MDIO")
-	)
-	(bus_alias "SPI"
-		(members "CLK" "CS" "MOSI" "MISO")
-	)
-	(bus_alias "SWD"
-		(members "SWCLK" "SWDIO" "SWO")
-	)
-	(bus_alias "UART"
-		(members "TX" "RX")
-	)
 	(rectangle
 		(start 139.7 167.64)
 		(end 142.24 170.18)
@@ -796,7 +859,7 @@
 			(type color)
 			(color 213 232 212 1)
 		)
-		(uuid 0909e84f-fba1-421e-af02-d47d06b47df6)
+		(uuid "0909e84f-fba1-421e-af02-d47d06b47df6")
 	)
 	(arc
 		(start 187.96 105.664)
@@ -809,7 +872,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 2382d8b3-9ceb-4083-ad3e-1a1926a00c36)
+		(uuid "2382d8b3-9ceb-4083-ad3e-1a1926a00c36")
 	)
 	(arc
 		(start 193.04 106.176)
@@ -822,7 +885,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 2ea88a8c-4c84-4f8c-8e96-c4ab496e2a58)
+		(uuid "2ea88a8c-4c84-4f8c-8e96-c4ab496e2a58")
 	)
 	(circle
 		(center 187.96 111.76)
@@ -835,7 +898,7 @@
 			(type color)
 			(color 0 0 0 0)
 		)
-		(uuid 32f61c4b-d580-48db-826e-ce5aef41dea1)
+		(uuid "32f61c4b-d580-48db-826e-ce5aef41dea1")
 	)
 	(arc
 		(start 187.96 106.176)
@@ -848,7 +911,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 3b8b91f7-5b58-4152-832a-c6bae229f6e1)
+		(uuid "3b8b91f7-5b58-4152-832a-c6bae229f6e1")
 	)
 	(arc
 		(start 190.5 106.176)
@@ -861,7 +924,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 54d470a1-4cbf-4d8d-a718-891b98387d0b)
+		(uuid "54d470a1-4cbf-4d8d-a718-891b98387d0b")
 	)
 	(arc
 		(start 190.5 105.156)
@@ -874,7 +937,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 6150c484-c183-404b-bed6-4ab070bbdebd)
+		(uuid "6150c484-c183-404b-bed6-4ab070bbdebd")
 	)
 	(rectangle
 		(start 139.7 182.88)
@@ -888,7 +951,7 @@
 			(type color)
 			(color 248 206 204 1)
 		)
-		(uuid 65e7046c-1691-4681-85ee-37499c5800e0)
+		(uuid "65e7046c-1691-4681-85ee-37499c5800e0")
 	)
 	(rectangle
 		(start 137.16 165.1)
@@ -900,7 +963,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 7af4841a-d29a-47ca-8c33-0187b03cd5f5)
+		(uuid "7af4841a-d29a-47ca-8c33-0187b03cd5f5")
 	)
 	(circle
 		(center 193.04 119.38)
@@ -913,7 +976,7 @@
 			(type color)
 			(color 0 0 0 0)
 		)
-		(uuid 7afe1a84-8fce-4c2f-a82b-79daca36f574)
+		(uuid "7afe1a84-8fce-4c2f-a82b-79daca36f574")
 	)
 	(arc
 		(start 190.5 105.664)
@@ -926,7 +989,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 901e3891-58a8-405d-80e2-535d88b4e66a)
+		(uuid "901e3891-58a8-405d-80e2-535d88b4e66a")
 	)
 	(rectangle
 		(start 139.7 177.8)
@@ -940,7 +1003,7 @@
 			(type color)
 			(color 225 213 231 1)
 		)
-		(uuid a3509fb3-de1f-47b4-91f7-9e6aada592fb)
+		(uuid "a3509fb3-de1f-47b4-91f7-9e6aada592fb")
 	)
 	(arc
 		(start 187.96 105.156)
@@ -953,7 +1016,7 @@
 		(fill
 			(type none)
 		)
-		(uuid a35633ee-dc1d-43c1-9a62-035681a6c40c)
+		(uuid "a35633ee-dc1d-43c1-9a62-035681a6c40c")
 	)
 	(rectangle
 		(start 139.7 172.72)
@@ -967,7 +1030,7 @@
 			(type color)
 			(color 218 232 252 1)
 		)
-		(uuid a5b6588b-c0a8-4973-a449-e22031ef3efc)
+		(uuid "a5b6588b-c0a8-4973-a449-e22031ef3efc")
 	)
 	(circle
 		(center 190.5 116.84)
@@ -980,7 +1043,7 @@
 			(type color)
 			(color 0 0 0 0)
 		)
-		(uuid c36acfe9-de33-4a7b-a6a1-c2c717344511)
+		(uuid "c36acfe9-de33-4a7b-a6a1-c2c717344511")
 	)
 	(arc
 		(start 193.04 104.648)
@@ -993,7 +1056,7 @@
 		(fill
 			(type none)
 		)
-		(uuid d0e7e4f2-78a9-4f57-940c-cd52aaf08afc)
+		(uuid "d0e7e4f2-78a9-4f57-940c-cd52aaf08afc")
 	)
 	(arc
 		(start 190.5 104.144)
@@ -1006,7 +1069,7 @@
 		(fill
 			(type none)
 		)
-		(uuid dd2f11a0-2e4d-4344-8171-d5a9f7c2a24a)
+		(uuid "dd2f11a0-2e4d-4344-8171-d5a9f7c2a24a")
 	)
 	(arc
 		(start 193.04 104.144)
@@ -1019,7 +1082,7 @@
 		(fill
 			(type none)
 		)
-		(uuid e1c3fff0-ea39-428d-9d84-f0f4be314113)
+		(uuid "e1c3fff0-ea39-428d-9d84-f0f4be314113")
 	)
 	(arc
 		(start 193.04 105.664)
@@ -1032,7 +1095,7 @@
 		(fill
 			(type none)
 		)
-		(uuid e41cc29f-896d-451a-8af2-74bc8ac25620)
+		(uuid "e41cc29f-896d-451a-8af2-74bc8ac25620")
 	)
 	(arc
 		(start 187.96 104.144)
@@ -1045,7 +1108,7 @@
 		(fill
 			(type none)
 		)
-		(uuid ef55d1f2-8f6f-45d3-8e15-12a38dd7296e)
+		(uuid "ef55d1f2-8f6f-45d3-8e15-12a38dd7296e")
 	)
 	(arc
 		(start 190.5 104.648)
@@ -1058,7 +1121,7 @@
 		(fill
 			(type none)
 		)
-		(uuid efb5da97-237c-4536-9810-cb5d8827eaef)
+		(uuid "efb5da97-237c-4536-9810-cb5d8827eaef")
 	)
 	(arc
 		(start 193.04 105.156)
@@ -1071,7 +1134,7 @@
 		(fill
 			(type none)
 		)
-		(uuid f570372d-493b-4d75-9fe3-e25ec270ac04)
+		(uuid "f570372d-493b-4d75-9fe3-e25ec270ac04")
 	)
 	(arc
 		(start 187.96 104.648)
@@ -1084,7 +1147,7 @@
 		(fill
 			(type none)
 		)
-		(uuid f852c4c1-98da-490d-973b-5648c1a03358)
+		(uuid "f852c4c1-98da-490d-973b-5648c1a03358")
 	)
 	(text "10BASE-T1S"
 		(exclude_from_sim no)
@@ -3312,13 +3375,17 @@
 		(lib_id "Device:C_Small")
 		(at 38.1 180.34 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "2850baed-6388-4623-b5de-7c681a63c5d0")
 		(property "Reference" "C101"
 			(at 38.1 171.45 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3327,6 +3394,8 @@
 		)
 		(property "Value" "1n"
 			(at 38.1 173.99 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3335,33 +3404,41 @@
 		)
 		(property "Footprint" "project_footprints:C_0805"
 			(at 38.1 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 38.1 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 38.1 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Voltage" "1kV"
 			(at 38.1 176.53 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3370,92 +3447,112 @@
 		)
 		(property "IR (A)" ""
 			(at 38.1 180.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "IR 2 (A)" ""
 			(at 38.1 180.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ISAT (A)" ""
 			(at 38.1 180.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "L1 (µH)" ""
 			(at 38.1 180.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "L2 (µH)" ""
 			(at 38.1 180.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "RDC1 max (Ω)" ""
 			(at 38.1 180.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "RDC1 typ (Ω)" ""
 			(at 38.1 180.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "RDC2 max (Ω)" ""
 			(at 38.1 180.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "RDC2 typ (Ω)" ""
 			(at 38.1 180.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Type" ""
 			(at 38.1 180.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3465,7 +3562,7 @@
 			(uuid "a0cacb49-a2e4-47ba-8452-9e602db1d453")
 		)
 		(instances
-			(project "switch_main_v4"
+			(project "switch-main-v5"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6"
 					(reference "C101")
 					(unit 1)
@@ -3477,23 +3574,29 @@
 		(lib_id "power:GND1")
 		(at 30.48 182.88 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3772f49a-6aca-4342-bb06-9e72e5a45b89")
 		(property "Reference" "#PWR0101"
 			(at 30.48 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND1"
 			(at 30.48 187.96 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3502,36 +3605,42 @@
 		)
 		(property "Footprint" ""
 			(at 30.48 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 30.48 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
 			(at 30.48 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "b22301ed-ac27-476f-8d54-565481bbabf1")
 		)
 		(instances
-			(project "switch_main_v4"
+			(project "switch-main-v5"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6"
 					(reference "#PWR0101")
 					(unit 1)
@@ -3543,14 +3652,18 @@
 		(lib_id "Device:R_Small")
 		(at 68.58 167.64 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41b25aee-0fe4-4c63-9de5-ddb05bda0c0a")
 		(property "Reference" "R102"
 			(at 68.58 162.56 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3559,6 +3672,8 @@
 		)
 		(property "Value" "1M"
 			(at 68.58 165.1 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3567,119 +3682,145 @@
 		)
 		(property "Footprint" "project_footprints:R_0805"
 			(at 68.58 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 68.58 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 68.58 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "IR (A)" ""
 			(at 68.58 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "IR 2 (A)" ""
 			(at 68.58 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ISAT (A)" ""
 			(at 68.58 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "L1 (µH)" ""
 			(at 68.58 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "L2 (µH)" ""
 			(at 68.58 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "RDC1 max (Ω)" ""
 			(at 68.58 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "RDC1 typ (Ω)" ""
 			(at 68.58 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "RDC2 max (Ω)" ""
 			(at 68.58 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "RDC2 typ (Ω)" ""
 			(at 68.58 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Type" ""
 			(at 68.58 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3689,7 +3830,7 @@
 			(uuid "080d4c9e-efa2-45a9-96c6-1911f31b39ea")
 		)
 		(instances
-			(project "switch_main_v4"
+			(project "switch-main-v5"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6"
 					(reference "R102")
 					(unit 1)
@@ -3701,23 +3842,29 @@
 		(lib_id "PWR-SYM:SHIELD")
 		(at 45.72 182.88 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "562e2105-139f-45d5-bdf5-4dd5515dc11f")
 		(property "Reference" "#PWR0102"
 			(at 45.72 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "SHIELD"
 			(at 45.593 186.69 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3726,36 +3873,42 @@
 		)
 		(property "Footprint" ""
 			(at 45.72 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 45.72 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"SHIELD\" , global ground"
 			(at 45.72 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "a59bd7ea-f78a-4421-b663-61caff4ee4b2")
 		)
 		(instances
-			(project "switch_main_v4"
+			(project "switch-main-v5"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6"
 					(reference "#PWR0102")
 					(unit 1)
@@ -3767,14 +3920,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 96.52 165.1 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c926a08-cafa-4580-bd45-b31e57b610b6")
 		(property "Reference" "H101"
 			(at 99.06 162.5599 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3784,6 +3941,8 @@
 		)
 		(property "Value" "M2.5"
 			(at 99.06 165.0999 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3793,126 +3952,152 @@
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
 			(at 96.52 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 96.52 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 96.52 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "IR (A)" ""
 			(at 96.52 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "IR 2 (A)" ""
 			(at 96.52 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ISAT (A)" ""
 			(at 96.52 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "L1 (µH)" ""
 			(at 96.52 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "L2 (µH)" ""
 			(at 96.52 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "RDC1 max (Ω)" ""
 			(at 96.52 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "RDC1 typ (Ω)" ""
 			(at 96.52 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "RDC2 max (Ω)" ""
 			(at 96.52 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "RDC2 typ (Ω)" ""
 			(at 96.52 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Type" ""
 			(at 96.52 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "9f7931bb-0044-43d6-9a53-98b60be01467")
 		)
 		(instances
-			(project "switch_main_v4"
+			(project "switch-main-v5"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6"
 					(reference "H101")
 					(unit 1)
@@ -3924,23 +4109,29 @@
 		(lib_id "PWR-SYM:SHIELD")
 		(at 76.2 182.88 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e61c162-5cf4-44c7-9c10-a9508d242f9b")
 		(property "Reference" "#PWR0104"
 			(at 76.2 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "SHIELD"
 			(at 76.073 186.69 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3949,36 +4140,42 @@
 		)
 		(property "Footprint" ""
 			(at 76.2 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 76.2 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"SHIELD\" , global ground"
 			(at 76.2 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "da1a88dd-ef15-4bbd-8ff4-54af43a90950")
 		)
 		(instances
-			(project "switch_main_v4"
+			(project "switch-main-v5"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6"
 					(reference "#PWR0104")
 					(unit 1)
@@ -3990,23 +4187,29 @@
 		(lib_id "PWR-SYM:SHIELD")
 		(at 116.84 170.18 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75aec437-9824-4483-ac07-c432347cd07b")
 		(property "Reference" "#PWR0107"
 			(at 116.84 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "SHIELD"
 			(at 116.713 173.99 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4015,36 +4218,42 @@
 		)
 		(property "Footprint" ""
 			(at 116.84 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 116.84 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"SHIELD\" , global ground"
 			(at 116.84 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "cf3b0609-b27c-44b0-a895-11e11c2a5336")
 		)
 		(instances
-			(project "switch_main_v4"
+			(project "switch-main-v5"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6"
 					(reference "#PWR0107")
 					(unit 1)
@@ -4056,23 +4265,29 @@
 		(lib_id "PWR-SYM:SHIELD")
 		(at 116.84 187.96 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bc99608-e0a7-43c2-b58f-1818ce1c21fc")
 		(property "Reference" "#PWR0108"
 			(at 116.84 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "SHIELD"
 			(at 116.713 191.77 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4081,36 +4296,42 @@
 		)
 		(property "Footprint" ""
 			(at 116.84 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 116.84 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"SHIELD\" , global ground"
 			(at 116.84 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "bccbd6a2-274a-4ab9-8bd1-af6ea1e4c0ec")
 		)
 		(instances
-			(project "switch_main_v5"
+			(project "switch-main-v5"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6"
 					(reference "#PWR0108")
 					(unit 1)
@@ -4122,14 +4343,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 96.52 182.88 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fda8472-93fe-444d-ab3b-827613d33fac")
 		(property "Reference" "H102"
 			(at 99.06 180.3399 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4139,6 +4364,8 @@
 		)
 		(property "Value" "M2.5"
 			(at 99.06 182.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4148,126 +4375,152 @@
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
 			(at 96.52 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 96.52 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 96.52 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "IR (A)" ""
 			(at 96.52 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "IR 2 (A)" ""
 			(at 96.52 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ISAT (A)" ""
 			(at 96.52 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "L1 (µH)" ""
 			(at 96.52 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "L2 (µH)" ""
 			(at 96.52 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "RDC1 max (Ω)" ""
 			(at 96.52 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "RDC1 typ (Ω)" ""
 			(at 96.52 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "RDC2 max (Ω)" ""
 			(at 96.52 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "RDC2 typ (Ω)" ""
 			(at 96.52 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Type" ""
 			(at 96.52 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "0b03b2c2-6acb-4e9e-b452-e76753e92ca9")
 		)
 		(instances
-			(project "switch_main_v4"
+			(project "switch-main-v5"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6"
 					(reference "H102")
 					(unit 1)
@@ -4279,14 +4532,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 116.84 182.88 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad826c95-ac9f-4d64-add4-ea5fcbfd39ad")
 		(property "Reference" "H104"
 			(at 119.38 180.3399 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4296,6 +4553,8 @@
 		)
 		(property "Value" "M2.5"
 			(at 119.38 182.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4305,126 +4564,152 @@
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
 			(at 116.84 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 116.84 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 116.84 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "IR (A)" ""
 			(at 116.84 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "IR 2 (A)" ""
 			(at 116.84 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ISAT (A)" ""
 			(at 116.84 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "L1 (µH)" ""
 			(at 116.84 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "L2 (µH)" ""
 			(at 116.84 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "RDC1 max (Ω)" ""
 			(at 116.84 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "RDC1 typ (Ω)" ""
 			(at 116.84 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "RDC2 max (Ω)" ""
 			(at 116.84 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "RDC2 typ (Ω)" ""
 			(at 116.84 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Type" ""
 			(at 116.84 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "c4b162c4-8ab8-4ee3-80e2-b0bea047b24d")
 		)
 		(instances
-			(project "switch_main_v5"
+			(project "switch-main-v5"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6"
 					(reference "H104")
 					(unit 1)
@@ -4436,23 +4721,29 @@
 		(lib_id "power:GND2")
 		(at 60.96 182.88 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b672b2d6-c921-4bef-8959-6be7b8705583")
 		(property "Reference" "#PWR0103"
 			(at 60.96 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND2"
 			(at 60.96 187.96 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4461,36 +4752,42 @@
 		)
 		(property "Footprint" ""
 			(at 60.96 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 60.96 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
 			(at 60.96 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "b9231623-8e51-4ee0-9aac-d5a5522acf08")
 		)
 		(instances
-			(project "switch_main_v4"
+			(project "switch-main-v5"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6"
 					(reference "#PWR0103")
 					(unit 1)
@@ -4502,14 +4799,18 @@
 		(lib_id "Device:R_Small")
 		(at 38.1 167.64 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba69ce3a-03dc-4d9a-832b-b44e730305a9")
 		(property "Reference" "R101"
 			(at 38.1 162.56 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4518,6 +4819,8 @@
 		)
 		(property "Value" "1M"
 			(at 38.1 165.1 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4526,119 +4829,145 @@
 		)
 		(property "Footprint" "project_footprints:R_0805"
 			(at 38.1 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 38.1 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 38.1 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "IR (A)" ""
 			(at 38.1 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "IR 2 (A)" ""
 			(at 38.1 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ISAT (A)" ""
 			(at 38.1 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "L1 (µH)" ""
 			(at 38.1 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "L2 (µH)" ""
 			(at 38.1 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "RDC1 max (Ω)" ""
 			(at 38.1 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "RDC1 typ (Ω)" ""
 			(at 38.1 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "RDC2 max (Ω)" ""
 			(at 38.1 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "RDC2 typ (Ω)" ""
 			(at 38.1 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Type" ""
 			(at 38.1 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -4648,7 +4977,7 @@
 			(uuid "8fc24391-31c9-404d-9412-5db8aa441918")
 		)
 		(instances
-			(project "switch_main_v4"
+			(project "switch-main-v5"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6"
 					(reference "R101")
 					(unit 1)
@@ -4660,23 +4989,29 @@
 		(lib_id "PWR-SYM:SHIELD")
 		(at 96.52 187.96 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb1bfb6c-dd93-486b-a86d-d238d19a96ea")
 		(property "Reference" "#PWR0106"
 			(at 96.52 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "SHIELD"
 			(at 96.393 191.77 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4685,36 +5020,42 @@
 		)
 		(property "Footprint" ""
 			(at 96.52 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 96.52 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"SHIELD\" , global ground"
 			(at 96.52 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "4757c122-5560-465e-a6f1-9ced3d7348df")
 		)
 		(instances
-			(project "switch_main_v4"
+			(project "switch-main-v5"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6"
 					(reference "#PWR0106")
 					(unit 1)
@@ -4726,23 +5067,29 @@
 		(lib_id "PWR-SYM:SHIELD")
 		(at 96.52 170.18 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbf03e5b-f3b1-4134-a5a8-3a76ff37c23c")
 		(property "Reference" "#PWR0105"
 			(at 96.52 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "SHIELD"
 			(at 96.393 173.99 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4751,36 +5098,42 @@
 		)
 		(property "Footprint" ""
 			(at 96.52 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 96.52 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"SHIELD\" , global ground"
 			(at 96.52 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "9e9a954d-1ba9-478b-9207-1a25f6386114")
 		)
 		(instances
-			(project "switch_main_v4"
+			(project "switch-main-v5"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6"
 					(reference "#PWR0105")
 					(unit 1)
@@ -4792,13 +5145,17 @@
 		(lib_id "Device:C_Small")
 		(at 68.58 180.34 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "f68d3633-82c4-4378-a0e5-5ae1b266cc52")
 		(property "Reference" "C102"
 			(at 68.58 171.45 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4807,6 +5164,8 @@
 		)
 		(property "Value" "1n"
 			(at 68.58 173.99 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4815,33 +5174,41 @@
 		)
 		(property "Footprint" "project_footprints:C_0805"
 			(at 68.58 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 68.58 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 68.58 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Voltage" "1kV"
 			(at 68.58 176.53 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4850,92 +5217,112 @@
 		)
 		(property "IR (A)" ""
 			(at 68.58 180.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "IR 2 (A)" ""
 			(at 68.58 180.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ISAT (A)" ""
 			(at 68.58 180.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "L1 (µH)" ""
 			(at 68.58 180.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "L2 (µH)" ""
 			(at 68.58 180.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "RDC1 max (Ω)" ""
 			(at 68.58 180.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "RDC1 typ (Ω)" ""
 			(at 68.58 180.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "RDC2 max (Ω)" ""
 			(at 68.58 180.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "RDC2 typ (Ω)" ""
 			(at 68.58 180.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Type" ""
 			(at 68.58 180.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4945,7 +5332,7 @@
 			(uuid "9f8d55e1-8f1e-46b5-aa36-a36a73dc00c4")
 		)
 		(instances
-			(project "switch_main_v4"
+			(project "switch-main-v5"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6"
 					(reference "C102")
 					(unit 1)
@@ -4957,14 +5344,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 116.84 165.1 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f78daabb-ecf9-4f1c-9858-71787fa41a84")
 		(property "Reference" "H103"
 			(at 119.38 162.5599 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4974,6 +5365,8 @@
 		)
 		(property "Value" "M2.5"
 			(at 119.38 165.0999 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4983,126 +5376,152 @@
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
 			(at 116.84 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 116.84 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 116.84 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "IR (A)" ""
 			(at 116.84 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "IR 2 (A)" ""
 			(at 116.84 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ISAT (A)" ""
 			(at 116.84 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "L1 (µH)" ""
 			(at 116.84 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "L2 (µH)" ""
 			(at 116.84 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "RDC1 max (Ω)" ""
 			(at 116.84 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "RDC1 typ (Ω)" ""
 			(at 116.84 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "RDC2 max (Ω)" ""
 			(at 116.84 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "RDC2 typ (Ω)" ""
 			(at 116.84 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Type" ""
 			(at 116.84 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "f5c715d5-9cf1-46db-8f07-ae324f0293e8")
 		)
 		(instances
-			(project "switch_main_v4"
+			(project "switch-main-v5"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6"
 					(reference "H103")
 					(unit 1)
@@ -5124,11 +5543,13 @@
 			(color 184 84 80 1)
 		)
 		(fill
-			(color 248 206 204 1.0000)
+			(color 248 206 204 1)
 		)
 		(uuid "0f1a9ec2-7564-4816-ac47-902e9fc70962")
 		(property "Sheetname" "CDNs"
 			(at 165.1 128.8284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5138,6 +5559,8 @@
 		)
 		(property "Sheetfile" "cdns.kicad_sch"
 			(at 165.1 140.2846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5227,11 +5650,13 @@
 			(color 184 84 80 1)
 		)
 		(fill
-			(color 248 206 204 1.0000)
+			(color 248 206 204 1)
 		)
 		(uuid "1d1a9833-050c-427e-aa22-8f19cbf4f64e")
 		(property "Sheetname" "CDNs & PoDL"
 			(at 165.1 85.6484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5241,6 +5666,8 @@
 		)
 		(property "Sheetfile" "cdn-podl.kicad_sch"
 			(at 165.1 122.5046 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5370,11 +5797,13 @@
 			(color 184 84 80 1)
 		)
 		(fill
-			(color 248 206 204 1.0000)
+			(color 248 206 204 1)
 		)
 		(uuid "31c4512b-1e39-4437-8559-238fb7009a56")
 		(property "Sheetname" "Switch 1"
 			(at 33.02 121.2084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5384,6 +5813,8 @@
 		)
 		(property "Sheetfile" "switch-1.kicad_sch"
 			(at 33.02 152.9846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5523,11 +5954,13 @@
 			(color 184 84 80 1)
 		)
 		(fill
-			(color 248 206 204 1.0000)
+			(color 248 206 204 1)
 		)
 		(uuid "5f8cb01e-81f5-4011-ae22-37a33994b248")
 		(property "Sheetname" "Switch 0"
 			(at 33.02 22.1484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5537,6 +5970,8 @@
 		)
 		(property "Sheetfile" "switch-0.kicad_sch"
 			(at 33.02 114.8846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5696,11 +6131,13 @@
 			(color 184 84 80 1)
 		)
 		(fill
-			(color 248 206 204 1.0000)
+			(color 248 206 204 1)
 		)
 		(uuid "71322af8-b569-498c-a6bf-684e9909732c")
 		(property "Sheetname" "PHYs"
 			(at 101.6 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5710,6 +6147,8 @@
 		)
 		(property "Sheetfile" "phys.kicad_sch"
 			(at 101.6 152.9846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5988,11 +6427,13 @@
 			(color 150 115 166 1)
 		)
 		(fill
-			(color 225 213 231 1.0000)
+			(color 225 213 231 1)
 		)
 		(uuid "b1ff42f5-7cae-489e-9f8e-588cc93f3151")
 		(property "Sheetname" "Power"
 			(at 165.1 42.4684 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6002,6 +6443,8 @@
 		)
 		(property "Sheetfile" "power.kicad_sch"
 			(at 165.1 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6121,11 +6564,13 @@
 			(color 108 142 191 1)
 		)
 		(fill
-			(color 218 232 252 1.0000)
+			(color 218 232 252 1)
 		)
 		(uuid "bd877493-2a45-4725-b66e-4544d59375bb")
 		(property "Sheetname" "Ethernet Connectors"
 			(at 241.3 108.5084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6135,6 +6580,8 @@
 		)
 		(property "Sheetfile" "ethernet-connectors.kicad_sch"
 			(at 241.3 152.9846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6244,11 +6691,13 @@
 			(color 130 179 102 1)
 		)
 		(fill
-			(color 213 232 212 1.0000)
+			(color 213 232 212 1)
 		)
 		(uuid "cc240678-80bc-4d6d-9d13-1541d9f89447")
 		(property "Sheetname" "Primary MCU"
 			(at 101.6 22.1484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6258,6 +6707,8 @@
 		)
 		(property "Sheetfile" "primary-mcu.kicad_sch"
 			(at 101.6 69.1646 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6487,11 +6938,13 @@
 			(color 184 84 80 1)
 		)
 		(fill
-			(color 248 206 204 1.0000)
+			(color 248 206 204 1)
 		)
 		(uuid "dfc8dd40-a5e5-401a-a1d8-3203b89e0aa2")
 		(property "Sheetname" "Isolation Crossing"
 			(at 190.5 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6501,6 +6954,8 @@
 		)
 		(property "Sheetfile" "isolation-crossing.kicad_sch"
 			(at 190.5 38.6846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6610,11 +7065,13 @@
 			(color 130 179 102 1)
 		)
 		(fill
-			(color 213 232 212 1.0000)
+			(color 213 232 212 1)
 		)
 		(uuid "f1e473a5-3ec5-42ea-b224-3fef4a008a5e")
 		(property "Sheetname" "Secondary MCU"
 			(at 241.3 22.1484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6624,6 +7081,8 @@
 		)
 		(property "Sheetfile" "secondary-mcu.kicad_sch"
 			(at 241.3 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)

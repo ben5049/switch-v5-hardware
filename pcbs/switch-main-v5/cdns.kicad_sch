@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "158b2c5c-a48d-45f6-8187-9ddd6d6947d6")
 	(paper "A4")
 	(lib_symbols)
@@ -344,11 +344,13 @@
 			(color 184 84 80 1)
 		)
 		(fill
-			(color 248 206 204 1.0000)
+			(color 248 206 204 1)
 		)
 		(uuid "26a40f4e-1d98-4b19-a184-b6dadc090f75")
 		(property "Sheetname" "1000BASE-T1 CDN 1"
 			(at 127.254 118.618 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -358,6 +360,8 @@
 		)
 		(property "Sheetfile" "1000base-t1-cdn-shield.kicad_sch"
 			(at 127.254 135.382 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -407,11 +411,13 @@
 			(color 184 84 80 1)
 		)
 		(fill
-			(color 248 206 204 1.0000)
+			(color 248 206 204 1)
 		)
 		(uuid "62e5169e-51fc-4c92-b8e5-db930432f08f")
 		(property "Sheetname" "1000BASE-T1 CDN 3"
 			(at 127 67.8684 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -421,6 +427,8 @@
 		)
 		(property "Sheetfile" "1000base-t1-cdn.kicad_sch"
 			(at 127 84.4046 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -470,11 +478,13 @@
 			(color 184 84 80 1)
 		)
 		(fill
-			(color 248 206 204 1.0000)
+			(color 248 206 204 1)
 		)
 		(uuid "7a77b3cc-782a-4601-8d29-0e186fb0946a")
 		(property "Sheetname" "1000BASE-T1 CDN 2"
 			(at 127 93.2684 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -484,6 +494,8 @@
 		)
 		(property "Sheetfile" "1000base-t1-cdn.kicad_sch"
 			(at 127 109.8046 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)

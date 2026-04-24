@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "4dfaebb1-a058-4486-a7a1-3dab64099eaa")
 	(paper "A4")
 	(title_block
@@ -10,7 +10,7 @@
 	)
 	(lib_symbols
 		(symbol "PWR-SYM:+0V9_1"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -21,17 +21,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "+0V9_1"
 				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -40,38 +46,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"+0V9_1\""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "+0V9_1_0_1"
@@ -116,7 +130,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -135,7 +149,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "PWR-SYM:+0V9_2"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -146,17 +160,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "+0V9_2"
 				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -165,38 +185,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"+0V9_2\""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "+0V9_2_0_1"
@@ -241,7 +269,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -260,7 +288,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "PWR-SYM:+0V9_3"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -271,17 +299,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "+0V9_3"
 				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -290,38 +324,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"+0V9_3\""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "+0V9_3_0_1"
@@ -366,7 +408,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2378,23 +2420,29 @@
 		(lib_id "PWR-SYM:+0V9_3")
 		(at 152.4 147.32 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "672bb189-37f3-49b4-9daf-09f7a39eb5e4")
 		(property "Reference" "#PWR01703"
 			(at 152.4 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+0V9_3"
 			(at 152.4 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2403,36 +2451,42 @@
 		)
 		(property "Footprint" ""
 			(at 152.4 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 152.4 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+0V9_3\""
 			(at 152.4 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "6dc7bba1-5d35-40fb-8e8f-36f1f39df2f3")
 		)
 		(instances
-			(project "switch_main_v5"
+			(project "switch-main-v5"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/71322af8-b569-498c-a6bf-684e9909732c"
 					(reference "#PWR01703")
 					(unit 1)
@@ -2444,23 +2498,29 @@
 		(lib_id "PWR-SYM:+0V9_1")
 		(at 152.4 45.72 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75601fc4-b54c-4deb-9ad8-9052c7b22974")
 		(property "Reference" "#PWR01701"
 			(at 152.4 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+0V9_1"
 			(at 152.4 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2469,36 +2529,42 @@
 		)
 		(property "Footprint" ""
 			(at 152.4 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 152.4 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+0V9_1\""
 			(at 152.4 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "2c633c0a-1158-4c16-9879-b836826703a2")
 		)
 		(instances
-			(project "switch_main_v5"
+			(project "switch-main-v5"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/71322af8-b569-498c-a6bf-684e9909732c"
 					(reference "#PWR01701")
 					(unit 1)
@@ -2510,23 +2576,29 @@
 		(lib_id "PWR-SYM:+0V9_2")
 		(at 152.4 96.52 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9cddaf88-08c1-44ed-a2b4-b5557a145d7b")
 		(property "Reference" "#PWR01702"
 			(at 152.4 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+0V9_2"
 			(at 152.4 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2535,36 +2607,42 @@
 		)
 		(property "Footprint" ""
 			(at 152.4 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 152.4 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+0V9_2\""
 			(at 152.4 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "63704fe1-1070-4228-a06d-097dd6dbe93b")
 		)
 		(instances
-			(project "switch_main_v5"
+			(project "switch-main-v5"
 				(path "/a5e57332-4284-4d3c-ab3c-13bc0ddb29b6/71322af8-b569-498c-a6bf-684e9909732c"
 					(reference "#PWR01702")
 					(unit 1)
@@ -2586,11 +2664,13 @@
 			(color 184 84 80 1)
 		)
 		(fill
-			(color 248 206 204 1.0000)
+			(color 248 206 204 1)
 		)
 		(uuid "45819c88-e21e-45c1-b1ce-8bbece9dc7fa")
 		(property "Sheetname" "1000BASE-T1 PHY 3"
 			(at 114.3 95.8084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2600,6 +2680,8 @@
 		)
 		(property "Sheetfile" "1000base-t1-phy.kicad_sch"
 			(at 114.3 114.8846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2719,11 +2801,13 @@
 			(color 184 84 80 1)
 		)
 		(fill
-			(color 248 206 204 1.0000)
+			(color 248 206 204 1)
 		)
 		(uuid "5b05d4e8-554f-4b77-b2ef-3843e3d18685")
 		(property "Sheetname" "1000BASE-T1 PHY 2"
 			(at 114.3 121.2084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2733,6 +2817,8 @@
 		)
 		(property "Sheetfile" "1000base-t1-phy.kicad_sch"
 			(at 114.3 140.2846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2852,11 +2938,13 @@
 			(color 184 84 80 1)
 		)
 		(fill
-			(color 248 206 204 1.0000)
+			(color 248 206 204 1)
 		)
 		(uuid "64823b24-9357-4aa0-902e-0b46b5bbad98")
 		(property "Sheetname" "10BASE-T1S PHY"
 			(at 114.3 19.6084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2866,6 +2954,8 @@
 		)
 		(property "Sheetfile" "10base-t1s-phy.kicad_sch"
 			(at 114.3 38.6846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2994,11 +3084,13 @@
 			(color 184 84 80 1)
 		)
 		(fill
-			(color 248 206 204 1.0000)
+			(color 248 206 204 1)
 		)
 		(uuid "7f47144a-098c-4275-8fbc-3399d6b2aa7d")
 		(property "Sheetname" "1000BASE-T1 PHY 5"
 			(at 114.3 45.0084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3008,6 +3100,8 @@
 		)
 		(property "Sheetfile" "1000base-t1-phy.kicad_sch"
 			(at 114.3 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3127,11 +3221,13 @@
 			(color 184 84 80 1)
 		)
 		(fill
-			(color 248 206 204 1.0000)
+			(color 248 206 204 1)
 		)
 		(uuid "7f641fd6-8e95-45a8-8c09-4601f61f3219")
 		(property "Sheetname" "PHY Clock & Control"
 			(at 50.8 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3141,6 +3237,8 @@
 		)
 		(property "Sheetfile" "phy-clock-control.kicad_sch"
 			(at 50.8 191.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3360,11 +3458,13 @@
 			(color 184 84 80 1)
 		)
 		(fill
-			(color 248 206 204 1.0000)
+			(color 248 206 204 1)
 		)
 		(uuid "9b10aadb-d000-4754-b9c4-03b7ed558638")
 		(property "Sheetname" "1000BASE-T PHY"
 			(at 114.3 172.0084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3374,6 +3474,8 @@
 		)
 		(property "Sheetfile" "1000base-t-phy.kicad_sch"
 			(at 114.3 191.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3493,11 +3595,13 @@
 			(color 184 84 80 1)
 		)
 		(fill
-			(color 248 206 204 1.0000)
+			(color 248 206 204 1)
 		)
 		(uuid "9ced00c0-1cf4-4e77-80a1-ef7deb4c1be2")
 		(property "Sheetname" "1000BASE-T1 PHY 4"
 			(at 114.3 70.4084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3507,6 +3611,8 @@
 		)
 		(property "Sheetfile" "1000base-t1-phy.kicad_sch"
 			(at 114.3 89.4846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3626,11 +3732,13 @@
 			(color 184 84 80 1)
 		)
 		(fill
-			(color 248 206 204 1.0000)
+			(color 248 206 204 1)
 		)
 		(uuid "ea4867e4-41c6-4c6a-8631-52f081f3ce30")
 		(property "Sheetname" "1000BASE-T1 PHY 1"
 			(at 114.3 146.6084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3640,6 +3748,8 @@
 		)
 		(property "Sheetfile" "1000base-t1-phy.kicad_sch"
 			(at 114.3 165.6846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
