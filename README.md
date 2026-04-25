@@ -5,3 +5,12 @@ KiCad design files for the 5th iteration of my single pair Ethernet (SPE) switch
 ![top-render](docs/images/top-render.png)
 
 ![bottom-render](docs/images/bottom-render.png)
+
+## Versions
+
+| Version | Description |
+| ------- | ----------- |
+| v5.1.0  | Fixed bugs from first revision |
+| v5.0.0  | First release |
+
+See the [errata](docs/errata.md) for details on bugs.

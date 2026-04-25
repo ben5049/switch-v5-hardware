@@ -18,6 +18,7 @@ fp-info-cache
 *.gbr
 *.gbrjob
 *.drl
+.history
 
 # Protel Gerber extensions
 *.gbl
